@@ -2,8 +2,3 @@
 /**
  * IE hack
  */
-#section-menu {
-    background:transparent;
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#69FFFFFF,endColorstr=#69FFFFFF);
-    zoom: 1;
-}
