@@ -1,0 +1,1234 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-08-29 11:51+0200\n"
+"PO-Revision-Date: 2013-08-29 12:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: Config/bootstrap.php:143
+msgid "Normal"
+msgstr "Normal"
+
+#: Config/bootstrap.php:143
+msgid "Video"
+msgstr "Vidéo"
+
+#: Config/bootstrap.php:143 View/Elements/menu_view_laureates_juries.ctp:10
+msgid "Photos"
+msgstr "Photos"
+
+#: Console/Templates/Cakestrap/views/form.ctp:86
+#: View/Contents/admin_edit.ctp:71 View/EventTypes/admin_edit.ctp:23
+#: View/Events/admin_edit.ctp:32 View/Juries/admin_edit.ctp:35
+#: View/Laureates/admin_edit.ctp:41 View/News/admin_edit.ctp:30
+#: View/Sections/admin_edit.ctp:21;45 View/Users/admin_edit.ctp:26
+msgid "Save"
+msgstr "Sauver"
+
+#: Console/Templates/Cakestrap/views/form.ctp:86
+#: View/Contents/admin_add.ctp:62 View/EventTypes/admin_add.ctp:14
+#: View/Events/admin_add.ctp:28 View/Juries/admin_add.ctp:27
+#: View/Laureates/admin_add.ctp:27 View/News/admin_add.ctp:26
+#: View/Sections/admin_add.ctp:39 View/Users/admin_add.ctp:15
+msgid "Add"
+msgstr "Ajouter"
+
+#: Console/Templates/Cakestrap/views/form.ctp:86
+#: View/Contents/admin_edit.ctp:11 View/Contents/admin_view.ctp:14
+#: View/EventTypes/admin_edit.ctp:13 View/EventTypes/admin_index.ctp:32
+#: View/EventTypes/admin_view.ctp:13;98 View/Events/admin_edit.ctp:13
+#: View/Events/admin_index.ctp:55 View/Events/admin_view.ctp:13;138;178
+#: View/Juries/admin_edit.ctp:13 View/Juries/admin_index.ctp:46
+#: View/Juries/admin_view.ctp:13;141;195;237 View/Laureates/admin_edit.ctp:13
+#: View/Laureates/admin_index.ctp:46
+#: View/Laureates/admin_view.ctp:13;148;203;246 View/News/admin_edit.ctp:13
+#: View/News/admin_index.ctp:48 View/News/admin_view.ctp:13
+#: View/Sections/admin_edit.ctp:16 View/Sections/admin_index.ctp:60
+#: View/Sections/admin_view.ctp:14;174;216 View/Users/admin_edit.ctp:12
+#: View/Users/admin_index.ctp:29 View/Users/admin_view.ctp:12
+msgid "Delete"
+msgstr "Supprimer"
+
+#: Controller/ContentsController.php:75;117;158
+msgid "Invalid content"
+msgstr ""
+
+#: Controller/ContentsController.php:90;121
+msgid "The content has been saved"
+msgstr ""
+
+#: Controller/ContentsController.php:93;132
+msgid "The content could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ContentsController.php:162
+msgid "Content deleted"
+msgstr "Contenu Supprimé"
+
+#: Controller/ContentsController.php:164
+msgid "Content was not deleted"
+msgstr ""
+
+#: Controller/EventTypesController.php:30;63;90
+msgid "Invalid event type"
+msgstr ""
+
+#: Controller/EventTypesController.php:46;68
+msgid "The event type has been saved"
+msgstr "Le Type d'Evenement a bien été sauvé"
+
+#: Controller/EventTypesController.php:49;71
+msgid "The event type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EventTypesController.php:94
+msgid "Event type deleted"
+msgstr "Type d'Evenement Supprimé"
+
+#: Controller/EventTypesController.php:97
+msgid "Event type was not deleted"
+msgstr "Le Type d'Evenement n'a pas pu être supprimé"
+
+#: Controller/EventsController.php:82;127;163
+msgid "Invalid event"
+msgstr ""
+
+#: Controller/EventsController.php:98;131
+msgid "The event has been saved"
+msgstr "L'évenement a bien été sauvé"
+
+#: Controller/EventsController.php:104;140
+msgid "The event could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EventsController.php:167
+msgid "Event deleted"
+msgstr "Evenement Supprimé"
+
+#: Controller/EventsController.php:169
+msgid "Event was not deleted"
+msgstr "L'Evenement n'a pas pu être supprimé"
+
+#: Controller/JuriesController.php:56;86;124;161;192
+msgid "Invalid jury"
+msgstr ""
+
+#: Controller/JuriesController.php:140;166
+msgid "The jury has been saved"
+msgstr "Le Jury a bien été sauvé"
+
+#: Controller/JuriesController.php:143;169
+msgid "The jury could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/JuriesController.php:196
+msgid "Jury deleted"
+msgstr "Jury Supprimée"
+
+#: Controller/JuriesController.php:199
+msgid "Jury was not deleted"
+msgstr ""
+
+#: Controller/LaureatesController.php:55;107;144;175
+msgid "Invalid laureate"
+msgstr ""
+
+#: Controller/LaureatesController.php:123;149
+msgid "The laureate has been saved"
+msgstr "Le Lauréat a bien été sauvée"
+
+#: Controller/LaureatesController.php:126;152
+msgid "The laureate could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LaureatesController.php:179
+msgid "Laureate deleted"
+msgstr "Lauréat Supprimée"
+
+#: Controller/LaureatesController.php:182
+msgid "Laureate was not deleted"
+msgstr "Le Lauréat n'a pas pu être supprimé"
+
+#: Controller/NewsController.php:52;96;131
+msgid "Invalid news"
+msgstr ""
+
+#: Controller/NewsController.php:68;100
+msgid "The news has been saved"
+msgstr ""
+
+#: Controller/NewsController.php:74;109
+msgid "The news could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:135
+msgid "News deleted"
+msgstr ""
+
+#: Controller/NewsController.php:137
+msgid "News was not deleted"
+msgstr ""
+
+#: Controller/SectionsController.php:21;75;113;146
+msgid "Invalid section"
+msgstr ""
+
+#: Controller/SectionsController.php:91;118
+msgid "The section has been saved"
+msgstr "La section a bien été sauvée"
+
+#: Controller/SectionsController.php:94;121
+msgid "The section could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SectionsController.php:141
+msgid "You cannot delete this section"
+msgstr ""
+
+#: Controller/SectionsController.php:150
+msgid "Section deleted"
+msgstr "Section Supprimée"
+
+#: Controller/SectionsController.php:153
+msgid "Section was not deleted"
+msgstr "La Section n'a pas pu être supprimée"
+
+#: Controller/UsersController.php:22
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:50;82;116
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:65;90
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:68;93
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:120
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:123
+msgid "User was not deleted"
+msgstr ""
+
+#: Plugin/AjaxMultiUpload/Controller/UploadsController.php:57
+msgid "File parameter is missing"
+msgstr ""
+
+#: Plugin/AjaxMultiUpload/Controller/UploadsController.php:63
+msgid "File deleted!"
+msgstr ""
+
+#: Plugin/AjaxMultiUpload/Controller/UploadsController.php:65
+msgid "Unable to delete File"
+msgstr ""
+
+#: Plugin/AjaxMultiUpload/Controller/UploadsController.php:68
+msgid "File does not exist!"
+msgstr ""
+
+#: Plugin/AjaxMultiUpload/View/Helper/UploadHelper.php:23
+msgid "Files"
+msgstr "Fichiers"
+
+#: View/translation.ctp:6 View/Contents/admin_view.ctp:50
+#: View/EventTypes/admin_view.ctp:88 View/Events/admin_index.ctp:40
+#: View/Events/admin_view.ctp:28;130;170 View/Juries/admin_index.ctp:38
+#: View/Juries/admin_view.ctp:28;133;186;230 View/Laureates/admin_index.ctp:38
+#: View/Laureates/admin_view.ctp:28;140;194;239 View/News/admin_index.ctp:39
+#: View/News/admin_view.ctp:28;104;140 View/Sections/admin_index.ctp:41;42
+#: View/Sections/admin_view.ctp:29;36;168;208
+msgid "Byesno"
+msgstr "Non"
+
+#: View/translation.ctp:7
+msgid "Byesno0"
+msgstr "Non"
+
+#: View/translation.ctp:8
+msgid "Byesno1"
+msgstr "Oui"
+
+#: View/translation.ctp:11
+msgid "eng"
+msgstr "English"
+
+#: View/translation.ctp:12
+msgid "fra"
+msgstr "Français"
+
+#: View/Contents/admin_add.ctp:10
+msgid "Add Content to %s %s"
+msgstr "Ajouté un Contenu à %s %s"
+
+#: View/Contents/admin_add.ctp:51;59 View/Contents/admin_edit.ctp:60
+msgid "Select Photos"
+msgstr "Sélectionnez des Photos"
+
+#: View/Contents/admin_add.ctp:54 View/Contents/admin_edit.ctp:63
+msgid "Paste your video embed code in Media"
+msgstr "Copier votre code embed dans Media"
+
+#: View/Contents/admin_edit.ctp:6
+msgid "Edit Content of %s %s"
+msgstr "Editer le Contenu de %s %s"
+
+#: View/Contents/admin_edit.ctp:10 View/EventTypes/admin_edit.ctp:12
+#: View/EventTypes/admin_index.ctp:30 View/EventTypes/admin_view.ctp:96
+#: View/Events/admin_edit.ctp:12 View/Events/admin_index.ctp:53
+#: View/Events/admin_view.ctp:136;176 View/Juries/admin_edit.ctp:12
+#: View/Juries/admin_index.ctp:44 View/Juries/admin_view.ctp:139;193;235
+#: View/Laureates/admin_edit.ctp:12 View/Laureates/admin_index.ctp:44
+#: View/Laureates/admin_view.ctp:146;201;244 View/News/admin_edit.ctp:12
+#: View/News/admin_index.ctp:46 View/News/admin_view.ctp:109;145
+#: View/Sections/admin_edit.ctp:14 View/Sections/admin_index.ctp:57
+#: View/Sections/admin_view.ctp:172;214 View/Users/admin_edit.ctp:11
+#: View/Users/admin_index.ctp:27
+msgid "View"
+msgstr "Détails"
+
+#: View/Contents/admin_edit.ctp:11 View/Contents/admin_view.ctp:14
+#: View/EventTypes/admin_edit.ctp:13 View/EventTypes/admin_index.ctp:32
+#: View/EventTypes/admin_view.ctp:13;98 View/Events/admin_edit.ctp:13
+#: View/Events/admin_index.ctp:55 View/Events/admin_view.ctp:13;138;178
+#: View/Juries/admin_edit.ctp:13 View/Juries/admin_index.ctp:46
+#: View/Juries/admin_view.ctp:13 View/Laureates/admin_edit.ctp:13
+#: View/Laureates/admin_index.ctp:46 View/Laureates/admin_view.ctp:13
+#: View/News/admin_edit.ctp:13 View/News/admin_index.ctp:48
+#: View/News/admin_view.ctp:13 View/Sections/admin_edit.ctp:16
+#: View/Sections/admin_index.ctp:60 View/Sections/admin_view.ctp:14
+#: View/Users/admin_edit.ctp:12 View/Users/admin_index.ctp:29
+#: View/Users/admin_view.ctp:12
+msgid "Are you sure you want to delete # %s?"
+msgstr "Etes vous sur de vouloir supprimer n° %s?"
+
+#: View/Contents/admin_view.ctp:9
+msgid "Content"
+msgstr "Contenu"
+
+#: View/Contents/admin_view.ctp:13 View/EventTypes/admin_index.ctp:31
+#: View/EventTypes/admin_view.ctp:12;97 View/Events/admin_index.ctp:54
+#: View/Events/admin_view.ctp:12;137;177 View/Juries/admin_index.ctp:45
+#: View/Juries/admin_view.ctp:12;140;194;236 View/Laureates/admin_index.ctp:45
+#: View/Laureates/admin_view.ctp:12;147;202;245 View/News/admin_index.ctp:47
+#: View/News/admin_view.ctp:12;110;146 View/Sections/admin_index.ctp:58
+#: View/Sections/admin_view.ctp:12;173;215 View/Users/admin_index.ctp:28
+#: View/Users/admin_view.ctp:11
+msgid "Edit"
+msgstr "Editer"
+
+#: View/Contents/admin_view.ctp:20 View/EventTypes/admin_view.ctp:19;73
+#: View/Events/admin_view.ctp:19;117;157
+#: View/Juries/admin_view.ctp:19;119;172;218
+#: View/Laureates/admin_view.ctp:19;126;180;227 View/News/admin_view.ctp:19
+#: View/Sections/admin_view.ctp:20;156;194 View/Users/admin_view.ctp:18
+msgid "Id"
+msgstr "Id"
+
+#: View/Contents/admin_view.ctp:27 View/Sections/admin_view.ctp:8
+msgid "Section"
+msgstr "Section"
+
+#: View/Contents/admin_view.ctp:34
+msgid "Laureate"
+msgstr "Laureate"
+
+#: View/Contents/admin_view.ctp:41 View/Juries/admin_view.ctp:8
+msgid "Jury"
+msgstr "Jury"
+
+#: View/Contents/admin_view.ctp:48 View/EventTypes/admin_view.ctp:74
+#: View/Events/admin_view.ctp:26;118;158
+#: View/Juries/admin_view.ctp:26;120;173;219
+#: View/Laureates/admin_view.ctp:26;127;181;228
+#: View/News/admin_view.ctp:26;94;130 View/Sections/admin_view.ctp:27;157;195
+msgid "Active"
+msgstr "Actif"
+
+#: View/Contents/admin_view.ctp:55 View/EventTypes/admin_view.ctp:75
+#: View/Events/admin_view.ctp:33 View/Juries/admin_view.ctp:47;121;174;220
+#: View/Laureates/admin_view.ctp:47;128;182;229
+#: View/News/admin_view.ctp:33;96;132 View/Sections/admin_view.ctp:55;158;196
+msgid "Title Eng"
+msgstr "Titre English"
+
+#: View/Contents/admin_view.ctp:62 View/EventTypes/admin_view.ctp:76
+#: View/Events/admin_view.ctp:40 View/Juries/admin_view.ctp:54;122;175;221
+#: View/Laureates/admin_view.ctp:54;129;183;230
+#: View/News/admin_view.ctp:40;97;133 View/Sections/admin_view.ctp:62;159;197
+msgid "Title Fra"
+msgstr "Titre Français"
+
+#: View/Contents/admin_view.ctp:69 View/Events/admin_view.ctp:57
+#: View/Juries/admin_view.ctp:75 View/Laureates/admin_view.ctp:75
+#: View/News/admin_view.ctp:47 View/Sections/admin_view.ctp:97
+msgid "Body Eng"
+msgstr "Corps English"
+
+#: View/Contents/admin_view.ctp:76 View/Events/admin_view.ctp:64
+#: View/Juries/admin_view.ctp:82 View/Laureates/admin_view.ctp:82
+#: View/News/admin_view.ctp:54 View/Sections/admin_view.ctp:104
+msgid "Body Fra"
+msgstr "Corps Français"
+
+#: View/Contents/admin_view.ctp:83
+msgid "Media"
+msgstr "Média"
+
+#: View/Contents/admin_view.ctp:90
+msgid "Caption Eng"
+msgstr "Légende English"
+
+#: View/Contents/admin_view.ctp:97
+msgid "Caption Fra"
+msgstr "Légende Français"
+
+#: View/Contents/admin_view.ctp:104 View/Juries/admin_view.ctp:124
+#: View/Laureates/admin_view.ctp:131 View/Sections/admin_view.ctp:119;199
+msgid "Order"
+msgstr "Ordre"
+
+#: View/Contents/admin_view.ctp:111 View/EventTypes/admin_view.ctp:47;79
+#: View/Events/admin_view.ctp:92;121;161 View/Juries/admin_view.ctp:89
+#: View/Laureates/admin_view.ctp:96 View/News/admin_view.ctp:68
+#: View/Sections/admin_view.ctp:126 View/Users/admin_view.ctp:46
+msgid "Created"
+msgstr "Créé"
+
+#: View/Contents/admin_view.ctp:118 View/EventTypes/admin_view.ctp:54;80
+#: View/Events/admin_view.ctp:99;122;162 View/Juries/admin_view.ctp:96
+#: View/Laureates/admin_view.ctp:103 View/News/admin_view.ctp:75
+#: View/Sections/admin_view.ctp:133 View/Users/admin_view.ctp:53
+msgid "Modified"
+msgstr "Modifié"
+
+#: View/Contents/search.ctp:6 View/Elements/header.ctp:26
+#: View/Helper/CakestrapHelper.php:46
+msgid "Search"
+msgstr "Recherche"
+
+#: View/Contents/search.ctp:7
+msgid "%s results"
+msgstr "%s résultats"
+
+#: View/Elements/contents.ctp:29 View/Elements/load_more.ctp:22
+msgid "load more"
+msgstr "voir la suite"
+
+#: View/Elements/footer.ctp:41 View/Elements/header.ctp:22
+msgid "contact"
+msgstr "contact"
+
+#: View/Elements/footer.ctp:43
+msgid "Switzerland"
+msgstr "Suisse"
+
+#: View/Elements/header.ctp:9
+msgid "registration"
+msgstr "inscription"
+
+#: View/Elements/header.ctp:13
+msgid "tickets"
+msgstr "billeterie"
+
+#: View/Elements/header.ctp:16
+msgid "press"
+msgstr "presse"
+
+#: View/Elements/header.ctp:19 View/Elements/newsletter_form.ctp:3
+msgid "newsletter"
+msgstr "newsletter"
+
+#: View/Elements/load_more.ctp:23
+msgid "no more"
+msgstr "rien de plus"
+
+#: View/Elements/menu_index_laureates_juries.ctp:7 View/Events/index.ctp:12
+msgid "All"
+msgstr "Tous"
+
+#: View/Elements/menu_index_laureates_juries.ctp:11
+msgid "olders"
+msgstr "anciens"
+
+#: View/Elements/menu_view_laureates_juries.ctp:7
+msgid "Biography"
+msgstr "Biographie"
+
+#: View/Elements/menu_view_laureates_juries.ctp:8
+#: View/Elements/top_menu_admin.ctp:32;34 View/Events/admin_index.ctp:8
+#: View/Juries/admin_view.ctp:162 View/Laureates/admin_view.ctp:170
+msgid "Events"
+msgstr "Evenements"
+
+#: View/Elements/menu_view_laureates_juries.ctp:9
+#: View/Elements/top_menu_admin.ctp:30 View/Juries/admin_view.ctp:208
+#: View/Laureates/admin_view.ctp:217 View/News/admin_index.ctp:8
+#: View/News/admin_view.ctp:8
+msgid "News"
+msgstr "News"
+
+#: View/Elements/menu_view_laureates_juries.ctp:11
+msgid "Videos"
+msgstr "Vidéos"
+
+#: View/Elements/newsletter_form.ctp:4
+msgid "E-mail"
+msgstr "E-mail"
+
+#: View/Elements/newsletter_form.ctp:8
+msgid "Subscribe"
+msgstr "Inscription"
+
+#: View/Elements/right_sidebar.ctp:4
+msgid "Main Sponsor"
+msgstr "Partenaire Principal"
+
+#: View/Elements/top_menu_admin.ctp:10
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: View/Elements/top_menu_admin.ctp:28 View/Sections/admin_index.ctp:8
+msgid "Sections"
+msgstr "Sections"
+
+#: View/Elements/top_menu_admin.ctp:35 View/EventTypes/admin_index.ctp:8
+#: View/Events/admin_view.ctp:47
+msgid "Event Types"
+msgstr "Types d'Evenement"
+
+#: View/Elements/top_menu_admin.ctp:38 View/Laureates/admin_index.ctp:8
+#: View/News/admin_view.ctp:124
+msgid "Laureates"
+msgstr "Lauréats"
+
+#: View/Elements/top_menu_admin.ctp:39 View/Juries/admin_index.ctp:8
+#: View/News/admin_view.ctp:88
+msgid "Juries"
+msgstr "Jurys"
+
+#: View/Elements/top_menu_admin.ctp:40 View/Users/admin_index.ctp:7
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: View/EventTypes/admin_add.ctp:10
+msgid "Admin Add Event Type"
+msgstr ""
+
+#: View/EventTypes/admin_edit.ctp:8
+msgid "Edit Event Type"
+msgstr "Editer le Type d'Evenement"
+
+#: View/EventTypes/admin_index.ctp:11
+msgid "New Event Type"
+msgstr "Nouveau Type d'Evenement"
+
+#: View/EventTypes/admin_index.ctp:20 View/EventTypes/admin_view.ctp:81
+#: View/Events/admin_index.ctp:34 View/Events/admin_view.ctp:123;163
+#: View/Juries/admin_index.ctp:32 View/Juries/admin_view.ctp:125;179;223
+#: View/Laureates/admin_index.ctp:32 View/Laureates/admin_view.ctp:132;187;232
+#: View/News/admin_index.ctp:33 View/News/admin_view.ctp:98;134
+#: View/Sections/admin_index.ctp:34 View/Sections/admin_view.ctp:160;200
+#: View/Users/admin_index.ctp:18
+msgid "Actions"
+msgstr "Actions"
+
+#: View/EventTypes/admin_view.ctp:8
+msgid "Event Type"
+msgstr "Type d'Evenement"
+
+#: View/EventTypes/admin_view.ctp:26
+msgid "Name Eng"
+msgstr "Nom English"
+
+#: View/EventTypes/admin_view.ctp:33
+msgid "Name Fra"
+msgstr "Non Français"
+
+#: View/EventTypes/admin_view.ctp:40 View/Juries/admin_view.ctp:40
+#: View/Laureates/admin_view.ctp:40 View/Sections/admin_view.ctp:48
+msgid "Slug"
+msgstr "Slug"
+
+#: View/EventTypes/admin_view.ctp:67
+msgid "Related Events"
+msgstr "Evenements Liés"
+
+#: View/EventTypes/admin_view.ctp:77 View/Events/admin_view.ctp:71
+#: View/Juries/admin_view.ctp:176 View/Laureates/admin_view.ctp:184
+msgid "Date Begin"
+msgstr "Date Début"
+
+#: View/EventTypes/admin_view.ctp:78 View/Events/admin_view.ctp:78
+#: View/Juries/admin_view.ctp:177 View/Laureates/admin_view.ctp:185
+msgid "Date End"
+msgstr "Date Fin"
+
+#: View/EventTypes/admin_view.ctp:108 View/Events/admin_index.ctp:19
+#: View/Juries/admin_view.ctp:165 View/Laureates/admin_view.ctp:173
+msgid "New Event"
+msgstr "Nouveau Evenement"
+
+#: View/Events/admin_add.ctp:12
+msgid "Add Event to %s %s"
+msgstr "Ajouter un Evenement à %s %s"
+
+#: View/Events/admin_add.ctp:14
+msgid "Add Event"
+msgstr "Ajouter un Evenement"
+
+#: View/Events/admin_edit.ctp:8
+msgid "Edit Event of %s %s"
+msgstr "Editer l'Evenement de %s %s"
+
+#: View/Events/admin_view.ctp:8
+msgid "Event"
+msgstr "Evenement"
+
+#: View/Events/admin_view.ctp:85 View/Juries/admin_view.ctp:178
+#: View/Laureates/admin_view.ctp:186
+msgid "Location"
+msgstr "Lieu"
+
+#: View/Events/admin_view.ctp:111
+msgid "Related Juries"
+msgstr "Jury Liés"
+
+#: View/Events/admin_view.ctp:119;159 View/Juries/admin_view.ctp:33
+#: View/Laureates/admin_view.ctp:33 View/News/admin_view.ctp:95;131
+msgid "Name"
+msgstr "Nom"
+
+#: View/Events/admin_view.ctp:120;160
+msgid "Title"
+msgstr "Titre"
+
+#: View/Events/admin_view.ctp:151
+msgid "Related Laureates"
+msgstr "Laureats Liés"
+
+#: View/Juries/admin_add.ctp:10
+msgid "Add Jury"
+msgstr "Ajouter un Jury"
+
+#: View/Juries/admin_add.ctp:21 View/Juries/admin_edit.ctp:29
+#: View/Laureates/admin_add.ctp:21 View/Laureates/admin_edit.ctp:34
+#: View/Sections/admin_add.ctp:36 View/Sections/admin_edit.ctp:41
+msgid "Click here to choose an image"
+msgstr "Cliquez ici pour sélectionner une image"
+
+#: View/Juries/admin_edit.ctp:8
+msgid "Edit Jury"
+msgstr "Editer le Jury"
+
+#: View/Juries/admin_index.ctp:19
+msgid "New Jury"
+msgstr "Nouveau Jury"
+
+#: View/Juries/admin_view.ctp:61 View/Laureates/admin_view.ctp:61
+msgid "Country Eng"
+msgstr "Pays English"
+
+#: View/Juries/admin_view.ctp:68 View/Laureates/admin_view.ctp:68
+msgid "Country Fra"
+msgstr "Pays Français"
+
+#: View/Juries/admin_view.ctp:109 View/Laureates/admin_view.ctp:116
+#: View/Sections/admin_view.ctp:184
+msgid "Contents"
+msgstr "Contenus"
+
+#: View/Juries/admin_view.ctp:112 View/Laureates/admin_view.ctp:119
+#: View/Sections/admin_view.ctp:187
+msgid "New Content"
+msgstr "Nouveau Contenu"
+
+#: View/Juries/admin_view.ctp:123 View/Laureates/admin_view.ctp:130
+#: View/Sections/admin_view.ctp:198
+msgid "Type"
+msgstr "Type"
+
+#: View/Juries/admin_view.ctp:141;195;237
+#: View/Laureates/admin_view.ctp:148;203;246
+#: View/Sections/admin_view.ctp:174;216
+msgid "Are you sure you want to delete %s?"
+msgstr "Etes vous sur de vouloir supprimer %s?"
+
+#: View/Juries/admin_view.ctp:148 View/Laureates/admin_view.ctp:155
+#: View/Sections/admin_index.ctp:69 View/Sections/admin_view.ctp:223
+msgid "Move line to reorder"
+msgstr "Déplacez les ligne par glisser déposer pour changer l'ordre"
+
+#: View/Juries/admin_view.ctp:211 View/Laureates/admin_view.ctp:220
+#: View/News/admin_index.ctp:19
+msgid "New News"
+msgstr "Nouvelle News"
+
+#: View/Juries/admin_view.ctp:222 View/Laureates/admin_view.ctp:231
+#: View/News/admin_view.ctp:61
+msgid "Date"
+msgstr "Date"
+
+#: View/Laureates/admin_add.ctp:10
+msgid "Add Laureate"
+msgstr ""
+
+#: View/Laureates/admin_edit.ctp:8
+msgid "Edit Laureate"
+msgstr ""
+
+#: View/Laureates/admin_index.ctp:19
+msgid "New Laureate"
+msgstr "Nouveau Laureat"
+
+#: View/Laureates/admin_view.ctp:89 View/Sections/admin_view.ctp:111
+msgid "Image Header"
+msgstr "Image de l'En-Tête"
+
+#: View/Layouts/admin.ctp:26
+msgid "Admin"
+msgstr "Admin"
+
+#: View/News/admin_add.ctp:12
+msgid "Add News to %s %s"
+msgstr "Ajouter une News à %s %s"
+
+#: View/News/admin_add.ctp:14
+msgid "Add News"
+msgstr "Ajouter une News"
+
+#: View/News/admin_edit.ctp:8
+msgid "Edit News of %s %s"
+msgstr "Editer la News de %s %s"
+
+#: View/Sections/admin_add.ctp:9
+msgid "List Sections"
+msgstr "Liste des Sections"
+
+#: View/Sections/admin_add.ctp:22
+msgid "Add Section"
+msgstr "Ajouter une Section"
+
+#: View/Sections/admin_edit.ctp:10
+msgid "Edit Section"
+msgstr "Editer la Section"
+
+#: View/Sections/admin_index.ctp:19 View/Sections/admin_view.ctp:149
+msgid "New Section"
+msgstr "Nouvelle Section"
+
+#: View/Sections/admin_view.ctp:34
+msgid "In Menu"
+msgstr "Visible dans le Menu"
+
+#: View/Sections/admin_view.ctp:41
+msgid "Parent Section"
+msgstr "Section Parente"
+
+#: View/Sections/admin_view.ctp:69
+msgid "Menu Title Eng"
+msgstr "Menu Titre English"
+
+#: View/Sections/admin_view.ctp:76
+msgid "Menu Title Fra"
+msgstr "Menu Titre Français"
+
+#: View/Sections/admin_view.ctp:83
+msgid "Subtitle Eng"
+msgstr "Sous-titre English"
+
+#: View/Sections/admin_view.ctp:90
+msgid "Subtitle Fra"
+msgstr "Sous-titre Français"
+
+#: View/Sections/admin_view.ctp:146
+msgid "Child Sections"
+msgstr "Sections Enfants"
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:8
+msgid "CakeStrap"
+msgstr ""
+
+#: View/Users/admin_add.ctp:9
+msgid "Add User"
+msgstr "Ajouter un Utilisateur"
+
+#: View/Users/admin_edit.ctp:7
+msgid "Edit User"
+msgstr "Editer un Utilisateur"
+
+#: View/Users/admin_index.ctp:10
+msgid "New User"
+msgstr "Nouvel Utilisateur"
+
+#: View/Users/admin_view.ctp:7
+msgid "User"
+msgstr "Utilisateur"
+
+#: View/Users/admin_view.ctp:25
+msgid "Role"
+msgstr "Rôle"
+
+#: View/Users/admin_view.ctp:32
+msgid "Email"
+msgstr "E-mail"
+
+#: View/Users/admin_view.ctp:39
+msgid "Password"
+msgstr "Mot de Passe"
+
+#: View/Users/login.ctp:6
+msgid "Please enter your username and password"
+msgstr ""
+
+#: View/Users/login.ctp:10
+msgid "Login"
+msgstr ""
+
+#: Model/Content.php:validation for field title_eng;validation title_fra
+#: Model/Event.php:validation Model/EventType.php:validation
+#: name_eng;validation name_fra Model/Jury.php:validation name
+#: Model/Laureate.php:validation Model/News.php:validation
+#: Model/Section.php:validation Model/User.php:validation password;validation
+#: role
+msgid "notempty"
+msgstr "Ce champ doit être saisi"
+
+#: Model/Event.php:validation for field active Model/Jury.php:validation
+#: Model/Laureate.php:validation Model/Section.php:validation
+msgid "boolean"
+msgstr ""
+
+#: Model/Event.php:validation for field date_begin Model/News.php:validation
+#: date
+msgid "datetime"
+msgstr "Ce champ doit être une date et une heure"
+
+#: Model/News.php:validation for field active
+msgid "numeric"
+msgstr "Ce champs doit être un numéro"
+
+#: Model/User.php:validation for field email
+msgid "email"
+msgstr "Entrez un e-mail valide"
+
+#: Model/User.php:validation for field password_confirm
+msgid "Password do not correspond."
+msgstr "Les deux mot de passes ne correspondent pas."
+
+#: View/Errors/error400.ctp:22 View/Errors/error500.ctp:22
+msgid "Error"
+msgstr "Erreur"
+
+#: View/Errors/error400.ctp:24
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: View/Errors/error500.ctp:23
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: View/Layouts/error.ctp:20 View/Themed/Cakestrap/Layouts/_default.ctp:19
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: webroot/test.php:93
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#~ msgid "Validation_numeric"
+#~ msgstr "Entrez une valeur numérique"
+
+#~ msgid "Validation_notempty"
+#~ msgstr "Ce champ doit être saisi"
+
+#~ msgid "Validation_duplicate_entry"
+#~ msgstr "Cette entrée existe déjà"
+
+#~ msgid "Validation_email"
+#~ msgstr "Entrez un e-mail valide"
+
+#~ msgid "You are not authorized to access that location."
+#~ msgstr "Vous n'êtes pas authorisé à acceder à cette page."
+
+#~ msgid "Validation_You have to accept terms"
+#~ msgstr "Vous devez accepter les Conditions"
+
+#~ msgid "Login failed. Invalid username or password."
+#~ msgstr "La connexion a échouée. E-mail ou mot de passe invalide."
+
+#, fuzzy
+#~ msgid "Related Contents"
+#~ msgstr "Supprimer le Contenu"
+
+#, fuzzy
+#~ msgid "Laureate Id"
+#~ msgstr "Créé"
+
+#, fuzzy
+#~ msgid "Related News"
+#~ msgstr "Contenus Liés"
+
+#~ msgid "List Contents"
+#~ msgstr "Liste des Contenus"
+
+#~ msgid "List Events"
+#~ msgstr "Liste des Evenements"
+
+#~ msgid "List News"
+#~ msgstr "Liste des News"
+
+#, fuzzy
+#~ msgid "List Laureates"
+#~ msgstr "Liste des News"
+
+#, fuzzy
+#~ msgid "List Juries"
+#~ msgstr "Liste des News"
+
+#~ msgid "Delete Content"
+#~ msgstr "Supprimer le Contenu"
+
+#, fuzzy
+#~ msgid "Related I18n Models"
+#~ msgstr "Contenus Liés"
+
+#, fuzzy
+#~ msgid "List Event Types"
+#~ msgstr "Liste des Pages"
+
+#, fuzzy
+#~ msgid "Delete Event Type"
+#~ msgstr "Supprimer la Page"
+
+#, fuzzy
+#~ msgid "Delete Event"
+#~ msgstr "Supprimer le Contenu"
+
+#~ msgid "Body"
+#~ msgstr "Corps"
+
+#~ msgid "Bactive"
+#~ msgstr "Non"
+
+#~ msgid "Previous"
+#~ msgstr "Précédent"
+
+#~ msgid "Next"
+#~ msgstr "Suivant"
+
+#, fuzzy
+#~ msgid "Delete Jury"
+#~ msgstr "Supprimer"
+
+#~ msgid "Subtitle"
+#~ msgstr "Sous-titre"
+
+#, fuzzy
+#~ msgid "Delete Laureate"
+#~ msgstr "Supprimer la Newsletter"
+
+#, fuzzy
+#~ msgid "Admin Edit News"
+#~ msgstr "Editer la News"
+
+#~ msgid "Delete News"
+#~ msgstr "Supprimer la News"
+
+#, fuzzy
+#~ msgid "Delete Section"
+#~ msgstr "Supprimer le Spectacle"
+
+#~ msgid "List Users"
+#~ msgstr "Liste des Utilisateurs"
+
+#~ msgid "Validation_password_is_not_valid"
+#~ msgstr "Mot de passe non valide"
+
+#~ msgid "Validation_password_6_char_digits"
+#~ msgstr "Le Mot de passe doit être composé d'au moins 6 lettres et chiffres"
+
+#~ msgid "Text"
+#~ msgstr "Texte"
+
+#~ msgid "Document"
+#~ msgstr "Document"
+
+#~ msgid "Pictures Gallery"
+#~ msgstr "Galerie Photos"
+
+#~ msgid "Bactive0"
+#~ msgstr "Non"
+
+#~ msgid "Bactive1"
+#~ msgstr "Oui"
+
+#~ msgid "Binmenu0"
+#~ msgstr "Non"
+
+#~ msgid "Binmenu1"
+#~ msgstr "Oui"
+
+#~ msgid "Byoungpublic0"
+#~ msgstr "Non"
+
+#~ msgid "Byoungpublic1"
+#~ msgstr "Oui"
+
+#~ msgid "Upload Files"
+#~ msgstr "Télécharger des Fichiers"
+
+#~ msgid "Background"
+#~ msgstr "Image de Fond"
+
+#~ msgid "Content Pages"
+#~ msgstr "Pages"
+
+#~ msgid "Binmenu"
+#~ msgstr "Non"
+
+#~ msgid "Upload Pictures"
+#~ msgstr "Télécharger des Photos"
+
+#~ msgid "Content Page"
+#~ msgstr "Page"
+
+#~ msgid "Show Id"
+#~ msgstr "Spectacle Id"
+
+#~ msgid "You will be able to upload your file in a second step"
+#~ msgstr "Vous pourrez télécharger votre fichier à l'étape suivante"
+
+#~ msgid "Submit"
+#~ msgstr "Envoyer"
+
+#~ msgid "Show"
+#~ msgstr "Spectacle"
+
+#~ msgid "Program"
+#~ msgstr "Programme"
+
+#~ msgid "Shows"
+#~ msgstr "Spectacles"
+
+#~ msgid "Pages"
+#~ msgstr "Pages"
+
+#~ msgid "Pictures"
+#~ msgstr "Photos"
+
+#~ msgid "List Newsletters"
+#~ msgstr "Liste des Newsletter"
+
+#~ msgid "Edit Newsletter"
+#~ msgstr "Editer la Newsletter"
+
+#~ msgid "New Newsletter"
+#~ msgstr "Nouvelle Newsletter"
+
+#~ msgid "Copy"
+#~ msgstr "Copier"
+
+#~ msgid "Subject"
+#~ msgstr "Objet"
+
+#~ msgid "Body Html"
+#~ msgstr "Message HTML"
+
+#~ msgid "Body Text"
+#~ msgstr "Version Texte"
+
+#~ msgid "Date Start"
+#~ msgstr "Date Début"
+
+#~ msgid "Date Spec"
+#~ msgstr "Date Précision"
+
+#~ msgid "Times"
+#~ msgstr "Horaires"
+
+#~ msgid "Duration"
+#~ msgstr "Durée"
+
+#~ msgid "Show Number"
+#~ msgstr "Numéro du Spectacle"
+
+#~ msgid "Young Public"
+#~ msgstr "Jeune public"
+
+#~ msgid "Optional Infos"
+#~ msgstr "Infos optionel"
+
+#~ msgid "Link Book"
+#~ msgstr "Lien pour Réserver"
+
+#~ msgid "Website"
+#~ msgstr "Site Internet"
+
+#~ msgid "Facebook Event"
+#~ msgstr "Evenement Facebook"
+
+#~ msgid "Thumb"
+#~ msgstr "Vignettes"
+
+#~ msgid "Byoungpublic"
+#~ msgstr "Non"
+
+#~ msgid "Username"
+#~ msgstr "Nom d'Utilisateur"
+
+#~ msgid "Editing this Page"
+#~ msgstr "Editer la Page"
+
+#~ msgid "New"
+#~ msgstr "New"
+
+#~ msgid "Book"
+#~ msgstr "BILLETTERIE EN LIGNE"
+
+#, fuzzy
+#~ msgid "The %1$s has been %2$s"
+#~ msgstr "Le spectacle a bien été sauvé"
+
+#, fuzzy
+#~ msgid "Wednesday"
+#~ msgstr "Prix Mercredi"
+
+#, fuzzy
+#~ msgid "New %s"
+#~ msgstr "Nouvelle News"
+
+#, fuzzy
+#~ msgid "Edit %s"
+#~ msgstr "Editer la News"
+
+#, fuzzy
+#~ msgid "List"
+#~ msgstr "Liste des News"
+
+#, fuzzy
+#~ msgid "List %s"
+#~ msgstr "Liste des News"
+
+#, fuzzy
+#~ msgid "Are you sure you want to delete"
+#~ msgstr "Etes vous sur de vouloir supprimer n° %s?"
+
+#, fuzzy
+#~ msgid "previous"
+#~ msgstr "Précédent"
+
+#, fuzzy
+#~ msgid "View %s"
+#~ msgstr "Détails"
+
+#, fuzzy
+#~ msgid "Delete %s"
+#~ msgstr "Supprimer la News"
+
+#, fuzzy
+#~ msgid "%s modified"
+#~ msgstr "Modifié"
+
+#, fuzzy
+#~ msgid "The request has been black-holed"
+#~ msgstr "Le spectacle a bien été sauvé"
+
+#, fuzzy
+#~ msgid "%s created"
+#~ msgstr "Créé"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "Fichiers"
+
+#, fuzzy
+#~ msgid "Node Not Deleted"
+#~ msgstr "Contenu Supprimé"
+
+#, fuzzy
+#~ msgid "Delete an ACL node."
+#~ msgstr "Supprimer le Contenu"
+
+#, fuzzy
+#~ msgid "File: %s"
+#~ msgstr "Fichiers"
+
+#, fuzzy
+#~ msgid "Are you sure you want to drop the table(s)?"
+#~ msgstr "Etes vous sur de vouloir supprimer n° %s?"
+
+#, fuzzy
+#~ msgid "Are you sure you want to create the table(s)?"
+#~ msgstr "Etes vous sur de vouloir supprimer n° %s?"
+
+#, fuzzy
+#~ msgid "Are you sure you want to alter the tables?"
+#~ msgstr "Etes vous sur de vouloir supprimer n° %s?"
+
+#, fuzzy
+#~ msgid "DocumentRoot: %s"
+#~ msgstr "Document"
+
+#, fuzzy
+#~ msgid "ListenPort"
+#~ msgstr "Liste des Contenus"
+
+#, fuzzy
+#~ msgid "DocumentRoot"
+#~ msgstr "Document"
+
+#, fuzzy
+#~ msgid "Components:"
+#~ msgstr "Contenus"
+
+#, fuzzy
+#~ msgid "User:"
+#~ msgstr "Utilisateur"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "Mot de Passe"
+
+#~ msgid "Salle"
+#~ msgstr "Salle"
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "to"
+#~ msgstr "à"
+
+#~ msgid "Price Full"
+#~ msgstr "Prix Plein"
+
+#, fuzzy
+#~ msgid "Price AVS"
+#~ msgstr "Prix AVS"
+
+#~ msgid "Price Student"
+#~ msgstr "Prix Etudient"
+
+#~ msgid "Price Vingtans"
+#~ msgstr "Prix Vingtans"
+
+#~ msgid "Price Avs"
+#~ msgstr "Prix AVS"
+
+#~ msgid "Link"
+#~ msgstr "Lien"

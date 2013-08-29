@@ -1,0 +1,109 @@
+/**
+ * Concours backoffice
+ */
+body {
+    padding-top: 70px;
+}
+
+.display_none {
+    display: none;
+}
+
+#sortable {
+    cursor: move;
+}
+
+.col-lg-3 .actions {
+    margin-top: 20px;
+}
+
+.related div.actions {
+    margin-bottom: 10px;
+}
+
+
+/**
+ * form
+ */
+select[multiple] {
+    width: auto;
+    height: 12em;
+}
+
+
+
+
+/**
+ * image
+ */
+.kcfinder-image-header {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+}
+.kcfinder-image-header img {
+    width: 100%;
+}
+.kcfinder-image-header div {
+    padding: 10px;
+}
+
+.image-header {
+    width: 100%;
+}
+
+/**
+ * media
+ */
+#ContentMediaDiv {
+    margin-bottom: 0;
+}
+#PhotosMedia  {
+    margin-bottom: 10px;
+}
+
+
+/**
+ * table
+ */
+tr.inactive {
+    color: #999;
+}
+
+td.actions {
+    white-space: nowrap;
+}
+
+div.actions {
+    margin-bottom: 10px;
+}
+
+
+
+
+/**
+ * validation like bootstrap
+ */
+.form-error {
+    border-color: #b94a48;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.error-message {
+    /*
+    margin-top: 5px;
+    font-weight: bold;
+    */
+    color: #b94a48;
+    background-color: #fcf2f2;
+    margin: 0 2px;
+    padding: 5px 30px 5px 7px;
+    border-left: 5px solid #dFb5b4;
+}
+.error label {
+    color: #b94a48;
+}

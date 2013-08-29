@@ -1,0 +1,473 @@
+/**
+ * Concours front
+ */
+
+/**
+ font
+ */
+@import url('../fonts/fonts.css');
+
+
+/*************************************************************************************
+ * general
+ */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+a:link {
+    color: #e95d0f;
+}
+a:visited {
+    color: #e95d0f;
+}
+a:hover {
+    color: #e95d0f;
+}
+a:active {
+    color: #e95d0f;
+}
+
+a[href^="tel:"],
+a[href^="mailto:"] {
+    color: #000;
+}
+
+
+h1, h2 {
+    font-family: 'freightbigmediumitalic', serif;
+    font-weight: normal;
+    color: #e95d0f;
+}
+h3, h4, h5, h6 {
+    font-family: 'freightbigbook', serif;
+    font-weight: normal;
+    color: #e95d0f;
+}
+h4 {
+    margin-top: 30px;
+    font-size: 2em;
+}
+h5 {
+    margin-top: 30px;
+    font-size: 1.8em;
+}
+h6 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #000;
+}
+
+table {
+    border: none;
+}
+td {
+    border: none;
+    vertical-align: top;
+    padding-bottom: .5em;
+}
+td:first-child {
+    min-width: 200px;
+}
+
+.chapeau {
+    font-family: 'freightbigbook' serif;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.accordion-group {
+    border: none;
+    border-radius: 0;
+}
+
+
+/*************************************************************************************
+ * load more
+ */
+.load_more .disabled {
+    display: none;
+}
+.load_more a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    background: #ccc;
+    padding: 5px 0;
+}
+.load_more a:hover {
+    background: #e95d0f;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/*************************************************************************************
+ * top
+ */
+#top-menu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: .9em;
+}
+#top-menu a {
+    font-family: 'freightdispbook', serif;
+    color: #000;
+    line-height: 15px;
+    display: block;
+}
+#top-menu li {
+    float: left;
+    margin-left: 15px;
+    list-style: none;
+}
+#search-input {
+    margin-top: -4px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-family: 'freightdispbook', serif;
+    padding-left: .5em;
+}
+
+#header-languages-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+#header-languages-menu li {
+    color: #ccc;
+    margin-left: .3em;
+    float: left;
+    text-transform: uppercase;
+}
+#header-languages-menu li:after {
+    content: ' / ';
+}
+#header-languages-menu li:last-child:after {
+    content: '';
+}
+#header-languages-menu a, #social-link a{
+    display: inline;
+    line-height: inherit;
+}
+#social-link {
+    margin-top: -3px;
+}
+
+#sign-in-link {
+    color: #949597 !important;
+}
+
+/*************************************************************************************
+ * header
+ */
+#header-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#header-menu li {
+    display: inline;
+    margin-right: 2em;
+}
+#header-menu a {
+    color: #000;
+    font-size: 1em;
+    font-family: 'freightdispbook', serif;
+    text-transform: uppercase;
+}
+#header-menu li.active a {
+    color: #e95d0f;
+}
+
+
+/*************************************************************************************
+ * left logo
+ */
+#right-logo {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'freightdispbook', serif;
+}
+@media only screen and (max-width: 990px) {
+    #right-logo {
+        display: none;
+    }
+}
+
+/*************************************************************************************
+ * section
+ */
+
+#section-header {
+    border-top: 1px solid #000;
+    height: 257px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #d1d2d4;
+    position: relative;
+}
+
+#section-header h2 {
+    font-size: 4em;
+
+}
+
+#section-subtitle {
+    font-family: 'freightbigmediumitalic', serif;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#section-menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.69);
+}
+#section-menu ul {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#section-menu li {
+    display: inline;
+    margin-bottom: 10px;
+}
+#section-menu li:after {
+    font-family: 'freightdispmediumitalic', serif;
+    content: ' / ';
+    font-size: 1.4em;
+}
+#section-menu li:last-child:after {
+    content: '';
+}
+#section-menu a {
+    display: inline-block;
+    color: #000;
+    font-size: 1.6em;
+    line-height: .8em;
+    font-family: 'freightdispmediumitalic', serif;
+    text-decoration: none;
+}
+#section-menu li.active a {
+    border-bottom: 1px solid #e95d0f;
+}
+#section-menu li.active a:hover, #section-menu a:hover {
+    border-bottom: 1px solid #000;
+}
+
+
+/** section, news, calendar content */
+
+
+/** change bullet color */
+.DISABLEpage-content li {
+    list-style: none;
+}
+.DISABLEpage-content li:before {
+    /* For a round bullet */
+    content:'\2022';
+    /* For a square bullet */
+    /*content:'\25A0';*/
+    display: block;
+    position: relative;
+    max-width: 0px;
+    max-height: 0px;
+    left: -10px;
+    top: -0px;
+    color: #e95d0f;
+    font-size: 20px;
+}
+
+.page-content h3 {
+    color: #000;
+    font-size: 2em;
+    padding-left: 0;
+}
+
+.page-body {
+    margin: 3em 0;
+}
+
+.content-container {
+    margin: 20px 0;
+    border-top: 1px solid #000;
+}
+
+.content-open {
+    background: url('../img/open.png') no-repeat 100% 0;
+    width: 46px;
+    height: 47px;
+    margin-top: 10px;
+}
+.content-opened, .accordion-toggle:hover .content-open {
+    background-position: 0 0;
+}
+.content-body {
+    margin: 10px 0;
+    padding: 20px 0;
+    border-top: 1px solid #000;
+}
+
+
+/*************************************************************************************
+ * news
+ */
+.news {
+
+}
+
+/*************************************************************************************
+ * events
+ */
+.events .accordion-toggle h3 {
+    color: #e95d0f;
+}
+.events .accordion-toggle h4 {
+    color: #000;
+    font-family: 'freightbigmediumitalic';
+    font-size: 1.6em;
+}
+
+
+/*************************************************************************************
+ * calendar
+ */
+#sidebar-calendar {
+    margin-top: 10px;
+
+}
+.calendar-event {
+    color: #000 !important;
+    background-color: #e95d0f !important;
+}
+.datepick, .datepick-month, .datepick-month td {
+    border: none;
+}
+.datepick-nav {
+}
+.datepick-month-header {
+    background: none;
+}
+.datepick-month thead,
+.datepick-month thead tr {
+    border: 0;
+}
+
+/*************************************************************************************
+ * media
+ */
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*************************************************************************************
+ * footer
+ */
+#footer {
+    font-family: 'freightdispbook', serif;
+    margin-top: 50px;
+    background: #d1d2d4;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+#footer-top {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+#footer-menu a {
+    color: #f9f9f9;
+}
+#footer-menu>li>ul {
+    padding-left: 10px;
+}
+#footer-menu li {
+    list-style: none;
+}
+#footer-menu>li {
+    float: left;
+    margin-right: 20px;
+
+}
+#footer-contact {
+    padding-left: 0;
+    list-style: none;
+}
+#footer-contact>li {
+    float: left;
+    margin-right: 1em;
+}
+#footer address {
+    margin-bottom: 0;
+}
+#contact-link {
+    font-style: italic;
+}
+#footer-logo-concours {
+    margin-top: -4px;
+}
+/* newsletter */
+#footer legend {
+    border: none;
+    font-size: .9em;
+    font-style: italic;
+    margin-bottom: 0;
+}
+#footer .input {
+    display: inline;
+    margin-right: 10px;
+}
+#footer .submit {
+    display: inline;
+}
+#footer input[type="text"] {
+    margin-top: -4px;
+    font-family: 'freightdispbook', serif;
+    padding-left: .5em;
+    font-size: .9em;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+/*************************************************************************************
+ * cake
+ */
+.sql_dump {
+    margin-top: 100px;
+}
+
+
+
+/*************************************************************************************
+Smartphones
+*/
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+
+
+
+
+
+
+

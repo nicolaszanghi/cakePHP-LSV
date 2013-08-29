@@ -1,0 +1,46 @@
+
+
+/*@import url("../js/tinymce/skins/lightgray/content.min.css");*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+a:link {
+    color: #e95d0f;
+}
+a:visited {
+    color: #e95d0f;
+}
+a:hover {
+    color: #e95d0f;
+}
+a:active {
+    color: #e95d0f;
+}
+h4, h5, h6 {
+    font-family: 'freightbigbook', serif;
+    font-weight: normal;
+    color: #e95d0f;
+}
+h4 {
+    font-size: 2em;
+}
+h5 {
+    font-size: 1.8em;
+}
+h6 {
+    font-size: 1.5em;
+    color: #000;
+}
+
+.chapeau {
+    font-family: 'freightbigbook' serif;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
