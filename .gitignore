@@ -2,3 +2,16 @@ tmp/*
 [Cc]onfig/database.php
 app/[Cc]onfig/database.php
 !empty
+.idea/.name
+
+.idea/cakePHP-LSV.iml
+
+.idea/encodings.xml
+
+.idea/misc.xml
+
+.idea/modules.xml
+
+.idea/scopes/scope_settings.xml
+
+.idea/workspace.xml

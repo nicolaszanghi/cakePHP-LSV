@@ -15,7 +15,7 @@ Language :  eng fra
 * Minify https://github.com/mrclay/minify
 
 #Install
-* Create database, change Config/database.php
+* Create database, create Config/database.php
 * Execute init.sql
 * Search @todo change and edit this vars for your webserver
 * Go to /admin/users/add and create a user
