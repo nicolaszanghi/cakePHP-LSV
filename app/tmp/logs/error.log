@@ -1,0 +1,3081 @@
+2013-08-29 17:47:31 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakePHP-LSV.sections' doesn't exist
+Request URL: /gitHubContribution/cakePHP-LSV/
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Model/Datasource/Database/Mysql.php(313): DboSource->_execute('SHOW FULL COLUM...')
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Model/Model.php(1321): Mysql->describe(Object(Section))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Model/Datasource/DboSource.php(2290): Model->schema()
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Model/Datasource/DboSource.php(1047): DboSource->fields(Object(Section))
+#5 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Section), Array)
+#6 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/Controller/AppController.php(76): Model->find('all', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#9 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#11 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/index.php(43): require('/Users/nicolasz...')
+#14 {main}
+2013-08-29 17:48:15 Error: [NotFoundException] Invalid section
+Request URL: /gitHubContribution/cakePHP-LSV/
+Stack Trace:
+#0 [internal function]: SectionsController->view(16)
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/index.php(43): require('/Users/nicolasz...')
+#6 {main}
+2013-08-29 17:48:21 Error: [NotFoundException] Invalid section
+Request URL: /gitHubContribution/cakePHP-LSV/
+Stack Trace:
+#0 [internal function]: SectionsController->view(16)
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/index.php(43): require('/Users/nicolasz...')
+#6 {main}
+2013-08-29 18:37:18 Error: [NotFoundException] Invalid section
+Request URL: /gitHubContribution/cakePHP-LSV/
+Stack Trace:
+#0 [internal function]: SectionsController->view(16)
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/index.php(43): require('/Users/nicolasz...')
+#6 {main}
+2013-08-29 18:37:50 Error: [NotFoundException] Invalid section
+Request URL: /gitHubContribution/cakePHP-LSV/
+Stack Trace:
+#0 [internal function]: SectionsController->view(16)
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 18:37:50 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/fonts/fonts.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 18:37:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 18:37:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 18:37:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 18:51:54 Error: [NotFoundException] Invalid section
+Request URL: /gitHubContribution/cakePHP-LSV/
+Stack Trace:
+#0 [internal function]: SectionsController->view(16)
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 18:51:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 18:51:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 18:51:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:01:01 Error: [NotFoundException] Invalid section
+Request URL: /gitHubContribution/cakePHP-LSV/
+Stack Trace:
+#0 [internal function]: SectionsController->view(16)
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-30 14:01:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:01:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:01:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:04:48 Error: [NotFoundException] Invalid section
+Request URL: /gitHubContribution/cakePHP-LSV/
+Stack Trace:
+#0 [internal function]: SectionsController->view(1)
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-30 14:04:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:04:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:04:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:05:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:05:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:05:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:05:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:06:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:06:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:06:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:06:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:08:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:08:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:08:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:08:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:08:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:09:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:09:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:09:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:09:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:09:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:09:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:09:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:09:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:08 Error: [MissingControllerException] Controller class NewsController could not be found.
+Exception Attributes: array (
+  'class' => 'NewsController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/news
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:46 Error: [MissingControllerException] Controller class NewsController could not be found.
+Exception Attributes: array (
+  'class' => 'NewsController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/news
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:10:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:12:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:12:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:12:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:12:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:12:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:12:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:13:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:13:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:13:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:13:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:13:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:13:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:14:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:14:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:14:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:14:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:14:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:14:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:15:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:16:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:17:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:17:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:17:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:17:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:17:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:19:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:19:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:19:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:20:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:20:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/twitter.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:20:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/img/facebook.png
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:23:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:24:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:24:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:25:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:25:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:25:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:26:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:27:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:27:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:27:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:27:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:27:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:28:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:28:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:29:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:29:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:29:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:29:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:29:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:30:59 Error: [NotFoundException] Invalid section
+Request URL: /gitHubContribution/cakePHP-LSV/sections/children_page
+Stack Trace:
+#0 [internal function]: SectionsController->view()
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-30 14:30:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:31:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:31:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:31:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:32:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:32:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:32:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:32:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:32:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:32:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:32:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:34:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:34:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:35:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:35:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:35:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:35:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:35:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:35:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:35:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:35:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:36:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:37:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:38:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:38:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:38:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:38:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:38:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:38:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:38:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:38:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:38:58 Error: [NotFoundException] Invalid section
+Request URL: /gitHubContribution/cakePHP-LSV/sections/hom
+Stack Trace:
+#0 [internal function]: SectionsController->view()
+#1 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-30 14:38:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:39:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:39:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:39:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:39:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:39:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:39:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:39:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:49:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:49:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:49:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:49:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:49:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:49:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:49:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:49:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:49:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:50:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:53:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:53:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:53:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:56:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:56:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:56:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:57:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:57:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:57:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:57:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:58:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:58:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:59:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:59:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:59:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:59:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:59:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 14:59:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:03:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:03:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:04:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:04:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:05:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:05:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:05:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:05:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:05:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:05:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:07:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:07:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:08:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:08:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:09:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:09:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:22:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:22:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:22:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:22:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:22:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:23:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:24:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:25:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:25:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:25:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:26:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:26:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:26:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:27:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:27:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:27:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:27:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:27:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:27:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:27:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:27:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:28:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:28:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:28:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:29:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:29:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:29:26 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/fra/admin
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:29:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:29:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:29:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:29:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:29:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:30:07 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/eng/admin
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:30:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:30:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:30:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:30:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:31:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:31:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:31:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:31:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:37:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:38:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:38:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:38:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-30 15:38:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
