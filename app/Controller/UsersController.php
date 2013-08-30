@@ -7,11 +7,10 @@ App::uses('AppController', 'Controller');
  */
 class UsersController extends AppController {
 
-    /*
     public function beforeFilter() {
         $this->Auth->allow('admin_add', 'admin_edit', 'admin_index');
         parent::beforeFilter();
-    }*/
+    }
 
     public function login() {
         if ($this->request->is('post')) {
