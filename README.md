@@ -5,7 +5,7 @@ cakePHP ready to use
 
 Models :    User, Section and Content
 
-Language :  eng fra
+Language :  eng, fra
 
 #Includes
 * Bootstrap3 http://getbootstrap.com/
@@ -20,6 +20,7 @@ Language :  eng fra
 * Search @todo change and edit this vars for your webserver
 * Go to /admin/users/add and create a user
 * Comment UsersController beforeFilter
+* Install Minify in Plugin/Minify https://github.com/maurymmarques/minify-cakephp
 * Don't forget to change value of Security.salt and Security.cipherSeed  in code.php
 * Finaly change permission to /tmp and /webroot/kcfinder/upload
 
