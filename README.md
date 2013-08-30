@@ -12,7 +12,7 @@ Language :  eng fra
 * CakeStrap (modified for bootstrap3) https://github.com/Rhym/cakeStrap
 * Ckeditor http://ckeditor.com/
 * KCfinder http://kcfinder.sunhater.com/
-* Minify https://github.com/mrclay/minify
+* Minify https://github.com/maurymmarques/minify-cakephp
 
 #Install
 * Create database, create Config/database.php
