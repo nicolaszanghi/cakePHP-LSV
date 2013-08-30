@@ -15,3 +15,9 @@ app/[Cc]onfig/database.php
 .idea/scopes/scope_settings.xml
 
 .idea/workspace.xml
+
+.idea/inspectionProfiles/Project_Default.xml
+
+.idea/inspectionProfiles/profiles_settings.xml
+
+.idea/sqldialects.xml
