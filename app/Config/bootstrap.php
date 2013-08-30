@@ -109,7 +109,6 @@ CakeLog::config('error', array(
 ));
 
 
-CakePlugin::load('AjaxMultiUpload', array('bootstrap' => true));
 CakePlugin::load(array('Minify' => array('routes' => true)));
 
 
