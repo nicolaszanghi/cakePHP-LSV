@@ -1,0 +1,168 @@
+
+
+/*************************************************************************************
+ * top
+ */
+#top-menu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#top-menu a {
+    display: block;
+}
+#top-menu li {
+    float: left;
+    margin-left: 15px;
+    list-style: none;
+}
+#search-input {
+    padding-left: .5em;
+}
+#header-languages-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+#header-languages-menu li {
+    margin-left: .3em;
+    float: left;
+    text-transform: uppercase;
+}
+#header-languages-menu li:after {
+    content: ' / ';
+}
+#header-languages-menu li:last-child:after {
+    content: '';
+}
+#header-languages-menu a, #social-link a{
+    display: inline;
+    line-height: inherit;
+}
+#social-link {
+    margin-top: -3px;
+}
+
+/*************************************************************************************
+ * header
+ */
+
+#section-header {
+    background-color: #f5f5f5;
+    min-height: 150px;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+#header-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#header-menu li {
+    display: inline;
+    margin-right: 2em;
+}
+#header-menu li.active a {
+    background-color: #428bca;
+    color: #fff;
+}
+
+#section-menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.69);
+}
+#section-menu ul {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#section-menu li {
+    display: inline;
+    margin-bottom: 10px;
+}
+#section-menu li:after {
+    content: ' / ';
+}
+#section-menu li:last-child:after {
+    content: '';
+}
+#section-menu a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+#section-menu li.active a {
+    background-color: #428bca;
+    color: #fff;
+}
+
+
+
+
+/*************************************************************************************
+ * footer
+ */
+#footer {
+    padding-top: 2em;
+    padding-bottom: 4em;
+    background-color: #f5f5f5;
+    margin-top: 1em;
+}
+
+
+#footer-top {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+#footer-menu a {
+}
+#footer-menu>li>ul {
+    padding-left: 10px;
+}
+#footer-menu li {
+    list-style: none;
+}
+#footer-menu>li {
+    float: left;
+    margin-right: 20px;
+
+}
+#footer-contact {
+    padding-left: 0;
+    list-style: none;
+}
+#footer-contact>li {
+    float: left;
+    margin-right: 1em;
+}
+#footer address {
+    margin-bottom: 0;
+}
+#contact-link {
+    font-style: italic;
+}
+/* newsletter */
+#footer legend {
+    border: none;
+    margin-bottom: 0;
+}
+#footer .input {
+    display: inline;
+    margin-right: 10px;
+}
+#footer .submit {
+    display: inline;
+}
+#footer input[type="text"] {
+}
+
+/*************************************************************************************
+ * cake
+ */
+.sql_dump {
+    margin-top: 100px;
+}

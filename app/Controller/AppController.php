@@ -125,11 +125,9 @@ class AppController extends Controller {
             $section = $this->Section->find('first', array('conditions' => array('Section.' . $this->Section->primaryKey => $id, 'Section.active' => true),
                                                            'recurisve' => -1));
 
-            if ($section['Section']['id'] != CALENDAR_ID) { // filter instead of child
-                $id_for_child = (empty($section['Section']['parent_id'])) ? $section['Section']['id'] : $section['Section']['parent_id'];
-                $child_sections = $this->Section->find('all', array('conditions' => array('Section.parent_id' => $id_for_child, 'Section.active' => true, 'Section.in_menu' => true),
-                                                                    'recursive' => -1));
-            }
+            $id_for_child = (empty($section['Section']['parent_id'])) ? $section['Section']['id'] : $section['Section']['parent_id'];
+            $child_sections = $this->Section->find('all', array('conditions' => array('Section.parent_id' => $id_for_child, 'Section.active' => true, 'Section.in_menu' => true),
+                                                                'recursive' => -1));
 
             // get contents
             $this->getManualPaginationContents($id);

@@ -128,11 +128,8 @@ Configure::write('App.encoding', 'utf-8');
 /**
  * constants
  */
-define('SITE_TITLE', "Concours de Genève");
-//define('SITE_URL', "http://www.concoursgeneve.ch");
-//define('SITE_URL', "http://localhost:8888/concoursgeneve/site");
-define('SITE_URL', "http://www.concoursgeneve.ch/site");
-// @todo change  online
+define('SITE_TITLE', "Site Title");
+define('SITE_URL', "http://localhost:8888/gitHubContribution/cakePHP-LSV"); // @todo change
 
 
 define('DATE_FORMAT', 'd.m.Y');
@@ -140,16 +137,12 @@ define('DATETIME_FORMAT', 'd.m.Y H:i');
 define('DATE_SELECT_FORMAT', 'DMY');
 define('TIME_SELECT_FORMAT', '24');
 
+define('HOME_ID', 1);
+define('CONTACT_ID', 2);
+
 define('CONTENT_TYPES', serialize(array('normal' => __('Normal'), 'video' => __('Video'), 'photos' => __('Photos'))));
 
-define('HOME_ID', 4);
-define('CALENDAR_ID', 3);
-define('NEWS_ID', 16);
-define('LAUREATES_ID', 5);
-define('JURIES_ID', 17);
-define('CONTACT_ID', 13);
-
-define('SPECIAL_SECTIONS', serialize(array(1,3,4,5,13,16,17)));
+define('SPECIAL_SECTIONS', serialize(array(1,2)));
 
 
 

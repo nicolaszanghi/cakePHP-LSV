@@ -45,7 +45,7 @@ class AppModel extends Model {
         if (empty($field)) $field = $this->displayField;
         $slug = $this->stringToSlug($data[$this->alias][$field]);
         $this->recursive = -1;
-        while ($this->find('count', array('conditions' => array('slug' => $slug))) > 0)
+        while ($this->find('count', array('conditions' => array('slug' => $slug, 'id !=' => $data[$this->alias]['id']))) > 0)
             $slug = substr($slug, 0, -1);
         return $this->saveField($slug_field, $slug);
     }

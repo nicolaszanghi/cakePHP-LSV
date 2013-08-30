@@ -53,7 +53,8 @@ $cakeDescription = SITE_TITLE;
 
         echo $this->Html->script(array('libs/bootstrap.min',)); // minify cant acces to themed js
 
-            echo $this->Html->script(array( 'jquery.videoBG',
+            echo $this->Html->script(array( 'init',
+                                            'jquery.videoBG',
                                              'jquery.scrollTo',
                                              'analytics',
                                             'carousel',
@@ -93,7 +94,7 @@ $cakeDescription = SITE_TITLE;
 
 
         <?php if (Configure::read('debug') > 0): ?>
-            <div class="container">
+            <div class="container sql_dump">
                 <div class="well">
                     <small>
                         <?php echo $this->element('sql_dump'); ?>

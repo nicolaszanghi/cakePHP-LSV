@@ -20,14 +20,6 @@ class SectionsController extends AppController {
 		if (!$this->Section->exists($id)) {
 			throw new NotFoundException(__('Invalid section'));
 		}
-        if ($id == NEWS_ID || $id == HOME_ID)
-            $this->redirect(array('controller' => 'news', 'action' => 'index'));
-        elseif ($id == CALENDAR_ID)
-            $this->redirect(array('controller' => 'events', 'action' => 'index'));
-        elseif ($id == LAUREATES_ID)
-            $this->redirect(array('controller' => 'laureates', 'action' => 'index'));
-        elseif ($id == JURIES_ID)
-            $this->redirect(array('controller' => 'juries', 'action' => 'index'));
 
         $this->getSectionAndChildSection($id); // get section and child_section
 

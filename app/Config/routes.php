@@ -30,7 +30,7 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 
-Router::connect('/', array('controller' => 'sections', 'action' => 'view', NEWS_ID));
+Router::connect('/', array('controller' => 'sections', 'action' => 'view', HOME_ID));
 
 Router::connect('/admin', array('admin' => true, 'controller' => 'sections', 'action' => 'index'));
 
@@ -46,36 +46,13 @@ Router::connect('/admin/:controller/:action/*',
  */
 $languages = array_keys(Configure::read('Config.languages'));
 
-Router::connect(
-    '/:language/events/:event_type_slug', // E.g. /blog/3-CakePHP_Rocks
-    array('controller' => 'events', 'action' => 'index'),
-    array('language' => implode('|', $languages),
-          'event_type_slug' => '[a-zA-Z0-9_-]+')
-);
-Router::connect(
-    '/:language/events/:event_type_slug/:date', // E.g. /blog/3-CakePHP_Rocks
-    array('controller' => 'events', 'action' => 'index'),
-    array('language' => implode('|', $languages),
-          'event_type_slug' => '[a-zA-Z0-9_-]+')
-);
-Router::connect(
-    '/:language/laureates/:year_selected',
-    array('controller' => 'laureates', 'action' => 'index'),
-    array('language' => implode('|', $languages))
-);
-Router::connect(
-    '/:language/juries/:year_selected',
-    array('controller' => 'juries', 'action' => 'index'),
-    array('language' => implode('|', $languages))
-);
-
 Router::connect('/:language/admin/:controller/:action/*',
     array('prefix' => 'admin', 'admin' => true),
     array('language' => implode('|', $languages))
 );
 
 Router::connect('/:language/admin',
-    array('prefix' => 'admin', 'admin' => true),
+    array('controller' => 'sections', 'action' => 'index', 'prefix' => 'admin', 'admin' => true),
     array('language' => implode('|', $languages))
 );
 
@@ -93,42 +70,14 @@ Router::connect('/:language/:controller',
  * slug
  */
 Router::connect(
-    '/events/:event_type_slug', // E.g. /blog/3-CakePHP_Rocks
-    array('controller' => 'events', 'action' => 'index'),
-    array('event_type_slug' => '[a-zA-Z0-9_-]+')
-);
-Router::connect(
-    '/events/:event_type_slug/:date', // E.g. /blog/3-CakePHP_Rocks
-    array('controller' => 'events', 'action' => 'index'),
-    array('event_type_slug' => '[a-zA-Z0-9_-]+')
-);
-Router::connect(
-    '/laureates/:year_selected',
-    array('controller' => 'laureates', 'action' => 'index'),
-    array()
-);
-Router::connect(
-    '/juries/:year_selected',
-    array('controller' => 'juries', 'action' => 'index'),
-    array()
-);
-Router::connect(
     '/:controller/:slug/*',
     array('action' => 'view'),
     array('slug' => '[a-zA-Z0-9_-]+')
 );
 
 
+Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
-
-    Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
-
-/*
-
-    Router::connect('/inscription_newsletter', array('controller' => 'content_pages', 'action' => 'view', 10));
-    Router::connect('/inscription_reussie_newsletter', array('controller' => 'content_pages', 'action' => 'view', 12));
-    Router::connect('/confirmation_newsletter', array('controller' => 'content_pages', 'action' => 'view', 11));
-*/
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on

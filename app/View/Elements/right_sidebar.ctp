@@ -1,1 +1,1 @@
-right bar
+right sidebar

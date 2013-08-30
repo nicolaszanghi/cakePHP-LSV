@@ -2,24 +2,14 @@
     <div class="row pull-right">
         <ul>
             <li id="social-link">
-                <?php echo $this->Html->image('twitter.png', array('url' => 'https://twitter.com/concoursgeneve')); ?>
-                <?php echo $this->Html->image('facebook.png', array('url' => 'https://www.facebook.com/ConcoursdeGeneve')); ?>
+                <?php echo $this->Html->image('twitter.png', array('url' => 'https://twitter.com/my_page')); ?>
+                <?php echo $this->Html->image('facebook.png', array('url' => 'https://www.facebook.com/my_page')); ?>
             </li>
             <li>
-                <?php echo $this->Html->link(__('registration'), 'http://www.concoursgeneve.ch/app', array('id' => 'registration-link')); ?>
-                <?php //echo $this->Html->link(__('sign in'), 'http://www.concoursgeneve.ch/app', array('id' => 'sign-in-link')); ?>
+                <?php echo $this->Html->link(__('newsletter'), SITE_URL.'/newsletter'); ?>
             </li>
             <li>
-                <?php echo $this->Html->link(__('tickets'), 'http://www.concoursgeneve.ch/tickets'); ?>
-            </li>
-            <li>
-                <?php echo $this->Html->link(__('press'), 'http://www.concoursgeneve.ch/press'); ?>
-            </li>
-            <li>
-                <?php echo $this->Html->link(__('newsletter'), 'http://www.concoursgeneve.ch/newsletter'); ?>
-            </li>
-            <li>
-                <?php echo $this->Html->link(__('contact'), 'http://www.concoursgeneve.ch/contact'); ?>
+                <?php echo $this->Html->link(__('contact'), array('controller' => 'sections', 'action' => 'view', CONTACT_ID), array('id' => 'contact-link')); ?>
             </li>
             <li>
                 <?php echo $this->Form->create('Content', array('url' => array('action' => 'search'), 'type' => 'get', 'inputDefaults' => array('label' => false), 'class' => 'form'));

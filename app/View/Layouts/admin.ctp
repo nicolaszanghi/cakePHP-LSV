@@ -45,7 +45,8 @@ $cakeDescription = SITE_TITLE;
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <?php
-			echo $this->Html->script(array('libs/bootstrap.min',
+			echo $this->Html->script(array('init',
+                                           'libs/bootstrap.min',
                                            'libs/bootstrap-datetimepicker.min',
                                            'libs/bootstrap-datetimepicker.fr.js',
                                            'ckeditor/ckeditor',
@@ -86,7 +87,7 @@ $cakeDescription = SITE_TITLE;
 		</div><!-- #main-container -->
 
         <?php if (Configure::read('debug') > 0): ?>
-            <div class="container">
+            <div class="container sql_dump">
                 <div class="row">
                     <div class="well">
                         <small>

@@ -13,7 +13,7 @@
     <div class="carousel-inner">
         <?php foreach($medias as $k => $media):?>
             <div class="item<?php if ($k == 0) echo ' active'; ?>">
-                <?php echo $this->Html->image('http://www.concoursgeneve.ch/'.$media); //@todo replace by SITE_URL ?>
+                <?php echo $this->Html->image(SITE_URL.$media); ?>
                 <div class="carousel-caption">
                     <?php echo $captions[$k]; ?>
                 </div>
