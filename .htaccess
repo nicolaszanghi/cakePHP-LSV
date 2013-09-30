@@ -28,10 +28,17 @@
 Header unset ETag
 FileETag None
 
+# 1 week
 <FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|pdf)$">
-    Header set Cache-Control "max-age=2592000"
+    Header set Cache-Control "max-age=604800"
 </FilesMatch>
-# explicitly disable caching for scripts and other dynamic files
-<FilesMatch ".(js|css|pl|php|cgi|spl|scgi|fcgi)$">
-    Header unset Cache-Control
+
+# 3 hour
+<FilesMatch "\.(txt|js|css)$">
+    Header set Cache-Control "max-age=10800"
+</FilesMatch>
+
+# never cache
+<FilesMatch ".(html|htm|xml|pl|php|cgi|spl|scgi|fcgi)$">
+    Header set Cache-Control "max-age=0, private, no-store, no-cache, must-revalidate"
 </FilesMatch>
