@@ -17,8 +17,9 @@
  */
 
 $cakeDescription = SITE_TITLE;
+
+echo $this->Html->docType('html5');
 ?>
-<!DOCTYPE HTML>
 <html>
 
 	<head>
@@ -35,9 +36,12 @@ $cakeDescription = SITE_TITLE;
 			
 			echo $this->fetch('meta');
 
-            echo $this->Html->css(array('bootstrap.min', 'bootstrap-responsive.min', 'core')); // minify cant acces to themed css
-            echo $this->Html->css(array('jquery.fancybox', 'jquery.datepick/smoothness.datepick', 'jplayer/midnight.black/jplayer.midnight.black', 'styles'));
-        //@todo minify
+            $this->Html->css(array('bootstrap.min', 'bootstrap-responsive.min', 'core'),
+                             null, array('inline' => false)); // minify cant acces to themed css
+
+            //@todo minify
+            $this->Html->css(array('jquery.fancybox', 'jquery.datepick/smoothness.datepick', 'jplayer/midnight.black/jplayer.midnight.black', 'styles'),
+                             null, array('inline' => false));
 
 			echo $this->fetch('css');
         ?>
@@ -46,31 +50,27 @@ $cakeDescription = SITE_TITLE;
             <?php echo $this->Html->css('ie'); ?>
         <![endif]-->
 
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <?php
+            $this->Html->script(array('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
+                                      '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js',
+                                      'libs/bootstrap.min'),
+                                array('inline' => false)); // minify cant acces to themed js
 
-        echo $this->Html->script(array('libs/bootstrap.min',)); // minify cant acces to themed js
-
-            echo $this->Html->script(array( 'init',
-                                            'jquery.videoBG',
-                                             'jquery.scrollTo',
-                                             'analytics',
-                                            'carousel',
-                                             'fancybox/jquery.fancybox.js',
-                                             'fancybox/helpers/jquery.fancybox-media.js',
-                                             'jplayer/jquery.jplayer.min.js',
-                                             'jquery.datepick/jquery.datepick',
-                                             'jquery.datepick/jquery.datepick-fr-CH',
-                                             'jquery.datepick/jquery.datepick-en-GB',
-                                            'main'));
-
-
-			echo $this->fetch('script');
+            //@todo minify
+            $this->Html->script(array('init',
+                                      'jquery.videoBG',
+                                      'jquery.scrollTo',
+                                      'analytics',
+                                      'carousel',
+                                      'fancybox/jquery.fancybox.js',
+                                      'fancybox/helpers/jquery.fancybox-media.js',
+                                      'jplayer/jquery.jplayer.min.js',
+                                      'jquery.datepick/jquery.datepick',
+                                      'jquery.datepick/jquery.datepick-fr-CH',
+                                      'jquery.datepick/jquery.datepick-en-GB',
+                                      'main'),
+                                 array('inlinep' => false));
         ?>
-
-
 	</head>
 
 	<body>
@@ -105,6 +105,7 @@ $cakeDescription = SITE_TITLE;
 
         </div><!-- #main-container -->
 
+        <?php echo $this->fetch('script'); ?>
         <?php echo $this->Js->writeBuffer();?>
 	</body>
 

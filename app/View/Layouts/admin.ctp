@@ -17,8 +17,9 @@
  */
 
 $cakeDescription = SITE_TITLE;
+
+echo $this->Html->docType('html5');
 ?>
-<!DOCTYPE HTML>
 <html>
 
 	<head>
@@ -31,30 +32,37 @@ $cakeDescription = SITE_TITLE;
 			
 			echo $this->fetch('meta');
 
-        // @todo change minify
-			echo $this->Html->css(array('bootstrap.min',
-			                            'bootstrap-responsive.min',
-                                        'bootstrap-glyphicons',
-                                        'bootstrap-datetimepicker.min',
-			                              'core',
-                                          'admin'));
+            //@todo minify
+			$this->Html->css(array('bootstrap.min',
+                                   'bootstrap-responsive.min',
+                                   'bootstrap-glyphicons',
+                                   'bootstrap-datetimepicker.min',
+			                       'core',
+                                   'admin'),
+                              null,
+                              array('inline' => false));
 
 			echo $this->fetch('css');
         ?>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <?php
-			echo $this->Html->script(array('init',
-                                           'libs/bootstrap.min',
-                                           'libs/bootstrap-datetimepicker.min',
-                                           'libs/bootstrap-datetimepicker.fr.js',
-                                           'ckeditor/ckeditor',
-                                           'ckeditor/adapters/jquery',
-                                           'ckeditor_init',
-                                           'admin'));
-			
-			echo $this->fetch('script');
+            $this->Html->script(array('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
+                                      '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'),
+                                null,
+                                array('inline' => false));
+
+            //@todo minify
+			$this->Html->script(array('init',
+                                      'libs/bootstrap.min',
+                                      'libs/bootstrap-datetimepicker.min',
+                                      'libs/bootstrap-datetimepicker.fr.js',
+                                      'ckeditor/ckeditor',
+                                      'ckeditor/adapters/jquery',
+                                      'ckeditor_init',
+                                      'admin'),
+                                null,
+                                array('inline' => false));
+
 		?>
 	</head>
 
@@ -98,7 +106,8 @@ $cakeDescription = SITE_TITLE;
             </div><!-- .container -->
         <?php endif; ?>
 
-        <?php echo $this->Js->writeBuffer();?>
+        <?php echo $this->fetch('script'); ?>
+        <?php echo $this->Js->writeBuffer(); ?>
 	</body>
 
 </html>
