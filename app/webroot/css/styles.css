@@ -166,3 +166,11 @@
 .sql_dump {
     margin-top: 100px;
 }
+/**
+ * alert error like bootstrap
+ */
+.alert-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
