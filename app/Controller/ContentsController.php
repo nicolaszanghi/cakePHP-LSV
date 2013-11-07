@@ -31,8 +31,6 @@ class ContentsController extends AppController {
                                 )
         );
 
-        // @todo add event, news, laureates, juries, section
-
         $this->Content->recursive = 0;
         $this->set('results', $this->paginate());
     }
