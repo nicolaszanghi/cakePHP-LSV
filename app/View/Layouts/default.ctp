@@ -72,7 +72,7 @@ echo $this->Html->docType('html5');
             '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js',
             'libs/bootstrap.min'
             ),
-            array('inline' => false)
+            array('block' => 'firstScripts')
           ); // minify cant acces to themed js
 
           //@todo minify
@@ -90,7 +90,7 @@ echo $this->Html->docType('html5');
             'jquery.datepick/jquery.datepick-en-GB',
             'main'
             ),
-            array('inline' => false)
+            array('block' => 'firstScripts')
           );
         ?>
 	</head>
@@ -127,6 +127,7 @@ echo $this->Html->docType('html5');
 
         </div><!-- #main-container -->
 
+        <?php echo $this->fetch('firstScripts'); ?>
         <?php echo $this->fetch('script'); ?>
         <?php echo $this->Js->writeBuffer();?>
 	</body>
