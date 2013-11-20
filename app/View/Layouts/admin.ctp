@@ -52,7 +52,7 @@ echo $this->Html->docType('html5');
           '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'
         ),
         null,
-        array('inline' => false)
+        array('block' => 'firstScripts')
       );
 
       //@todo minify
@@ -67,7 +67,7 @@ echo $this->Html->docType('html5');
           'admin'
         ),
         null,
-        array('inline' => false)
+        array('block' => 'firstScripts')
       );
 		?>
 
@@ -116,6 +116,7 @@ echo $this->Html->docType('html5');
             </div><!-- .container -->
         <?php endif; ?>
 
+        <?php echo $this->fetch('firstScripts'); ?>
         <?php echo $this->fetch('script'); ?>
         <?php echo $this->Js->writeBuffer(); ?>
 	</body>
