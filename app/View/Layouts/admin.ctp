@@ -32,38 +32,50 @@ echo $this->Html->docType('html5');
 			
 			echo $this->fetch('meta');
 
-            //@todo minify
-			$this->Html->css(array('bootstrap.min',
-                                   'bootstrap-responsive.min',
-                                   'bootstrap-glyphicons',
-                                   'bootstrap-datetimepicker.min',
-			                       'core',
-                                   'admin'),
-                              null,
-                              array('inline' => false));
+      //@todo minify
+			$this->Html->css(array(
+          'bootstrap.min',
+          'bootstrap-responsive.min',
+          'bootstrap-glyphicons',
+          'bootstrap-datetimepicker.min',
+			    'core',
+          'admin'
+        ),
+        null,
+        array('inline' => false)
+      );
 
 			echo $this->fetch('css');
-        ?>
+    ?>
 
-        <?php
-            $this->Html->script(array('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
-                                      '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'),
-                                null,
-                                array('inline' => false));
+    <?php
+      $this->Html->script(array(
+          '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
+          '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'
+        ),
+        null,
+        array('inline' => false)
+      );
 
-            //@todo minify
-			$this->Html->script(array('init',
-                                      'libs/bootstrap.min',
-                                      'libs/bootstrap-datetimepicker.min',
-                                      'libs/bootstrap-datetimepicker.fr.js',
-                                      'ckeditor/ckeditor',
-                                      'ckeditor/adapters/jquery',
-                                      'ckeditor_init',
-                                      'admin'),
-                                null,
-                                array('inline' => false));
-
+      //@todo minify
+  		$this->Html->script(array(
+          'init',
+          'libs/bootstrap.min',
+          'libs/bootstrap-datetimepicker.min',
+          'libs/bootstrap-datetimepicker.fr.js',
+          'ckeditor/ckeditor',
+          'ckeditor/adapters/jquery',
+          'ckeditor_init',
+          'admin'
+        ),
+        null,
+        array('inline' => false)
+      );
 		?>
+
+    <!--[if lte IE 9]>
+    <?php echo $this->Html->css(array('old_ie.css')); ?>
+    <![endif]-->
 	</head>
 
 	<body>

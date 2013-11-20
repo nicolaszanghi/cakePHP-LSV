@@ -31,45 +31,67 @@ echo $this->Html->docType('html5');
         <?php /*<meta name="robots" content="noindex,nofollow">*/ ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<?php
-			echo $this->Html->meta('icon');
-			
-			echo $this->fetch('meta');
+		    <?php
+          echo $this->Html->meta('icon');
+          echo $this->fetch('meta');
 
-            $this->Html->css(array('bootstrap.min', 'bootstrap-responsive.min', 'core'),
-                             null, array('inline' => false)); // minify cant acces to themed css
+          $this->Html->css(array(
+            'bootstrap.min',
+            'bootstrap-responsive.min',
+            'core'
+            ),
+            null,
+            array('inline' => false)
+          ); // minify cant acces to themed css
 
-            //@todo minify
-            $this->Html->css(array('jquery.fancybox', 'jquery.datepick/smoothness.datepick', 'jplayer/midnight.black/jplayer.midnight.black', 'styles'),
-                             null, array('inline' => false));
+          //@todo minify
+          $this->Html->css(array(
+            'jquery.fancybox',
+            'jquery.datepick/smoothness.datepick',
+            'jplayer/midnight.black/jplayer.midnight.black',
+            'styles'
+            ),
+            null,
+            array('inline' => false)
+          );
 
-			echo $this->fetch('css');
+          echo $this->fetch('css');
         ?>
 
         <!--[if IE]>
             <?php echo $this->Html->css('ie'); ?>
         <![endif]-->
 
-        <?php
-            $this->Html->script(array('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
-                                      '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js',
-                                      'libs/bootstrap.min'),
-                                array('inline' => false)); // minify cant acces to themed js
+        <!--[if lte IE 9]>
+        <?php echo $this->Html->css(array('old_ie.css')); ?>
+        <![endif]-->
 
-            //@todo minify
-            $this->Html->script(array('init',
-                                      'jquery.videoBG',
-                                      'jquery.scrollTo',
-                                      'analytics',
-                                      'carousel',
-                                      'fancybox/jquery.fancybox.js',
-                                      'fancybox/helpers/jquery.fancybox-media.js',
-                                      'jplayer/jquery.jplayer.min.js',
-                                      'jquery.datepick/jquery.datepick',
-                                      'jquery.datepick/jquery.datepick-fr-CH',
-                                      'jquery.datepick/jquery.datepick-en-GB',
-                                      'main'),
-                                 array('inlinep' => false));
+        <?php
+          $this->Html->script(array(
+            '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
+            '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js',
+            'libs/bootstrap.min'
+            ),
+            array('inline' => false)
+          ); // minify cant acces to themed js
+
+          //@todo minify
+          $this->Html->script(array(
+            'init',
+            'jquery.videoBG',
+            'jquery.scrollTo',
+            'analytics',
+            'carousel',
+            'fancybox/jquery.fancybox.js',
+            'fancybox/helpers/jquery.fancybox-media.js',
+            'jplayer/jquery.jplayer.min.js',
+            'jquery.datepick/jquery.datepick',
+            'jquery.datepick/jquery.datepick-fr-CH',
+            'jquery.datepick/jquery.datepick-en-GB',
+            'main'
+            ),
+            array('inline' => false)
+          );
         ?>
 	</head>
 
