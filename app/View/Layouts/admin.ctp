@@ -32,18 +32,16 @@ echo $this->Html->docType('html5');
 			
 			echo $this->fetch('meta');
 
-      //@todo minify
-			$this->Html->css(array(
-          'bootstrap.min',
-          'bootstrap-responsive.min',
-          'bootstrap-glyphicons',
-          'bootstrap-datetimepicker.min',
-			    'core',
-          'admin'
-        ),
-        null,
-        array('inline' => false)
-      );
+        $this->Html->css(array('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css',
+                               'bootstrap-datetimepicker.min'),
+                         null,
+                         array('inline' => false));
+
+        // @todo minify
+        $this->Html->css(array('core',
+                               'admin'),
+                         null,
+                         array('inline' => false));
 
 			echo $this->fetch('css');
     ?>
