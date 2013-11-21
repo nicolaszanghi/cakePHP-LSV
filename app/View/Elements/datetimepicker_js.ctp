@@ -4,7 +4,19 @@ $this->Html->scriptBlock("
 $(document).ready(function() {
     $('.datetimepicker').datetimepicker({
         language: '$lang',
+        weekStart: 1,
+        pickSeconds: false
+    });
+    $('.datepicker').datetimepicker({
+        language: '$lang',
         weekStart: 1
+        pickTime: false
+    });
+    $('.timepicker').datetimepicker({
+        language: '$lang',
+        weekStart: 1,
+        pickDate: false,
+        pickSeconds: false
     });
 });
-",array('inline'=>false));
+", array('inline'=>false));

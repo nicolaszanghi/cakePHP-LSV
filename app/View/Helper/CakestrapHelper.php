@@ -3,6 +3,9 @@ App::uses('FormHelper', 'View/Helper');
 
 class CakestrapHelper extends FormHelper {
 
+    public $inputClass = '';
+    public $divClass = '';
+
     public function input($fieldName, $options = array()) {
 
         parent::setEntity($fieldName);
@@ -30,12 +33,14 @@ class CakestrapHelper extends FormHelper {
         } elseif (!empty($options['multiple']) && $options['multiple'] == 'checkbox') {
             $options['class'] .= ' checkbox';
 
-            /** date/time => datetimeplicker */
+            /** date/time => datetimeplicker
+            /!\ DON'T FORGET TO ADD Elements/datetimpepicker_js AT THE END OF YOUR VIEW */
         } elseif (in_array($options['type'], array('datetime', 'date', 'time'))) {
 
             $before_label = parent::_getLabel($fieldName, $options);
             $options['label'] = false;
-            $options['div']['class'] .= ' datetimepicker input-group date';
+            $options['div']['class'] .= ' '.$options['type'].'picker input-group date'; // datetimepicker, datepicker or timepicker
+
             $data_format = array('datetime' => 'yyyy-MM-dd hh:mm:ss', 'date' => 'yyyy-MM-dd', 'time' => 'hh:mm:ss');
             $options['data-format'] = $data_format[$options['type']];
             $options['class'] .= ' form-control';
@@ -67,6 +72,15 @@ class CakestrapHelper extends FormHelper {
         if (!empty($options['help-block']))
             $options['after'] .= "\n\t".'<p class="help-block">'.$options['help-block'].'</p>';
 
+
+        if (!empty($this->inputClass))
+            $options['class'] .= ' '.$this->inputClass;
+        if (!empty($this->divClass))
+            $options['div']['class'] .= ' '.$this->divClass;
+
+        /**
+         * output
+         */
 
         /** if local option is true display an input per languages */
         if (!empty($options['locale'])) {
