@@ -26,11 +26,15 @@ class User extends AppModel {
 			'notempty' => array(
 				'rule' => array('notempty'),
 				//'message' => 'Your custom message here',
-				'allowEmpty' => true,
-				//'required' => false,
+				//'allowEmpty' => true,
+				'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+            'minLength' => array(
+                'rule'    => array('minLength', '6'),
+                'message' => 'Minimum 6 characters long'
+            )
 		),
         'password_confirm' => array(
             'equaltofield' => array(
