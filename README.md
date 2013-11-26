@@ -13,6 +13,7 @@ Language :  eng, fra
 * Ckeditor http://ckeditor.com/
 * KCfinder http://kcfinder.sunhater.com/
 * Minify https://github.com/maurymmarques/minify-cakephp
+* TranslateEnhancements Behavior Validate and Association https://github.com/joostdekeijzer/CakePHP-TranslateEnhancements
 
 #Install
 * Create database, create Config/database.php
