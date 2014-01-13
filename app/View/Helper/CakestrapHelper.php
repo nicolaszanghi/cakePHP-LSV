@@ -5,6 +5,7 @@ class CakestrapHelper extends FormHelper {
 
     public $inputClass = '';
     public $divClass = '';
+    public $placeholder = true;
 
     public function input($fieldName, $options = array()) {
 
@@ -16,7 +17,7 @@ class CakestrapHelper extends FormHelper {
         if (empty($options['div']['class'])) $options['div']['class'] = '';
 
         /** placeholder */
-        if (!isset($options['placeholder']))
+        if ($this->placeholder && !isset($options['placeholder']))
             $options['placeholder'] = strip_tags(parent::_getLabel($fieldName, $options));
 
 
