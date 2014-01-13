@@ -20,8 +20,9 @@
                 <ul id="header-languages-menu">
                     <?php
                     $url = (in_array(substr($this->params->url, 0, 3), array_keys(Configure::read('Config.languages')))) ? substr($this->params->url, 4) : $this->params->url;
+                    $language_active[Configure::read('Config.language')] = ' class="active"';
                     foreach (Configure::read('Config.languages') as $code => $language) { // show links for translated version
-                        echo '<li>'.$this->Html->link(substr($code, 0, 2),  '/'.$code.'/'.$url).'</li>';
+                        echo '<li'.@$language_active[$code].'>'.$this->Html->link(substr($code, 0, 2),  '/'.$code.'/'.$url).'</li>';
                     }?>
                 </ul>
             </li>

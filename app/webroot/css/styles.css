@@ -34,6 +34,9 @@ label {
     float: left;
     text-transform: uppercase;
 }
+#header-languages-menu li.active {
+    text-decoration: underline;
+}
 #header-languages-menu li:after {
     content: ' / ';
 }
