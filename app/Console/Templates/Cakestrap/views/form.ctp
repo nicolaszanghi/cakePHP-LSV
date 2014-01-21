@@ -57,7 +57,7 @@
 					if (strpos($action, 'add') !== false && $field == $primaryKey) {
 						continue;
 					} elseif (!in_array($field, array('created', 'modified', 'updated'))) {
-                        echo "\t\t\t\t\t<?php echo \$this->Cakestrap->input('{$modelClass}.{$field}'); ?>\n";
+                        echo "\t\t\t\t\t<?php echo \$this->Form->input('{$modelClass}.{$field}'); ?>\n";
                    /*
 						echo "<div class=\"control-group\">\n";
 						echo "\t<?php echo \$this->Form->label('{$field}', '{$field}', array('class' => 'control-label'));?>\n";
@@ -71,7 +71,7 @@
 				}
 				if (!empty($associations['hasAndBelongsToMany'])) {
 					foreach ($associations['hasAndBelongsToMany'] as $assocName => $assocData) {
-						echo "\t\t\t\t<?php echo \$this->Cakestrap->input('{$assocName}');?>\n";
+						echo "\t\t\t\t<?php echo \$this->Form->input('{$assocName}');?>\n";
 					}
 				}
 			?>

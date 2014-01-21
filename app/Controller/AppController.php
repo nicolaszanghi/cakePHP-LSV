@@ -57,8 +57,8 @@ class AppController extends Controller {
     );
 
     public $helpers = array(
-        'Minify.Minify',
-        'Cakestrap'
+        'Form' =>  array('className' => 'Cakestrap'),
+        'Minify.Minify'
     );
 
     public function beforeFilter() {

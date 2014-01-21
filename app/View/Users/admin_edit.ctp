@@ -20,10 +20,10 @@
                 <?php echo $this->Form->submit(__('Save'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>
                 <fieldset>
                     <?php echo $this->Form->input('id', array('class' => 'span12')); ?>
-                    <?php echo $this->Cakestrap->input('User.role', array('options' => array('admin' => 'Admin', 'author' => 'Author'))); ?>
-                    <?php echo $this->Cakestrap->input('User.email'); ?>
-                    <?php echo $this->Cakestrap->input('User.password', array('value' => '', 'placeholder' => '')); ?>
-                    <?php echo $this->Cakestrap->input('User.password_confirm', array('type' => 'password')); ?>
+                    <?php echo $this->Form->input('User.role', array('options' => array('admin' => 'Admin', 'author' => 'Author'))); ?>
+                    <?php echo $this->Form->input('User.email'); ?>
+                    <?php echo $this->Form->input('User.password', array('value' => '', 'placeholder' => '')); ?>
+                    <?php echo $this->Form->input('User.password_confirm', array('type' => 'password')); ?>
 
                 </fieldset>
                 <?php echo $this->Form->submit(__('Save'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>

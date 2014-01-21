@@ -23,20 +23,20 @@
 			<?php echo $this->Form->create('Section', array('inputDefaults' => array('label' => false), 'class' => 'form')); ?>
                 <?php echo $this->Form->submit(__('Save'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>
 				<fieldset>
-					<?php echo $this->Cakestrap->input('Section.id'); ?>
-					<?php echo $this->Cakestrap->input('Section.active'); ?>
-                    <?php echo $this->Cakestrap->input('Section.in_menu'); ?>
-					<?php echo $this->Cakestrap->input('Section.parent_id', array('empty' => true)); ?>
-					<?php echo $this->Cakestrap->input('Section.title_eng'); ?>
-					<?php echo $this->Cakestrap->input('Section.title_fra'); ?>
-                    <?php echo $this->Cakestrap->input('Section.menu_title_eng'); ?>
-                    <?php echo $this->Cakestrap->input('Section.menu_title_fra'); ?>
-					<?php echo $this->Cakestrap->input('Section.subtitle_eng'); ?>
-					<?php echo $this->Cakestrap->input('Section.subtitle_fra'); ?>
-					<?php echo $this->Cakestrap->input('Section.body_eng'); ?>
-					<?php echo $this->Cakestrap->input('Section.body_fra'); ?>
+					<?php echo $this->Form->input('Section.id'); ?>
+					<?php echo $this->Form->input('Section.active'); ?>
+                    <?php echo $this->Form->input('Section.in_menu'); ?>
+					<?php echo $this->Form->input('Section.parent_id', array('empty' => true)); ?>
+					<?php echo $this->Form->input('Section.title_eng'); ?>
+					<?php echo $this->Form->input('Section.title_fra'); ?>
+                    <?php echo $this->Form->input('Section.menu_title_eng'); ?>
+                    <?php echo $this->Form->input('Section.menu_title_fra'); ?>
+					<?php echo $this->Form->input('Section.subtitle_eng'); ?>
+					<?php echo $this->Form->input('Section.subtitle_fra'); ?>
+					<?php echo $this->Form->input('Section.body_eng'); ?>
+					<?php echo $this->Form->input('Section.body_fra'); ?>
 
-                    <?php echo $this->Cakestrap->input('Section.image_header'); ?>
+                    <?php echo $this->Form->input('Section.image_header'); ?>
                     <div class="kcfinder-image-header" onclick="openKCFinder(this, 'SectionImageHeader')">
                         <?php if (!empty($this->request->data['Section']['image_header']))
                             echo $this->Html->image($this->request->data['Section']['image_header']);

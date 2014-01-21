@@ -10,7 +10,7 @@
             <div class="row">
                 <?php echo $this->Form->create('Section', array('inputDefaults' => array('label' => false), 'class' => 'form')); ?>
                     <div class="col-lg-4">
-                        <?php echo $this->Cakestrap->input('search_string', array('type' => 'search')); ?>
+                        <?php echo $this->Form->input('search_string', array('type' => 'search')); ?>
                     </div>
                 <?php echo $this->Form->end(); ?>
 

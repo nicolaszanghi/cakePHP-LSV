@@ -21,13 +21,13 @@
             <?php echo $this->Form->create('Content', array('url' => array($this->Form->value('Content.id'), $redirect_controller, $redirect_id, $redirect_name), 'inputDefaults' => array('label' => false), 'class' => 'form')); ?>
                 <?php echo $this->Form->submit(__('Save'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>
 				<fieldset>
-					<?php echo $this->Cakestrap->input('Content.id'); ?>
-                    <?php echo $this->Cakestrap->input('Content.section_id', array('type' => 'hidden')); ?>
-                    <?php echo $this->Cakestrap->input('Content.laureate_id', array('type' => 'hidden')); ?>
-                    <?php echo $this->Cakestrap->input('Content.jury_id', array('type' => 'hidden')); ?>
-                    <?php echo $this->Cakestrap->input('Content.active'); ?>
+					<?php echo $this->Form->input('Content.id'); ?>
+                    <?php echo $this->Form->input('Content.section_id', array('type' => 'hidden')); ?>
+                    <?php echo $this->Form->input('Content.laureate_id', array('type' => 'hidden')); ?>
+                    <?php echo $this->Form->input('Content.jury_id', array('type' => 'hidden')); ?>
+                    <?php echo $this->Form->input('Content.active'); ?>
 
-                    <?php echo $this->Cakestrap->input('Content.type', array('options' => unserialize(CONTENT_TYPES)));
+                    <?php echo $this->Form->input('Content.type', array('options' => unserialize(CONTENT_TYPES)));
                     $this->Js->get('#ContentType')->event('change', "if (this.value == 'normal') {
                                                                         $('#ContentBodyEngDiv').show();
                                                                         $('#ContentBodyFraDiv').show();
@@ -56,20 +56,20 @@
                                                                    "); ?>
 
 
-                    <?php echo $this->Cakestrap->input('Content.title_eng'); ?>
-                    <?php echo $this->Cakestrap->input('Content.title_fra'); ?>
-                    <?php echo $this->Cakestrap->input('Content.body_eng', array('div' => array('id' => 'ContentBodyEngDiv'))); ?>
-                    <?php echo $this->Cakestrap->input('Content.body_fra', array('div' => array('id' => 'ContentBodyFraDiv'))); ?>
+                    <?php echo $this->Form->input('Content.title_eng'); ?>
+                    <?php echo $this->Form->input('Content.title_fra'); ?>
+                    <?php echo $this->Form->input('Content.body_eng', array('div' => array('id' => 'ContentBodyEngDiv'))); ?>
+                    <?php echo $this->Form->input('Content.body_fra', array('div' => array('id' => 'ContentBodyFraDiv'))); ?>
 
-                    <?php echo $this->Cakestrap->input('Content.media', array('class' => 'mceNoEditor', 'div' => array('id' => 'ContentMediaDiv', 'class' => 'display_none'))); ?>
+                    <?php echo $this->Form->input('Content.media', array('class' => 'mceNoEditor', 'div' => array('id' => 'ContentMediaDiv', 'class' => 'display_none'))); ?>
                     <?php echo $this->Html->link('<i class="glyphicon glyphicon-info-sign"></i> '.__('Select Photos'), array(), array('id' => 'PhotosMedia', 'class' => 'btn btn-success display_none', 'escape' => false));
                     $this->Js->get('#PhotosMedia')->event('click', 'openKCFinderMultipleFiles("#ContentMedia");'); ?>
                     <?php //@todo change glyph with upload ?>
                     <div id="VideoMedia" class="display_none"><?php echo __('Paste your video embed code in Media'); ?></div>
 
 
-                    <?php echo $this->Cakestrap->input('Content.caption_eng', array('class' => 'mceNoEditor', 'div' => array('id' => 'ContentCaptionEngDiv', 'class' => 'display_none'))); ?>
-                    <?php echo $this->Cakestrap->input('Content.caption_fra', array('class' => 'mceNoEditor', 'div' => array('id' => 'ContentCaptionFraDiv', 'class' => 'display_none'))); ?>
+                    <?php echo $this->Form->input('Content.caption_eng', array('class' => 'mceNoEditor', 'div' => array('id' => 'ContentCaptionEngDiv', 'class' => 'display_none'))); ?>
+                    <?php echo $this->Form->input('Content.caption_fra', array('class' => 'mceNoEditor', 'div' => array('id' => 'ContentCaptionFraDiv', 'class' => 'display_none'))); ?>
 
 
 				</fieldset>
