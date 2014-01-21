@@ -1,4 +1,4 @@
-<?php echo $this->Form->create(null, array('url' => '', 'name' => 'signup', 'accept-charset' => 'utf-8', 'inputDefaults' => array('label' => false), 'class' => 'form')); ?>
+<?php echo $this->Form->create(null, array('url' => '', 'name' => 'signup', 'accept-charset' => 'utf-8', 'class' => 'form')); ?>
     <fieldset>
         <legend><?php echo __('newsletter'); ?></legend>
         <?php echo $this->Form->input(__('E-mail'), array('name' => 'Email', 'placeholder' => __('E-mail'), 'size' => 30)); ?>

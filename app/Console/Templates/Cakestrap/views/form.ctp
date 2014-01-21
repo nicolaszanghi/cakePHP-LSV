@@ -50,7 +50,7 @@
 
 		<div class="<?php echo $pluralVar; ?> form">
 		
-			<?php echo "<?php echo \$this->Form->create('{$modelClass}', array('inputDefaults' => array('label' => false), 'class' => 'form')); ?>\n"; ?>
+			<?php echo "<?php echo \$this->Form->create('{$modelClass}', array('class' => 'form')); ?>\n"; ?>
 				<fieldset>
 					<h2><?php printf("<?php echo __('%s %s'); ?>", Inflector::humanize($action), $singularHumanName); ?></h2>
 <?php foreach ($fields as $field) {

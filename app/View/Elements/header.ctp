@@ -12,7 +12,7 @@
                 <?php echo $this->Html->link(__('contact'), array('controller' => 'sections', 'action' => 'view', CONTACT_ID), array('id' => 'contact-link')); ?>
             </li>
             <li>
-                <?php echo $this->Form->create('Content', array('url' => array('action' => 'search'), 'type' => 'get', 'inputDefaults' => array('label' => false), 'class' => 'form'));
+                <?php echo $this->Form->create('Content', array('url' => array('action' => 'search'), 'type' => 'get', 'class' => 'form'));
                     echo $this->Form->input('search_string', array('id' => 'search-input', 'placeholder' => __('Search')));
                 echo $this->Form->end(); ?>
             </li>

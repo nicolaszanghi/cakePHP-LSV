@@ -8,7 +8,7 @@
 			<h2><?php echo __('Sections'); ?></h2>
 
             <div class="row">
-                <?php echo $this->Form->create('Section', array('inputDefaults' => array('label' => false), 'class' => 'form')); ?>
+                <?php echo $this->Form->create('Section', array('class' => 'form')); ?>
                     <div class="col-lg-4">
                         <?php echo $this->Form->input('search_string', array('type' => 'search')); ?>
                     </div>

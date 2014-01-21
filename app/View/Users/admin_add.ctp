@@ -4,7 +4,7 @@
 
         <div class="users form">
 
-            <?php echo $this->Form->create('User', array('inputDefaults' => array('label' => false), 'class' => 'form')); ?>
+            <?php echo $this->Form->create('User', array('class' => 'form')); ?>
             <fieldset>
                 <h2><?php echo __('Add User'); ?></h2>
                 <?php echo $this->Form->input('User.role', array('options' => array('admin' => 'Admin', 'author' => 'Author'))); ?>

@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-			<?php echo $this->Form->create('Section', array('inputDefaults' => array('label' => false), 'class' => 'form')); ?>
+			<?php echo $this->Form->create('Section', array('class' => 'form')); ?>
                 <?php echo $this->Form->submit(__('Save'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>
 				<fieldset>
 					<?php echo $this->Form->input('Section.id'); ?>

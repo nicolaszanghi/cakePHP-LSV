@@ -16,7 +16,7 @@
                 </div>
             </div>
 
-            <?php echo $this->Form->create('User', array('inputDefaults' => array('label' => false), 'class' => 'form')); ?>
+            <?php echo $this->Form->create('User', array('class' => 'form')); ?>
                 <?php echo $this->Form->submit(__('Save'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>
                 <fieldset>
                     <?php echo $this->Form->input('id', array('class' => 'span12')); ?>
