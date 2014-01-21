@@ -40,7 +40,7 @@ class CakestrapHelper extends FormHelper {
 
             $before_label = parent::_getLabel($fieldName, $options);
             $options['label'] = false;
-            $options['div']['class'] .= ' '.$options['type'].'picker input-group date'; // datetimepicker, datepicker or timepicker
+            $options['div']['class'] .= ' '.$options['type'].'picker input-group date form-group'; // datetimepicker, datepicker or timepicker
 
             $data_format = array('datetime' => 'yyyy-MM-dd hh:mm:ss', 'date' => 'yyyy-MM-dd', 'time' => 'hh:mm:ss');
             $options['data-format'] = $data_format[$options['type']];
