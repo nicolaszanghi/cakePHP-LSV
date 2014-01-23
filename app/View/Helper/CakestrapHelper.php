@@ -117,4 +117,38 @@ class CakestrapHelper extends FormHelper {
         return $output;
 
     }
+
+
+    /**
+     * rewrite tagIsInvalid to show validation error for translated input (unset lang in entity)
+     */
+    public function tagIsInvalid() {
+        $entity = $this->entity();
+        $model = array_shift($entity);
+
+        // 0.Model.field. Fudge entity path
+        if (empty($model) || is_numeric($model)) {
+            array_splice($entity, 1, 0, $model);
+            $model = array_shift($entity);
+        }
+
+        $errors = array();
+        if (!empty($entity) && isset($this->validationErrors[$model])) {
+            $errors = $this->validationErrors[$model];
+        }
+        if (!empty($entity) && empty($errors)) {
+            $errors = $this->_introspectModel($model, 'errors');
+        }
+        if (empty($errors)) {
+            return false;
+        }
+
+        // added by nico
+        if (!empty($entity[1]) && in_array($entity[1], array_keys(Configure::read('Config.languages'))))
+            unset($entity[1]);
+
+        $errors = Hash::get($errors, implode('.', $entity));
+        return $errors === null ? false : $errors;
+    }
+
 }
