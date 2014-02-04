@@ -20,6 +20,11 @@ class CakestrapHelper extends FormHelper {
         if ($this->placeholder && !isset($options['placeholder']))
             $options['placeholder'] = strip_tags(parent::_getLabel($fieldName, $options));
 
+        if (@$options['placeholder'] === true) {
+            $options['placeholder'] = $options['label'];
+            $options['label'] = false;
+        }
+
 
         $options['div']['class'] .= ' input '.$options['type'];
 
@@ -42,7 +47,7 @@ class CakestrapHelper extends FormHelper {
             $options['label'] = false;
             $options['div']['class'] .= ' '.$options['type'].'picker input-group date form-group'; // datetimepicker, datepicker or timepicker
 
-            $data_format = array('datetime' => 'yyyy-MM-dd hh:mm:ss', 'date' => 'yyyy-MM-dd', 'time' => 'hh:mm:ss');
+            $data_format = array('datetime' => 'yyyy-MM-dd hh:mm', 'date' => 'yyyy-MM-dd', 'time' => 'hh:mm');
             $options['data-format'] = $data_format[$options['type']];
             $options['class'] .= ' form-control';
             $options['after'] = '<span class="input-group-addon">
@@ -86,20 +91,23 @@ class CakestrapHelper extends FormHelper {
         /** if local option is true display an input per languages */
         if (!empty($options['locale'])) {
             $output = '';
-            $placeholder = $options['placeholder'];
+            if (!empty($options['placeholder'])) $placeholder = $options['placeholder'];
             $label = (empty($options['label'])) ? strip_tags(parent::_getLabel($fieldName, $options)) : $options['label'];
 
             // get translations, for edit
-            if (!empty($this->request->data)) {
-                $translations_tmp = $this->request->data[end(explode('.', $fieldName)).'Translation'];
+            $translations_tmp = @$this->request->data[end(explode('.', $fieldName)).'Translation'];
+            if (!empty($translations_tmp)) {
                 $translations = array();
                 foreach ($translations_tmp as $translation)
                     $translations[$translation['locale']] = $translation['content'];
             }
 
-            foreach (Configure::read('Config.languages') as $k => $v) { // eng => English, fra => Français
+            $languages = Configure::read('Config.languages');
+            foreach ($languages as $k => $v) { // eng => English, fra => Français
                 if (!empty($placeholder)) $options['placeholder'] = $placeholder.' ('.$v.')';
-                if (!empty($label)) $options['label'] = $label.' ('.$v.')';
+                if (!empty($label)) { $options['label'] = $label;
+                    if (count($languages)>1) $options['label'] .= ' ('.$v.')';
+                }
                 if (!empty($translations)) $options['value'] = $translations[$k];
                 $output .= parent::input($fieldName.'.'.$k, $options);
             }
@@ -117,7 +125,6 @@ class CakestrapHelper extends FormHelper {
         return $output;
 
     }
-
 
     /**
      * rewrite tagIsInvalid to show validation error for translated input (unset lang in entity)
