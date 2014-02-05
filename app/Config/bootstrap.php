@@ -117,6 +117,8 @@ CakePlugin::load(array('Minify' => array('routes' => true)));
  */
 define('DEFAULT_LANGUAGE', 'eng').
 
+Configure::write('Config.language', DEFAULT_LANGUAGE);
+
 Configure::write('Config.languages', array(
     'eng' => 'English',
     'fra' => 'Français',

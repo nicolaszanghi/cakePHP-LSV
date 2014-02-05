@@ -360,6 +360,4 @@ Configure::write('Session.ini',array('session.cookie_secure' => false, 'session.
 
 Configure::write('Routing.prefixes', array('admin'));
 
-Configure::write('Config.language', 'eng');
-
 Configure::write('MinifyAsset', true);
