@@ -46,7 +46,7 @@ echo $this->Html->docType('html5');
 			echo $this->fetch('css');
     ?>
 
-    <?php echo $this->element('jquery_safe_ready');
+    <?php //echo $this->element('jquery_safe_ready');
 
       $this->Html->script(array(
           '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
