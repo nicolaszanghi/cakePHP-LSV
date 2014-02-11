@@ -104,7 +104,9 @@ class CakestrapHelper extends FormHelper {
 
             $languages = Configure::read('Config.languages');
             foreach ($languages as $k => $v) { // eng => English, fra => Français
-                if (!empty($placeholder)) $options['placeholder'] = $placeholder.' ('.$v.')';
+                if (!empty($placeholder)) { $options['placeholder'] = $placeholder;
+                    if (count($languages)>1) $options['placeholder'] .= ' ('.$v.')';
+                }
                 if (!empty($label)) { $options['label'] = $label;
                     if (count($languages)>1) $options['label'] .= ' ('.$v.')';
                 }
