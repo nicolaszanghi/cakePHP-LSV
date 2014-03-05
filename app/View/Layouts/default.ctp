@@ -36,9 +36,8 @@ echo $this->Html->docType('html5');
           echo $this->fetch('meta');
 
           $this->Html->css(array(
-            'bootstrap.min',
-            'bootstrap-responsive.min',
-            'core'
+              '//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css',
+              'core'
             ),
             null,
             array('inline' => false)

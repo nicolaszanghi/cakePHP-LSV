@@ -33,20 +33,6 @@
 						&nbsp;
 					</td>
 				</tr>
-				<tr>
-					<td><strong><?php echo __('Laureate'); ?></strong></td>
-					<td>
-						<?php echo $this->Html->link($content['Laureate']['title'], array('controller' => 'laureates', 'action' => 'view', $content['Laureate']['id']), array('class' => '')); ?>
-						&nbsp;
-					</td>
-				</tr>
-				<tr>
-					<td><strong><?php echo __('Jury'); ?></strong></td>
-					<td>
-						<?php echo $this->Html->link($content['Jury']['title'], array('controller' => 'juries', 'action' => 'view', $content['Jury']['id']), array('class' => '')); ?>
-						&nbsp;
-					</td>
-				</tr>
                 <tr>
                     <td><strong><?php echo __('Active'); ?></strong></td>
                     <td>

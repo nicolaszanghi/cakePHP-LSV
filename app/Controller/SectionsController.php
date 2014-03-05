@@ -79,6 +79,7 @@ class SectionsController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Section->create();
 			if ($this->Section->save($this->request->data)) {
+                $this->request->data['Section']['id'] = $this->Section->id;
                 $this->Section->saveSlug($this->request->data, 'title_eng');
 				$this->Session->setFlash(__('The section has been saved'), 'flash/success');
 				$this->redirect(array('action' => 'index'));

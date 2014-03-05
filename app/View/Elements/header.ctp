@@ -1,4 +1,4 @@
-<div id="top-menu" class="container">
+<header id="top-menu" class="container">
     <div class="row pull-right">
         <ul>
             <li id="social-link">
@@ -28,8 +28,8 @@
             </li>
         </ul>
     </div>
-</div>
-<div id="header-menu" class="container">
+</header>
+<header id="header-menu" class="container">
     <div class="row">
         <?php if (!empty($menu_sections)): ?>
             <div class="col-lg-offset-2">
@@ -50,5 +50,5 @@
             </div>
         <?php endif; ?>
     </div>
-</div>
+</header>
 

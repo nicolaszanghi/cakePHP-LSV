@@ -23,8 +23,6 @@
 				<fieldset>
 					<?php echo $this->Form->input('Content.id'); ?>
                     <?php echo $this->Form->input('Content.section_id', array('type' => 'hidden')); ?>
-                    <?php echo $this->Form->input('Content.laureate_id', array('type' => 'hidden')); ?>
-                    <?php echo $this->Form->input('Content.jury_id', array('type' => 'hidden')); ?>
                     <?php echo $this->Form->input('Content.active'); ?>
 
                     <?php echo $this->Form->input('Content.type', array('options' => unserialize(CONTENT_TYPES)));

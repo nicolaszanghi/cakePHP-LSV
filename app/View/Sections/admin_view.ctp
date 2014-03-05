@@ -113,8 +113,8 @@
                 <tr>
                     <td><strong><?php echo __('Image Header'); ?></strong></td>
                     <td>
-                        <?php if (!empty($laureate['Laureate']['image_header']))
-                                echo $this->Html->image($laureate['Laureate']['image_header'], array('class' => 'image-header')); ?>
+                        <?php if (!empty($section['Section']['image_header']))
+                                echo $this->Html->image($section['Section']['image_header'], array('class' => 'image-header')); ?>
                         &nbsp;
                     </td>
                 </tr>

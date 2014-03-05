@@ -9,8 +9,6 @@
 				<fieldset>
 					<h2><?php printf(__('Add Content to %s %s'), __(Inflector::humanize($redirect_controller)), $redirect_name); ?></h2>
 					<?php echo $this->Form->input('Content.section_id', array('type' => 'hidden')); ?>
-					<?php echo $this->Form->input('Content.laureate_id', array('type' => 'hidden')); ?>
-					<?php echo $this->Form->input('Content.jury_id', array('type' => 'hidden')); ?>
                     <?php echo $this->Form->input('Content.active'); ?>
 
                     <?php echo $this->Form->input('Content.type', array('options' => unserialize(CONTENT_TYPES)));

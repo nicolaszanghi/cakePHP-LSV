@@ -19,10 +19,10 @@ Language :  eng, fra
 * Create database, create Config/database.php
 * Execute init.sql
 * Search @todo change and edit this vars for your webserver
+* Change values of Security.salt and Security.cipherSeed  in core.php
 * Go to /admin/users/add and create a user
 * Comment UsersController beforeFilter
 * Install Minify in Plugin/Minify https://github.com/maurymmarques/minify-cakephp
-* Don't forget to change value of Security.salt and Security.cipherSeed  in code.php
 * Finaly change permission to /tmp and /webroot/kcfinder/upload
 
 

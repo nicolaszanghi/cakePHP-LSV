@@ -2,7 +2,6 @@
 <?php
 $this->extend('/Sections/view/');
 
-//$this->assign('background_url', $laureate['Laureate']['image_header']);
 $this->assign('header_title', __('Search'));
 $this->assign('header_subtitle', sprintf(__('%s results'), count($results)));
 

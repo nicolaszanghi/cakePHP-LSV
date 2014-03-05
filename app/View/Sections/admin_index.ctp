@@ -9,12 +9,12 @@
 
             <div class="row">
                 <?php echo $this->Form->create('Section', array('class' => 'form')); ?>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <?php echo $this->Form->input('search_string', array('type' => 'search')); ?>
                     </div>
                 <?php echo $this->Form->end(); ?>
 
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-md-8">
                     <div class="actions pull-right">
                         <?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New Section'), array('controller' => 'sections', 'action' => 'add'), array('class' => 'btn btn-success', 'escape' => false)); ?>
                     </div><!-- .actions -->
