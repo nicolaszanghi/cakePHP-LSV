@@ -10,7 +10,8 @@
             <div class="col-lg-3"p>
                 <div class="actions pull-right">
                     <br />
-                    <?php echo $this->Html->link('<i class="glyphicon glyphicon-info-sign"></i> '.__('View'), array('action' => 'view',  $this->Form->value('Content.id')), array('class' => 'btn btn-info', 'escape' => false)); ?>
+                    <?php echo $this->Html->link('<i class="glyphicon glyphicon-info-sign"></i> '.__('Back').' '.$redirect_name, array('controller' => $redirect_controller, 'action' => 'view',  $this->Form->value('Content.section_id')), array('class' => 'btn btn-sm btn-info', 'escape' => false)); ?>
+                    <?php //echo $this->Html->link('<i class="glyphicon glyphicon-info-sign"></i> '.__('View'), array('action' => 'view',  $this->Form->value('Content.id')), array('class' => 'btn btn-info', 'escape' => false)); ?>
                     <?php echo $this->Form->postLink('<i class="glyphicon glyphicon-remove"></i> '.__('Delete'), array('action' => 'delete', $this->Form->value('Content.id')),  array('class' => 'btn btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', $this->Form->value('Content.id'))); ?>
                 </div><!-- .actions -->
             </div>

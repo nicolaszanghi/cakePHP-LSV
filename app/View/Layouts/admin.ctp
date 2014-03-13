@@ -52,7 +52,6 @@ echo $this->Html->docType('html5');
           '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
           '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'
         ),
-        null,
         array('block' => 'firstScripts')
       );
 
@@ -67,7 +66,6 @@ echo $this->Html->docType('html5');
           'ckeditor_init',
           'admin'
         ),
-        null,
         array('block' => 'firstScripts')
       );
 		?>

@@ -4,8 +4,6 @@ App::uses('AppModel', 'Model');
  * Content Model
  *
  * @property Section $Section
- * @property Laureate $Laureate
- * @property Jury $Jury
  */
 class Content extends AppModel {
 

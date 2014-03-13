@@ -54,7 +54,7 @@
                             <td><?php echo (empty($section['Section']['menu_title_fra'])) ? $section['Section']['title_fra'] : $section['Section']['menu_title_fra']; ?>&nbsp;</td>
                             <td><?php echo h($section['Section']['order']); ?>&nbsp;</td>
                             <td class="actions">
-                                <?php echo $this->Html->link(__('View'), array('action' => 'view', $section['Section']['id']), array('class' => 'btn btn-xs btn-info')); ?>
+                                <?php // echo $this->Html->link(__('View'), array('action' => 'view', $section['Section']['id']), array('class' => 'btn btn-xs btn-info')); ?>
                                 <?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $section['Section']['id']), array('class' => 'btn btn-xs btn-warning')); ?>
                                 <?php if (!in_array($section['Section']['id'], unserialize(SPECIAL_SECTIONS)))
                                     echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $section['Section']['id']), array('class' => 'btn btn-xs btn-danger'), __('Are you sure you want to delete # %s?', $section['Section']['id'])); ?>

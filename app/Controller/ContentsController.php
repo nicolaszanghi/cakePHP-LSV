@@ -96,11 +96,6 @@ class ContentsController extends AppController {
         }
 
         $this->set(compact('redirect_controller', 'redirect_id', 'redirect_name'));
-        /*
-		$sections = $this->Content->Section->find('list');
-		$laureates = $this->Content->Laureate->find('list');
-		$juries = $this->Content->Jury->find('list');
-		$this->set(compact('sections', 'laureates', 'juries'));*/
 	}
 
 /**
@@ -134,12 +129,6 @@ class ContentsController extends AppController {
 			$this->request->data = $this->Content->find('first', $options);
 		}
         $this->set(compact('redirect_controller', 'redirect_id', 'redirect_name'));
-        /*
-		$sections = $this->Content->Section->find('list');
-		$laureates = $this->Content->Laureate->find('list');
-		$juries = $this->Content->Jury->find('list');
-		$this->set(compact('sections', 'laureates', 'juries'));
-        */
 	}
 
 /**
