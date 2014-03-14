@@ -30,13 +30,14 @@ echo $this->Html->docType('html5');
 		</title>
         <?php /*<meta name="robots" content="noindex,nofollow">*/ ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 		    <?php
           echo $this->Html->meta('icon');
           echo $this->fetch('meta');
 
           $this->Html->css(array(
-              '//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css',
+              'bootstrap.min',
               'core'
             ),
             null,
@@ -56,14 +57,6 @@ echo $this->Html->docType('html5');
 
           echo $this->fetch('css');
         ?>
-
-        <!--[if IE]>
-            <?php echo $this->Html->css('ie'); ?>
-        <![endif]-->
-
-        <!--[if lte IE 9]>
-        <?php echo $this->Html->css(array('old_ie.css')); ?>
-        <![endif]-->
 
         <?php // echo $this->element('jquery_safe_ready');
 
@@ -93,6 +86,13 @@ echo $this->Html->docType('html5');
             array('block' => 'firstScripts')
           );
         ?>
+        <!--[if IE]>
+            <?php echo $this->Html->css('ie'); ?>
+        <![endif]-->
+        <!--[if lte IE 9]>
+            <?php echo $this->Html->css(array('old_ie.css')); ?>
+            <?php echo $this->Html->script(array('html5shiv', 'respond')); ?>
+        <![endif]-->
 	</head>
 
 	<body>
