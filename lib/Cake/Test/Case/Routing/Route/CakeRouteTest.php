@@ -2,8 +2,6 @@
 /**
  * CakeRequest Test case file.
  *
- * PHP 5
- *
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
  *
@@ -309,6 +307,11 @@ class CakeRouteTest extends CakeTestCase {
 		);
 		$result = $route->match($url);
 		$expected = '/admin/subscriptions/edit_admin_e/1';
+		$this->assertEquals($expected, $result);
+
+		$url = array('controller' => 'subscribe', 'admin' => true, 'action' => 'admin_edit', 1);
+		$result = $route->match($url);
+		$expected = '/admin/subscriptions/edit/1';
 		$this->assertEquals($expected, $result);
 	}
 

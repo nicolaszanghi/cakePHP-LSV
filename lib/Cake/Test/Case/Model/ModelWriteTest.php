@@ -2,8 +2,6 @@
 /**
  * ModelWriteTest file
  *
- * PHP 5
- *
  * CakePHP(tm) Tests <http://book.cakephp.org/2.0/en/development/testing.html>
  * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
  *
@@ -255,7 +253,7 @@ class ModelWriteTest extends BaseModelTest {
 /**
  * test that Caches are getting cleared on save().
  * ensure that both inflections of controller names are getting cleared
- * as url for controller could be either overallFavorites/index or overall_favorites/index
+ * as URL for controller could be either overallFavorites/index or overall_favorites/index
  *
  * @return void
  */
@@ -318,7 +316,7 @@ class ModelWriteTest extends BaseModelTest {
 		$TestModel2 = new Item();
 
 		$result = $TestModel->findById(1);
-		$this->assertSame($result['Syfile']['item_count'], null);
+		$this->assertNull($result['Syfile']['item_count']);
 
 		$TestModel2->save(array(
 			'name' => 'Item 7',
@@ -480,7 +478,7 @@ class ModelWriteTest extends BaseModelTest {
 		$TestModel2->belongsTo['Syfile']['counterScope'] = array('published' => true);
 
 		$result = $TestModel->findById(1);
-		$this->assertSame($result['Syfile']['item_count'], null);
+		$this->assertNull($result['Syfile']['item_count']);
 
 		$TestModel2->save(array(
 			'name' => 'Item 7',
@@ -564,6 +562,28 @@ class ModelWriteTest extends BaseModelTest {
 		$result = $User->find('all', array('order' => 'User.id'));
 		$this->assertEquals(2, $result[0]['User']['post_count']);
 		$this->assertEquals(1, $result[1]['User']['posts_published']);
+	}
+
+/**
+ * Tests that counter caches are unchanged when using 'counterCache' => false
+ *
+ * @return void
+ */
+	public function testCounterCacheSkip() {
+		$this->loadFixtures('CounterCacheUser', 'CounterCachePost');
+		$User = new CounterCacheUser();
+		$Post = new CounterCachePost();
+
+		$data = $Post->find('first', array(
+			'conditions' => array('id' => 1),
+			'recursive' => -1
+		));
+		$data[$Post->alias]['user_id'] = 301;
+		$Post->save($data, array('counterCache' => false));
+
+		$users = $User->find('all', array('order' => 'User.id'));
+		$this->assertEquals(2, $users[0]['User']['post_count']);
+		$this->assertEquals(1, $users[1]['User']['post_count']);
 	}
 
 /**
@@ -4607,7 +4627,7 @@ class ModelWriteTest extends BaseModelTest {
 			array('validate' => 'first')
 		);
 
-		$this->assertSame($result, true);
+		$this->assertTrue($result);
 
 		$result = $model->Comment->find('all');
 		$this->assertSame(count($result), 1);
@@ -5005,6 +5025,23 @@ class ModelWriteTest extends BaseModelTest {
 		unset($result[0]['Post']['updated'], $result[0]['Post']['created']);
 		unset($result[1]['Post']['updated'], $result[1]['Post']['created']);
 		$this->assertEquals($expected, $result);
+	}
+
+/**
+ * Test SaveMany with validate=false.
+ *
+ * @return void
+ */
+	public function testSaveManyValidateFalse() {
+		$this->loadFixtures('Post');
+		$TestModel = new Post();
+		$TestModel->deleteAll(true);
+		$data = array(
+			array('id' => 1, 'author_id' => 1, 'title' => 'hi'),
+			array('id' => 2, 'author_id' => 1, 'title' => 'bye')
+		);
+		$result = $TestModel->saveAll($data, array('validate' => false));
+		$this->assertTrue($result);
 	}
 
 /**
@@ -6011,7 +6048,7 @@ class ModelWriteTest extends BaseModelTest {
 			array('validate' => 'first')
 		);
 
-		$this->assertSame($result, true);
+		$this->assertTrue($result);
 
 		$result = $model->Comment->find('all');
 		$this->assertSame(count($result), 1);
@@ -6222,6 +6259,32 @@ class ModelWriteTest extends BaseModelTest {
 		$model = new ProductUpdateAll();
 		$result = $model->saveAssociated(array());
 		$this->assertFalse($result);
+	}
+
+/**
+ * Test that saveAssociated will accept expression object values when saving.
+ *
+ * @return void
+ */
+	public function testSaveAssociatedExpressionObjects() {
+		$this->loadFixtures('Post', 'Author', 'Comment', 'Attachment', 'Article', 'User');
+		$TestModel = new Post();
+		$db = $TestModel->getDataSource();
+
+		$TestModel->saveAssociated(array(
+			'Post' => array(
+				'title' => $db->expression("(SELECT 'Post with Author')"),
+				'body' => 'This post will be saved with an author'
+			),
+			'Author' => array(
+				'user' => 'bob',
+				'password' => '5f4dcc3b5aa765d61d8327deb882cf90'
+		)), array('atomic' => false));
+
+		$result = $TestModel->find('first', array(
+			'order' => array('Post.id ' => 'DESC')
+		));
+		$this->assertEquals('Post with Author', $result['Post']['title']);
 	}
 
 /**
@@ -6472,7 +6535,8 @@ class ModelWriteTest extends BaseModelTest {
  */
 	public function testWriteFloatAsGerman() {
 		$restore = setlocale(LC_NUMERIC, 0);
-		setlocale(LC_NUMERIC, 'de_DE');
+
+		$this->skipIf(setlocale(LC_NUMERIC, 'de_DE') === false, "The German locale isn't available.");
 
 		$model = new DataTest();
 		$result = $model->save(array(
@@ -7121,10 +7185,25 @@ class ModelWriteTest extends BaseModelTest {
 		$TestModel = new Item();
 
 		$result = $TestModel->save(array('published' => true, 'id' => 1));
-		$this->assertTrue((boolean)$result);
+		$this->assertTrue((bool)$result);
 		$result = $TestModel->find('first', array(
 			'fields' => array('id', 'published'),
 			'conditions' => array('Item.id' => 1)));
 		$this->assertEquals(true, $result['Item']['published']);
+	}
+
+/**
+ * Test the clear() method.
+ *
+ * @return void
+ */
+	public function testClear() {
+		$this->loadFixtures('Bid');
+		$model = ClassRegistry::init('Bid');
+		$model->set(array('name' => 'Testing', 'message_id' => 3));
+		$this->assertTrue(isset($model->data['Bid']['name']));
+		$this->assertTrue($model->clear());
+		$this->assertFalse(isset($model->data['Bid']['name']));
+		$this->assertFalse(isset($model->data['Bid']['message_id']));
 	}
 }
