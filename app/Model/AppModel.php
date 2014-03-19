@@ -41,13 +41,16 @@ class AppModel extends Model {
      * @param null $field
      * @return bool
      */
-    public function saveSlug($data,  $field = null, $slug_field = 'slug') {
-        if (empty($field)) $field = $this->displayField;
-        $slug = $this->stringToSlug($data[$this->alias][$field]);
-        $this->recursive = -1;
-        while ($this->find('count', array('conditions' => array('slug' => $slug, 'id !=' => $data[$this->alias]['id']))) > 0)
-            $slug = substr($slug, 0, -1);
-        return $this->saveField($slug_field, $slug);
+    public function saveSlug($data,  $field = null) {
+        $languages = Configure::read('Config.languages');
+        foreach ($languages as $language => $n) {
+            $slug = $this->stringToSlug($data[$this->alias][$field.'_'.$language]);
+            $this->recursive = -1;
+            while ($this->find('count', array('conditions' => array('slug_'.$language => $slug, 'id !=' => $data[$this->alias]['id']))) > 0)
+                $slug = substr($slug, 0, -1);
+            $return = $this->saveField('slug_'.$language, $slug);
+        }
+        return $return;
     }
 
     /**
@@ -56,7 +59,7 @@ class AppModel extends Model {
      * @return string
      */
     public function stringToSlug($str) {
-       // turn into slug
+        // turn into slug
         $str = Inflector::slug($str);
         // to lowercase
         $str = strtolower($str);
@@ -72,7 +75,7 @@ class AppModel extends Model {
         if (empty($slug))
             return false;
         $this->recursive = -1;
-        $data = $this->find('first', array('fields' => 'id', 'conditions' => array('slug' => $slug)));
+        $data = $this->find('first', array('fields' => 'id', 'conditions' => array('slug_'.Configure::read('Config.language') => $slug)));
         return $data[$this->alias]['id'];
     }
 

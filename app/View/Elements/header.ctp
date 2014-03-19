@@ -13,7 +13,7 @@
             </li>
             <li>
                 <?php echo $this->Form->create('Content', array('url' => array('action' => 'search'), 'type' => 'get', 'class' => 'form'));
-                    echo $this->Form->input('search_string', array('id' => 'search-input', 'placeholder' => __('Search')));
+                echo $this->Form->input('search_string', array('id' => 'search-input', 'placeholder' => __('Search')));
                 echo $this->Form->end(); ?>
             </li>
             <li>
@@ -43,7 +43,7 @@
                             $active[$section['Section']['id']] = ' class="active"';
                         $menu_title = t($menu_section['Section'], 'menu_title');
                         $title = (!empty($menu_title)) ? $menu_title : t($menu_section['Section'], 'title');
-                        echo '<li'.@$active[$menu_section['Section']['id']].'>'.$this->Html->link($title, '/sections/'.$menu_section['Section']['slug']).'</li>';
+                        echo '<li'.@$active[$menu_section['Section']['id']].'>'.$this->Html->link($title, '/sections/'.$menu_section['Section']['slug'.Configure::read('Config.language')]).'</li>';
                     }
                     ?>
                 </ul>

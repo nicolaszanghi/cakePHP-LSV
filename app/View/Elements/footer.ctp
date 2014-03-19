@@ -10,14 +10,14 @@
                             continue;
                         $menu_title = t($menu_section['Section'], 'menu_title');
                         $title = (!empty($menu_title)) ? $menu_title : t($menu_section['Section'], 'title');
-                        echo '<li>'.$this->Html->link($title, array('controller' => 'sections', 'action' => 'view', $menu_section['Section']['slug']));
+                        echo '<li>'.$this->Html->link($title, '/sections/'.$menu_section['Section']['slug_'.Configure::read('Config.language')]);
 
                         /* echo '<ul>';
                           foreach ($menu_sections as $menu_section_child) {
                             if ($menu_section_child['Section']['parent_id'] == $menu_section['Section']['id']) {
                                 $menu_title_child = t($menu_section_child['Section'], 'menu_title');
                                 $title_child = (!empty($menu_title_child)) ? $menu_title_child : t($menu_section_child['Section'], 'title');
-                                echo '<li>'.$this->Html->link($title_child, array('controller' => 'sections', 'action' => 'view', $menu_section_child['Section']['slug']));
+                                echo '<li>'.$this->Html->link($title_child, '/sections/'.$menu_section_child['Section']['slug_'.Configure::read('Config.language')]);
                             }
                         } echo '</ul>'; */
                         echo '</li>';
