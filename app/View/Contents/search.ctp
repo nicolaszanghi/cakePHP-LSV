@@ -9,11 +9,11 @@ $this->assign('header_subtitle', sprintf(__('%s results'), count($results)));
 
 if (!empty($results)): ?>
 
-    <div class="accordion" id="accordion-laureate-content">
+    <div class="accordion" id="accordion-content">
         <?php foreach ($results as $result): ?>
             <div class="content-container accordion-group">
                 <div class="content-header row accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-laureate-content" href="#collapse<?php echo $result['id']; ?>">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-content" href="#collapse<?php echo $result['id']; ?>">
                         <h3 class="col-lg-11"><?php echo t($result, 'title'); ?></h3>
                         <div class="col-lg-1 pull-right content-open"></div>
                     </a>

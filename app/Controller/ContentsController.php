@@ -91,7 +91,7 @@ class ContentsController extends AppController {
 				$this->Session->setFlash(__('The content could not be saved. Please, try again.'), 'flash/error');
 			}
 		} else {
-            $field_id = array('sections' => 'section_id', 'laureates' => 'laureate_id', 'juries' => 'jury_id');
+            $field_id = array('sections' => 'section_id');
             $this->request->data['Content'][$field_id[$redirect_controller]] = $redirect_id;
         }
 

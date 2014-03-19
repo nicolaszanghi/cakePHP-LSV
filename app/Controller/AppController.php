@@ -138,7 +138,7 @@ class AppController extends Controller {
 
 
     /**
-     * get manual pagination because cakephp doesnt allow 2 pagination in same action, and we need it in News, calendar, laurate, to load content of section and content/news/event
+     * get manual pagination because cakephp doesnt allow 2 pagination in same action, and we need it in News, calendar,  to load content of section and content/news/event
      * called in getSectionAndChildSection and in Content/index (ajax)
      * @param $section_id
      */
