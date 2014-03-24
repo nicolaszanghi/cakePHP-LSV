@@ -53,7 +53,7 @@
                     <?php echo $this->Form->input('Content.caption_eng', array('class' => 'mceNoEditor', 'div' => array('id' => 'ContentCaptionEngDiv', 'class' => 'display_none'))); ?>
                     <?php echo $this->Form->input('Content.caption_fra', array('class' => 'mceNoEditor', 'div' => array('id' => 'ContentCaptionFraDiv', 'class' => 'display_none'))); ?>
 
-                    <?php echo $this->Html->link('<i class="glyphicon glyphicon-info-sign"></i> '.__('Select Photos'), array(), array('id' => 'photosBodyFra', 'class' => 'btn btn-success display_none', 'escape' => false));
+                    <?php echo $this->Html->link('<i class="fa fa-upload"></i> '.__('Select Photos'), array(), array('id' => 'photosBodyFra', 'class' => 'btn btn-success display_none', 'escape' => false));
                                $this->Js->get('#photosBodyFra')->event('click', 'openKCFinderMultipleFiles("#ContentBodyFra");'); ?>
 				</fieldset>
 				<?php echo $this->Form->submit(__('Add'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>

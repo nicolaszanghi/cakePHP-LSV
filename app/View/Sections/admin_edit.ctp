@@ -13,9 +13,9 @@
                 </div>
                 <div class="col-lg-3"p>
                     <div class="actions pull-right">
-                        <?php echo $this->Html->link('<i class="glyphicon glyphicon-info-sign"></i> '.__('View'), array('action' => 'view',  $this->Form->value('Section.id')), array('class' => 'btn btn-info', 'escape' => false)); ?>
+                        <?php echo $this->Html->link('<i class="fa fa-info"></i> '.__('View'), array('action' => 'view',  $this->Form->value('Section.id')), array('class' => 'btn btn-info', 'escape' => false)); ?>
                         <?php if (!in_array($this->Form->value('Section.id'), unserialize(SPECIAL_SECTIONS)))
-                            echo $this->Form->postLink('<i class="glyphicon glyphicon-remove"></i> '.__('Delete'), array('action' => 'delete', $this->Form->value('Section.id')),  array('class' => 'btn btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', $this->Form->value('Section.id'))); ?>
+                            echo $this->Form->postLink('<i class="fa fa-times"></i> '.__('Delete'), array('action' => 'delete', $this->Form->value('Section.id')),  array('class' => 'btn btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', $this->Form->value('Section.id'))); ?>
                     </div><!-- .actions -->
                 </div>
             </div>

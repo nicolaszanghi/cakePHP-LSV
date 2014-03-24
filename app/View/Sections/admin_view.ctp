@@ -11,9 +11,9 @@
         </div>
         <div class="col-lg-3"p>
             <div class="actions pull-right">
-                <?php echo $this->Html->link('<i class="glyphicon glyphicon-pencil"></i> '.__('Edit'), array('action' => 'edit', $section['Section']['id']), array('class' => 'btn btn-warning', 'escape' => false)); ?>
+                <?php echo $this->Html->link('<i class="fa fa-pencil"></i> '.__('Edit'), array('action' => 'edit', $section['Section']['id']), array('class' => 'btn btn-warning', 'escape' => false)); ?>
                 <?php if (!in_array($section['Section']['id'], unserialize(SPECIAL_SECTIONS)))
-                    echo $this->Form->postLink('<i class="glyphicon glyphicon-remove"></i> '.__('Delete'), array('action' => 'delete', $section['Section']['id']),  array('class' => 'btn btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', $section['Section']['id'])); ?>
+                    echo $this->Form->postLink('<i class="fa fa-times"></i> '.__('Delete'), array('action' => 'delete', $section['Section']['id']),  array('class' => 'btn btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', $section['Section']['id'])); ?>
             </div><!-- .actions -->
         </div>
     </div>
@@ -159,7 +159,7 @@
         </div>
         <div class="col-lg-3">
             <div class="actions pull-right">
-                <?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New Section'), array('controller' => 'sections', 'action' => 'add', $section['Section']['id']), array('class' => 'btn btn-success', 'escape' => false)); ?>
+                <?php echo $this->Html->link('<i class="fa fa-plus"></i> '.__('New Section'), array('controller' => 'sections', 'action' => 'add', $section['Section']['id']), array('class' => 'btn btn-success', 'escape' => false)); ?>
             </div><!-- .actions -->
         </div>
     </div>
@@ -202,7 +202,7 @@
         </div>
         <div class="col-lg-3">
             <div class="actions pull-right">
-                <?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New Content'), array('controller' => 'contents', 'action' => 'add', 'sections', $section['Section']['id'], t($section['Section'], 'title')), array('class' => 'btn btn-success', 'escape' => false)); ?>
+                <?php echo $this->Html->link('<i class="fa fa-plus"></i> '.__('New Content'), array('controller' => 'contents', 'action' => 'add', 'sections', $section['Section']['id'], t($section['Section'], 'title')), array('class' => 'btn btn-success', 'escape' => false)); ?>
             </div><!-- .actions -->
         </div>
     </div>
@@ -261,7 +261,7 @@
         <h3><?php echo __('Sub Sections'); ?></h3>
 
         <div class="actions">
-            <?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New Child Section'), array('controller' => 'sections', 'action' => 'add'), array('class' => 'btn btn-success', 'escape' => false)); ?>
+            <?php echo $this->Html->link('<i class="fa fa-plus"></i> '.__('New Child Section'), array('controller' => 'sections', 'action' => 'add'), array('class' => 'btn btn-success', 'escape' => false)); ?>
         </div><!-- .actions -->
 
         <?php if (!empty($section['ChildSection'])): ?>

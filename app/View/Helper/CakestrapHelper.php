@@ -52,7 +52,7 @@ class CakestrapHelper extends FormHelper {
             $options['data-format'] = $data_format[$options['type']];
             $options['class'] .= ' form-control';
             $options['after'] = '<span class="input-group-addon">
-                                    <i data-time-icon="glyphicon glyphicon-time" data-date-icon="glyphicon glyphicon-calendar"></i>
+                                    <i data-time-icon="fa fa-clock-o" data-date-icon="fa fa-calendar"></i>
                                  </span>';
             $options['type'] = 'text';
 

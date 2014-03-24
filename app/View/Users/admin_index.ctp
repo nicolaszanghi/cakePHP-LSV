@@ -7,7 +7,7 @@
             <h2><?php echo __('Users'); ?></h2>
 
             <div class="actions pull-right">
-                <?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New User'), array('action' => 'add'), array('class' => 'btn btn-success', 'escape' => false)); ?>
+                <?php echo $this->Html->link('<i class="fa fa-plus"></i> '.__('New User'), array('action' => 'add'), array('class' => 'btn btn-success', 'escape' => false)); ?>
             </div><!-- .actions -->
 
             <table cellpadding="0" cellspacing="0" class="table table-striped table-bordered table-hover">

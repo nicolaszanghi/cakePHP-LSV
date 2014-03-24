@@ -12,8 +12,8 @@
                 </div>
                 <div class="col-lg-3"p>
                     <div class="actions pull-right">
-                        <?php echo $this->Html->link('<i class="glyphicon glyphicon-pencil"></i> '.__('Edit'), array('action' => 'edit', $content['Content']['id']), array('class' => 'btn btn-warning', 'escape' => false)); ?>
-                        <?php echo $this->Form->postLink('<i class="glyphicon glyphicon-remove"></i> '.__('Delete'), array('action' => 'delete', $content['Content']['id']),  array('class' => 'btn btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', $content['Content']['id'])); ?>
+                        <?php echo $this->Html->link('<i class="fa fa-pencil"></i> '.__('Edit'), array('action' => 'edit', $content['Content']['id']), array('class' => 'btn btn-warning', 'escape' => false)); ?>
+                        <?php echo $this->Form->postLink('<i class="fa fa-times"></i> '.__('Delete'), array('action' => 'delete', $content['Content']['id']),  array('class' => 'btn btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', $content['Content']['id'])); ?>
                     </div><!-- .actions -->
                 </div>
             </div>

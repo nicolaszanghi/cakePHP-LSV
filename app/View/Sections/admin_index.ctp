@@ -16,7 +16,7 @@
 
                 <div class="col-lg-8 col-md-8">
                     <div class="actions pull-right">
-                        <?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New Section'), array('controller' => 'sections', 'action' => 'add'), array('class' => 'btn btn-success', 'escape' => false)); ?>
+                        <?php echo $this->Html->link('<i class="fa fa-plus"></i> '.__('New Section'), array('controller' => 'sections', 'action' => 'add'), array('class' => 'btn btn-success', 'escape' => false)); ?>
                     </div><!-- .actions -->
                 </div>
             </div>
