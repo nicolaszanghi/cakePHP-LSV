@@ -127,9 +127,12 @@ echo $this->Html->docType('html5');
 
         </div><!-- #main-container -->
 
-        <?php echo $this->fetch('firstScripts'); ?>
-        <?php echo $this->fetch('script'); ?>
-        <?php echo $this->Js->writeBuffer();?>
+        <?php
+            echo $this->fetch('firstScripts');
+            echo $this->Html->scriptBlock('var language = "'.Configure::read('Config.language').'";');
+            echo $this->fetch('script');
+            echo $this->Js->writeBuffer();
+        ?>
 	</body>
 
 </html>
