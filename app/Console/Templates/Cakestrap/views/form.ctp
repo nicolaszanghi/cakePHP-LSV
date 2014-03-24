@@ -19,40 +19,27 @@
 
 <div id="page-container" class="row">
 
-	<div id="sidebar" class="col-lg-3">
-		
-		<div class="actions">
-		
-			<ul class="nav nav-list bs-docs-sidenav">
-<?php
-                if (strpos($action, 'add') === false):
-					echo "\t\t\t\t<li><?php echo \$this->Form->postLink(__('Delete'), array('action' => 'delete', \$this->Form->value('{$modelClass}.{$primaryKey}')), null, __('Are you sure you want to delete # %s?', \$this->Form->value('{$modelClass}.{$primaryKey}'))); ?></li>\n";
-				endif;
-                echo "\t\t\t\t<li><?php echo \$this->Html->link(__('List " . $pluralHumanName . "'), array('action' => 'index')); ?></li>\n";
-                $done = array();
-                foreach ($associations as $type => $data) {
-                    foreach ($data as $alias => $details) {
-                        if ($details['controller'] != $this->name && !in_array($details['controller'], $done)) {
-                            echo "\t\t\t\t<li><?php echo \$this->Html->link(__('List " . Inflector::humanize($details['controller']) . "'), array('controller' => '{$details['controller']}', 'action' => 'index')); ?></li>\n";
-                            echo "\t\t\t\t<li><?php echo \$this->Html->link(__('New " . Inflector::humanize(Inflector::underscore($alias)) . "'), array('controller' => '{$details['controller']}', 'action' => 'add')); ?></li>\n";
-                            $done[] = $details['controller'];
-                        }
-                    }
-                }
-				?>
-			</ul><!-- .nav nav-list bs-docs-sidenav -->
-		
-		</div><!-- .actions -->
-		
-	</div><!-- #sidebar .col-lg-3 -->
-	
-	<div id="page-content" class="col-lg-9">
+	<div id="page-content" class="col-lg-12">
 
 		<div class="<?php echo $pluralVar; ?> form">
-		
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <h2><?php printf("<?php echo __('%s %s'); ?>", Inflector::humanize($action), $singularHumanName); ?></h2>
+                </div>
+                <div class="col-lg-3"p>
+                    <div class="actions pull-right">
+                        <?php if (strpos($action, 'add') === false):
+                            echo "<?php echo \$this->Html->link('<i class=\"fa fa-info\"> </i>'.__('View'), array('action' => 'view', \$this->Form->value('{$modelClass}.{$primaryKey}')), array('class' => 'btn btn-info', 'escape' => false)); ?>\n";
+                            echo "\t\t\t\t\t\t<?php echo \$this->Form->postLink('<i class=\"fa fa-times\"> </i>'.__('Delete'), array('action' => 'delete', \$this->Form->value('{$modelClass}.{$primaryKey}')), array('class' => 'btn btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', \$this->Form->value('{$modelClass}.{$primaryKey}'))); ?>\n";
+                        endif;?>
+                    </div><!-- .actions -->
+                </div>
+            </div>
+
+
 			<?php echo "<?php echo \$this->Form->create('{$modelClass}', array('class' => 'form')); ?>\n"; ?>
 				<fieldset>
-					<h2><?php printf("<?php echo __('%s %s'); ?>", Inflector::humanize($action), $singularHumanName); ?></h2>
 <?php foreach ($fields as $field) {
 					if (strpos($action, 'add') !== false && $field == $primaryKey) {
 						continue;
@@ -90,6 +77,6 @@
 			
 		</div>
 			
-	</div><!-- #page-content .col-lg-9 -->
+	</div><!-- #page-content .col-lg-12 -->
 
 </div><!-- #page-container .row-fluid -->
