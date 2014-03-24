@@ -1,19 +1,7 @@
 
 <div id="page-container" class="row">
 
-	<div id="sidebar" class="col-lg-3">
-		
-		<div class="actions">
-		
-			<ul class="nav nav-list bs-docs-sidenav">
-				<li><?php echo $this->Html->link(__('List Sections'), array('action' => 'index')); ?></li>
-			</ul><!-- .nav nav-list bs-docs-sidenav -->
-		
-		</div><!-- .actions -->
-		
-	</div><!-- #sidebar .col-lg-3 -->
-	
-	<div id="page-content" class="col-lg-9">
+	<div id="page-content" class="col-lg-12">
 
 		<div class="sections form">
 		
