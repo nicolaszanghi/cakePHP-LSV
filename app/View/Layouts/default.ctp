@@ -38,6 +38,7 @@ echo $this->Html->docType('html5');
 
           $this->Html->css(array(
               'bootstrap.min',
+              //'//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css',
               'core'
             ),
             null,

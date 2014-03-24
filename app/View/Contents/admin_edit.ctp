@@ -61,9 +61,8 @@
                     <?php echo $this->Form->input('Content.body_fra', array('div' => array('id' => 'ContentBodyFraDiv'))); ?>
 
                     <?php echo $this->Form->input('Content.media', array('class' => 'mceNoEditor', 'div' => array('id' => 'ContentMediaDiv', 'class' => 'display_none'))); ?>
-                    <?php echo $this->Html->link('<i class="glyphicon glyphicon-info-sign"></i> '.__('Select Photos'), array(), array('id' => 'PhotosMedia', 'class' => 'btn btn-success display_none', 'escape' => false));
+                    <?php echo $this->Html->link('<i class="fa fa-upload"></i> '.__('Select Photos'), array(), array('id' => 'PhotosMedia', 'class' => 'btn btn-success display_none', 'escape' => false));
                     $this->Js->get('#PhotosMedia')->event('click', 'openKCFinderMultipleFiles("#ContentMedia");'); ?>
-                    <?php //@todo change glyph with upload ?>
                     <div id="VideoMedia" class="display_none"><?php echo __('Paste your video embed code in Media'); ?></div>
 
 

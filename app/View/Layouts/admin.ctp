@@ -33,6 +33,7 @@ echo $this->Html->docType('html5');
 			echo $this->fetch('meta');
 
         $this->Html->css(array('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css',
+                               '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css',
                                'bootstrap-datetimepicker.min'),
                          null,
                          array('inline' => false));
