@@ -33,8 +33,8 @@ class SectionsController extends AppController {
     public function admin_index() {
         $options = array('limit' => 100000, 'order' => 'Section.order, Section.id');
 
-        if (!empty($this->request->data['search_string'])) {
-            $search_string = $this->request->data['search_string'];
+        if (!empty($this->request->data['Section']['search_string'])) {
+            $search_string = $this->request->data['Section']['search_string'];
             $options['conditions'] = array('OR' => array('Section.title_eng LIKE' => "%$search_string%", 'Section.title_fra LIKE' => "%$search_string%", 'Section.body_eng LIKE' => "%$search_string%", 'Section.body_fra LIKE' => "%$search_string%", 'Section.slug_eng LIKE' => "%$search_string%", 'Section.slug_fra LIKE' => "%$search_string%"));
         }
 
