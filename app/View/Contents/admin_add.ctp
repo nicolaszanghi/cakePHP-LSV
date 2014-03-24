@@ -65,9 +65,9 @@
 
 </div><!-- #page-container .row-fluid -->
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        <?php if ($this->request->data['Content']['type'] == 'photos'): ?>
+<?php if (!empty($this->request->data['Content']))
+    if ($this->request->data['Content']['type'] == 'photos')
+        echo $this->Html->scriptBlock("
             $('#ContentBodyEngDiv').hide();
             $('#ContentBodyFraDiv').hide();
             $('#ContentMediaDiv').show();
@@ -75,7 +75,9 @@
             $('#VideoMedia').hide();
             $('#ContentCaptionEngDiv').show();
             $('#ContentCaptionFraDiv').show();
-        <?php elseif ($this->request->data['Content']['type'] == 'video'): ?>
+        ");
+    elseif ($this->request->data['Content']['type'] == 'video')
+        echo $this->Html->scriptBlock("
             $('#ContentBodyEngDiv').show();
             $('#ContentBodyFraDiv').show();
             $('#ContentMediaDiv').show();
@@ -83,6 +85,5 @@
             $('#VideoMedia').show();
             $('#ContentCaptionEngDiv').hide();
             $('#ContentCaptionFraDiv').hide();
-        <?php endif; ?>
-    });
-</script>
+        ");
+?>

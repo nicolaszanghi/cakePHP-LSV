@@ -111,7 +111,7 @@ class AppController extends Controller {
     }
 
     /**
-     * get sectoin and child_section (title, and sub menu) used in news/index, events/index
+     * get section and child_section (title, and sub menu) used in news/index, events/index
      * @param $id
      * @throws NotFoundException
      */
