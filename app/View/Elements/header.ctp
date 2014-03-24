@@ -43,7 +43,7 @@
                             $active[$section['Section']['id']] = ' class="active"';
                         $menu_title = t($menu_section['Section'], 'menu_title');
                         $title = (!empty($menu_title)) ? $menu_title : t($menu_section['Section'], 'title');
-                        echo '<li'.@$active[$menu_section['Section']['id']].'>'.$this->Html->link($title, '/sections/'.$menu_section['Section']['slug'.Configure::read('Config.language')]).'</li>';
+                        echo '<li'.@$active[$menu_section['Section']['id']].'>'.$this->Html->link($title, '/sections/'.$menu_section['Section']['slug_'.Configure::read('Config.language')]).'</li>';
                     }
                     ?>
                 </ul>

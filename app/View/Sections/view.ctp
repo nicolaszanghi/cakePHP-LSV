@@ -33,7 +33,7 @@ $this->end();
                             $active[$section['Section']['id']] = ' class="active"';
                             $menu_title_child = t($child['Section'], 'menu_title');
                             $title_child = (empty($menu_title_child)) ? t($child['Section'], 'title') : $menu_title_child;
-                            echo '<li'.@$active[$child['Section']['id']].'>'.$this->Html->link($title_child, '/sections/'.$child['Section']['slug'.Configure::read('Config.language')]).'</li>';
+                            echo '<li'.@$active[$child['Section']['id']].'>'.$this->Html->link($title_child, '/sections/'.$child['Section']['slug_'.Configure::read('Config.language')]).'</li>';
                         } ?>
                     </ul>
                 </div>

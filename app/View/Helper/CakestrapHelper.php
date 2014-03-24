@@ -14,7 +14,7 @@ class CakestrapHelper extends FormHelper {
 
         /** class */
         if (empty($options['class'])) $options['class'] = '';
-        if (!empty($options['div']) && $options['div'] !== false && empty($options['div']['class'])) $options['div']['class'] = '';
+        if (@$options['div'] !== false && empty($options['div']['class'])) $options['div']['class'] = '';
 
         /** placeholder */
         if ($this->placeholder && !isset($options['placeholder']))
@@ -26,7 +26,7 @@ class CakestrapHelper extends FormHelper {
         }
 
 
-        if (!empty($option['div']) && $options['div'] !== false)
+        if (@$options['div'] !== false)
             $options['div']['class'] .= ' input '.$options['type'];
 
         /** radio, checkbox */
@@ -69,7 +69,7 @@ class CakestrapHelper extends FormHelper {
 
             /** normal input */
         } else {
-            if (!empty($option['div']) && $options['div'] !== false)
+            if ($options['div'] !== false)
                 $options['div']['class'] .= ' form-group';
             $options['class'] .= ' form-control';
         }
