@@ -34,4 +34,4 @@
     </div>
 <?php endif ;?>
 
-<?php echo $this->Js->writeBuffer(); ?>
+<?php if ($this->request->is('ajax')) echo $this->Js->writeBuffer(); ?>
