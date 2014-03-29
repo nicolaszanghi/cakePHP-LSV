@@ -67,7 +67,7 @@
 
 <?php if (!empty($this->request->data['Content']))
     if ($this->request->data['Content']['type'] == 'photos')
-        echo $this->Html->scriptBlock("
+        echo $this->Js->buffer("
             $('#ContentBodyEngDiv').hide();
             $('#ContentBodyFraDiv').hide();
             $('#ContentMediaDiv').show();
@@ -77,7 +77,7 @@
             $('#ContentCaptionFraDiv').show();
         ");
     elseif ($this->request->data['Content']['type'] == 'video')
-        echo $this->Html->scriptBlock("
+        echo $this->Js->buffer("
             $('#ContentBodyEngDiv').show();
             $('#ContentBodyFraDiv').show();
             $('#ContentMediaDiv').show();

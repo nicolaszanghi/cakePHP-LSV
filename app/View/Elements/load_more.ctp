@@ -1,33 +1,22 @@
 
-<?php if (!$this->request->is('ajax')): ?>
+<div id="load-more">
+    <?php if (!empty($this->params->slug)) $this->Paginator->options['url'] = $this->params->slug;?>
+    <?php echo $this->Paginator->next(__('Load more'), null, null, array('class' => 'disabled')); ?>
+</div>
 
-    <div id="more-others"></div>
 
-    <?php if (!empty($url)) {
-        $this->Paginator->options(array(
-            'url' => $url,
-            'update' => '#more-others',
-            'evalScripts' => true,
-            'data'=>http_build_query($this->request->data),
-            'method'=>'POST',
-        ) );
-    } else {
-        $this->Paginator->options(array(
-            'update' => '#more-others',
-            'evalScripts' => true
-        ));
-    }
-    ?>
-    <div class="load_more">
-        <?php  echo $this->Paginator->next(__('load more'), array(),
-                        __('no more'),
-                        array(
-                            'escape' => false,
-                            'class' => 'disabled',
-                        ));
-        //$this->Paginator->link(__('no load more'), array()),
-        //@todo disable if no more
-        ?>
-    </div>
+<?php  $this->Js->buffer("
+    $('#content').infinitescroll({
+        navSelector  : '#load-more',         // selector for the paged navigation (it will be hidden)
+        nextSelector : '#load-more a:first', // selector for the NEXT link (to page 2)
+        itemSelector : 'article.mission-post',    // selector for all items you'll retrieve
+        loading: {
+            finishedMsg: '',
+            img : '".SITE_URL."/img/ajax-loader.gif',
+            msgText: '',
+        },
+        debug: true
+    });
+    $('#load-more').hide();
+"); ?>
 
-<?php endif ;?>

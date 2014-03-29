@@ -74,6 +74,8 @@ echo $this->Html->docType('html5');
             'init',
             'jquery.videoBG',
             'jquery.scrollTo',
+              //'jquery.history',
+              //'jquery.infinitescroll',
             'analytics',
             'carousel',
             'fancybox/jquery.fancybox.js',
@@ -130,7 +132,7 @@ echo $this->Html->docType('html5');
 
         <?php
             echo $this->fetch('firstScripts');
-            echo $this->Html->scriptBlock('var language = "'.Configure::read('Config.language').'";');
+            echo $this->Js->buffer('window.language = "'.Configure::read('Config.language').'";');
             echo $this->fetch('script');
             echo $this->Js->writeBuffer();
         ?>
