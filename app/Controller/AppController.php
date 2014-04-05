@@ -171,4 +171,37 @@ class AppController extends Controller {
         $this->set(compact('contents', 'content_section_id', 'content_page', 'count_all_contents'));
     }
 
+
+    /**
+     * get id of element corresponding of slug
+     * @param $slug
+     * @return bool
+     */
+    public function getIdFromSlug($slug) {
+        if (empty($slug))
+            return false;
+        $this->recursive = -1;
+        $data = $this->{$this->modelClass}->find('first', array('fields' => 'id', 'conditions' => array($this->modelClass.'.slug_'.Configure::read('Config.language') => $slug)));
+        // check if exist in another language
+        if (empty($data)) {
+            $languages = Configure::read('Config.languages');
+            foreach ($languages as $l => $n) {
+                if ($l == Configure::read('Config.language'))
+                    continue;
+                $data = $this->{$this->modelClass}->find('first', array('fields' => 'id', 'conditions' => array($this->modelClass.'.slug_'.$l => $slug)));
+                if (!empty($data)) {
+                    $this->Session->write('Config.language', $l);
+                    $this->Cookie->write('lang', $l, false, '20 days');
+                    Configure::write('Config.language', $l);
+                    break;
+                }
+            }
+        }
+        return $data[$this->modelClass]['id'];
+    }
+
+
+
+
+
 }

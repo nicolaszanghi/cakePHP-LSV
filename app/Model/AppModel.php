@@ -66,17 +66,5 @@ class AppModel extends Model {
         return $str;
     }
 
-    /**
-     * get id of element corresponding of slug
-     * @param $slug
-     * @return bool
-     */
-    public function getIdFromSlug($slug) {
-        if (empty($slug))
-            return false;
-        $this->recursive = -1;
-        $data = $this->find('first', array('fields' => 'id', 'conditions' => array('slug_'.Configure::read('Config.language') => $slug)));
-        return $data[$this->alias]['id'];
-    }
 
 }
