@@ -41,11 +41,28 @@ Router::connect('/admin/:controller/:action/*',
     array('prefix' => 'admin', 'admin' => true)
 );
 
+
+/**
+ * slug
+ */
+Router::connect(
+    '/:controller/:slug/*',
+    array('action' => 'view'),
+    array('slug' => '[a-zA-Z0-9_-]+')
+);
+
+
+
 /**
  * languages
  */
 $languages = array_keys(Configure::read('Config.languages'));
+Router::connect('/:language/*',
+    array(),
+    array('language' => implode('|', $languages))
+);
 
+/*
 Router::connect('/:language/admin/:controller/:action/*',
     array('prefix' => 'admin', 'admin' => true),
     array('language' => implode('|', $languages))
@@ -65,15 +82,8 @@ Router::connect('/:language/:controller',
     array('action' => 'index'),
     array('language' => implode('|', $languages))
 );
+*/
 
-/**
- * slug
- */
-Router::connect(
-    '/:controller/:slug/*',
-    array('action' => 'view'),
-    array('slug' => '[a-zA-Z0-9_-]+')
-);
 
 
 Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));

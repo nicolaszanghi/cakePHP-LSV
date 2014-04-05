@@ -25,6 +25,8 @@
                             $url = 'sections/'.$section['Section']['slug_'.$code];
                         else
                             $url = (in_array(substr($this->params->url, 0, 3), array_keys(Configure::read('Config.languages')))) ? substr($this->params->url, 4) : $this->params->url;
+                        if (!empty($this->params['prefix']))
+                            $url = $this->params['prefix'].'/'.$url;
                         echo '<li'.@$language_active[$code].'>'.$this->Html->link(substr($code, 0, 2),  '/'.$code.'/'.$url).'</li>';
                     }?>
                 </ul>

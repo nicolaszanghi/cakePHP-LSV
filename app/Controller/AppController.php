@@ -104,12 +104,13 @@ class AppController extends Controller {
             $this->Session->write('Config.language', $this->Cookie->read('lang'));
         }
         //if the user clicked the language URL
-        else if (isset($this->params['language']) &&
-                 ($this->params['language'] !=  $this->Session->read('Config.language'))
-        ) {
+        else if (isset($this->params['language'])) { // && ($this->params['language'] !=  $this->Session->read('Config.language'))) {
             //then update the value in Session and the one in Cookie
             $this->Session->write('Config.language', $this->params['language']);
             $this->Cookie->write('lang', $this->params['language'], false, '20 days');
+
+            $url = implode('/', $this->params['pass']);
+            $this->redirect(SITE_URL.'/'.$url);
         }
         if (!in_array($this->Session->read('Config.language'), array_keys(Configure::read('Config.languages'))))
             $this->Session->write('Config.language', DEFAULT_LANGUAGE);
