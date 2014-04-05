@@ -17,11 +17,14 @@
                 echo $this->Form->end(); ?>
             </li>
             <li>
-                <ul id="header-languages-menu">
+                <ul id="languages-menu" class="pull-right">
                     <?php
-                    $url = (in_array(substr($this->params->url, 0, 3), array_keys(Configure::read('Config.languages')))) ? substr($this->params->url, 4) : $this->params->url;
                     $language_active[Configure::read('Config.language')] = ' class="active"';
                     foreach (Configure::read('Config.languages') as $code => $language) { // show links for translated version
+                        if (!empty($section))
+                            $url = 'sections/'.$section['Section']['slug_'.$code];
+                        else
+                            $url = (in_array(substr($this->params->url, 0, 3), array_keys(Configure::read('Config.languages')))) ? substr($this->params->url, 4) : $this->params->url;
                         echo '<li'.@$language_active[$code].'>'.$this->Html->link(substr($code, 0, 2),  '/'.$code.'/'.$url).'</li>';
                     }?>
                 </ul>

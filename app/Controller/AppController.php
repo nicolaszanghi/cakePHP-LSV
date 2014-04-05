@@ -84,10 +84,17 @@ class AppController extends Controller {
         // Admin can access every action
         if (isset($user['role']) && $user['role'] === 'admin') {
             return true;
+        } elseif (isset($user['role']) && $user['role'] === 'author') {
+            if ($this->params['controller'] == 'users' && $this->params['action'] == 'admin_edit' && $this->params['pass'][0] != $user['id'])
+                return false;
+            elseif ($this->params['controller'] == 'users' && $this->params['action'] == 'admin_delete')
+                return false;
+            else
+                return true;
         }
 
         // Default deny
-        return parent::isAuthorized($user);
+        return false;
     }
 
     protected function _setLanguage() {

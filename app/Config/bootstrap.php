@@ -134,6 +134,7 @@ define('SITE_URL', "http://localhost:8888/gitHubContribution/cakePHP-LSV"); // @
 
 
 define('DATE_FORMAT', 'd.m.Y');
+define('DATE_FORMAT_MYSQL', '%d.%m.%Y');
 define('DATETIME_FORMAT', 'd.m.Y H:i');
 define('DATE_SELECT_FORMAT', 'DMY');
 define('TIME_SELECT_FORMAT', '24');

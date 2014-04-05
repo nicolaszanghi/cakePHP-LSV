@@ -10,3 +10,8 @@ __('Byesno1'); // yes
 
 __('eng');
 __('fra');
+
+
+__('January'); __('February'); __('March'); __('April'); __('May'); __('June'); __('July'); __('August'); __('September'); __('October'); __('November'); __('December');
+
+__('Monday'); __('Tuesday'); __('Wednesday'); __('Thursday'); __('Friday'); __('Saturday'); __('Sunday');

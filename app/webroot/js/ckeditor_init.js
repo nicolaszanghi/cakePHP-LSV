@@ -4,6 +4,7 @@ $( document ).ready( function() {
         {name: 'Chapeau', element: 'div', attributes: {'class': 'chapeau'}}
     ]);
 
+    CKEDITOR.config.allowedContent = true;
 
     var controller = document.URL.split('/');
     CKEDITOR.config.bodyClass = 'cke_'+controller[4];
