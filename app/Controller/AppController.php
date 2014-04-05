@@ -177,18 +177,18 @@ class AppController extends Controller {
      * @param $slug
      * @return bool
      */
-    public function getIdFromSlug($slug) {
+    public function getIdFromSlug($model, $slug) {
         if (empty($slug))
             return false;
         $this->recursive = -1;
-        $data = $this->{$this->modelClass}->find('first', array('fields' => 'id', 'conditions' => array($this->modelClass.'.slug_'.Configure::read('Config.language') => $slug)));
+        $data = $this->{$model}->find('first', array('fields' => 'id', 'conditions' => array($model.'.slug_'.Configure::read('Config.language') => $slug)));
         // check if exist in another language
         if (empty($data)) {
             $languages = Configure::read('Config.languages');
             foreach ($languages as $l => $n) {
                 if ($l == Configure::read('Config.language'))
                     continue;
-                $data = $this->{$this->modelClass}->find('first', array('fields' => 'id', 'conditions' => array($this->modelClass.'.slug_'.$l => $slug)));
+                $data = $this->{$model}->find('first', array('fields' => 'id', 'conditions' => array($model.'.slug_'.$l => $slug)));
                 if (!empty($data)) {
                     $this->Session->write('Config.language', $l);
                     $this->Cookie->write('lang', $l, false, '20 days');
@@ -197,7 +197,7 @@ class AppController extends Controller {
                 }
             }
         }
-        return $data[$this->modelClass]['id'];
+        return $data[$model]['id'];
     }
 
 
