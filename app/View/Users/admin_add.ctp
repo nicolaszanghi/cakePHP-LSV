@@ -7,7 +7,7 @@
             <?php echo $this->Form->create('User', array('class' => 'form')); ?>
             <fieldset>
                 <h2><?php echo __('Add User'); ?></h2>
-                <?php echo $this->Form->input('User.role', array('options' => array('admin' => 'Admin', 'author' => 'Author'))); ?>
+                <?php echo $this->Form->input('User.role', array('options' => unserialize(ROLES))); ?>
                 <?php echo $this->Form->input('User.email'); ?>
                 <?php echo $this->Form->input('User.password'); ?>
                 <?php echo $this->Form->input('User.password_confirm', array('type' => 'password')); ?>

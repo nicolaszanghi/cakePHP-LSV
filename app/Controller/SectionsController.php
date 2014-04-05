@@ -16,7 +16,7 @@ class SectionsController extends AppController {
      */
     public function view($id = null) {
         if (!empty($this->params->slug))
-            $id = $this->getIdFromSlug('Section', $this->params->slug);
+            $id = $this->getIdFromSlug('Section',n $this->params->slug);
         if (!$this->Section->exists($id)) {
             throw new NotFoundException(__('Invalid section'));
         }
