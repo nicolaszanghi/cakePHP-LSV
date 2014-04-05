@@ -3079,3 +3079,12 @@ Request URL: /gitHubContribution/cakePHP-LSV/css/bootstrap-glyphicons.css
 Stack Trace:
 #0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-03-24 17:20:40 Error: [NotFoundException] Invalid section
+Request URL: /githubcontribution/cakephp-lsv/sections/edit
+Stack Trace:
+#0 [internal function]: SectionsController->view()
+#1 /Users/nicolaszanghi/Sites/githubcontribution/cakephp-lsv/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#2 /Users/nicolaszanghi/Sites/githubcontribution/cakephp-lsv/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/nicolaszanghi/Sites/githubcontribution/cakephp-lsv/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nicolaszanghi/Sites/githubcontribution/cakephp-lsv/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
