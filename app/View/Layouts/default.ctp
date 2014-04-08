@@ -37,7 +37,6 @@ echo $this->Html->docType('html5');
           echo $this->fetch('meta');
 
           $this->Html->css(array(
-              'bootstrap.min',
               //'//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css',
               'core'
             ),
@@ -47,10 +46,11 @@ echo $this->Html->docType('html5');
 
           //@todo minify
           $this->Html->css(array(
-            'jquery.fancybox',
-            'jquery.datepick/smoothness.datepick',
-            'jplayer/midnight.black/jplayer.midnight.black',
-            'styles'
+              'bootstrap.min',
+              'jquery.fancybox',
+              'jquery.datepick/smoothness.datepick',
+              'jplayer/midnight.black/jplayer.midnight.black',
+              'styles'
             ),
             null,
             array('inline' => false)
@@ -64,27 +64,27 @@ echo $this->Html->docType('html5');
           $this->Html->script(array(
             '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
             '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js',
-            'libs/bootstrap.min'
             ),
             array('block' => 'firstScripts')
           ); // minify cant acces to themed js
 
           //@todo minify
           $this->Html->script(array(
-            'init',
-            'jquery.videoBG',
-            'jquery.scrollTo',
+              'bootstrap.min',
+              'init',
+              //'jquery.videoBG',
+              //'jquery.scrollTo',
               //'jquery.history',
-              //'jquery.infinitescroll',
-            'analytics',
-            'carousel',
-            'fancybox/jquery.fancybox.js',
-            'fancybox/helpers/jquery.fancybox-media.js',
-            'jplayer/jquery.jplayer.min.js',
-            'jquery.datepick/jquery.datepick',
-            'jquery.datepick/jquery.datepick-fr-CH',
-            'jquery.datepick/jquery.datepick-en-GB',
-            'main'
+              'jquery.infinitescroll',
+              'analytics',
+              'carousel',
+              'fancybox/jquery.fancybox.js',
+              'fancybox/helpers/jquery.fancybox-media.js',
+              //'jplayer/jquery.jplayer.min.js',
+              'jquery.datepick/jquery.datepick',
+              'jquery.datepick/jquery.datepick-fr-CH',
+              'jquery.datepick/jquery.datepick-en-GB',
+              'main'
             ),
             array('block' => 'firstScripts')
           );

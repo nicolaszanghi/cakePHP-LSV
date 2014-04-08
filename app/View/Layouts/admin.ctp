@@ -33,18 +33,18 @@ echo $this->Html->docType('html5');
 			echo $this->fetch('meta');
 
         $this->Html->css(array('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css',
-                               '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css',
-                               'bootstrap-datetimepicker.min'),
-                         null,
-                         array('inline' => false));
+                               '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'),
+        null,
+        array('inline' => false));
 
         // @todo minify
         $this->Html->css(array('core',
-                               'admin'),
-                         null,
-                         array('inline' => false));
+            'bootstrap-datetimepicker.min',
+            'admin'),
+        null,
+        array('inline' => false));
 
-			echo $this->fetch('css');
+        echo $this->fetch('css');
     ?>
 
     <?php //echo $this->element('jquery_safe_ready');
