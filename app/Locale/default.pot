@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-08-30 15:36+0200\n"
+"POT-Creation-Date: 2014-04-28 05:01+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,136 +14,1081 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Config/bootstrap.php:143
+#: Config/bootstrap.php:135
+#: View/Layouts/admin.ctp:27
+msgid "Admin"
+msgstr ""
+
+#: Config/bootstrap.php:135
+msgid "Author"
+msgstr ""
+
+#: Config/bootstrap.php:146
 msgid "Normal"
 msgstr ""
 
-#: Config/bootstrap.php:143
+#: Config/bootstrap.php:146
 msgid "Video"
 msgstr ""
 
-#: Config/bootstrap.php:143
+#: Config/bootstrap.php:146
 msgid "Photos"
 msgstr ""
 
-#: Console/Templates/Cakestrap/views/form.ctp:86
-#: View/Contents/admin_edit.ctp:22;76
+#: Config/bootstrap.php:153
+msgid "Afganistan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Albania"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Algeria"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "American Samoa"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Andorra"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Angola"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Anguilla"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Antarctica"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Argentina"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Armenia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Aruba"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Australia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Austria"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Azerbaijan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Bahamas"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Bahrain"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Bangladesh"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Barbados"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Belarus"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Belgium"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Belize"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Benin"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Bermuda"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Bhutan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Bolivia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Bosnia and Herzegowina"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Botswana"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Bouvet Island"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Brazil"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Bulgaria"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Burkina Faso"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Burundi"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Cambodia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Cameroon"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Canada"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Cape Verde"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Cayman Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Central African Republic"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Chad"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Chile"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "China"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Christmas Island"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Cocos Keeling Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Colombia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Comoros"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Congo"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Congo,c Republic of the"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Cook Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Costa Rica"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Croatia Hrvatska"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Cuba"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Cyprus"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Czech Republic"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Denmark"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Djibouti"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Dominica"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Dominican Republic"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "East Timor"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Ecuador"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Egypt"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "El Salvador"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Eritrea"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Estonia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Ethiopia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Falkland Islands Malvinas"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Faroe Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Fiji"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Finland"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "France"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "France,tan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "French Guiana"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "French Polynesia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "French Southern Territories"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Gabon"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Gambia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Georgia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Germany"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Ghana"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Gibraltar"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Greece"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Greenland"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Grenada"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Guadeloupe"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Guam"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Guatemala"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Guinea"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Guyana"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Haiti"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Heard and Mc Donald Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Honduras"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Hong Kong"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Hungary"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Iceland"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "India"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Indonesia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Iran,epublic of"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Iraq"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Ireland"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Israel"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Italy"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Jamaica"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Japan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Jordan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Kazakhstan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Kenya"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Kiribati"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Korea,c People's Republic of"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Korea,of"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Kuwait"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Latvia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Lebanon"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Lesotho"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Liberia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Liechtenstein"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Lithuania"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Luxembourg"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Macau"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Macedonia,r Yugoslav Republic of"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Madagascar"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Malawi"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Malaysia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Maldives"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Mali"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Malta"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Marshall Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Martinique"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Mauritania"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Mauritius"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Mayotte"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Mexico"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Micronesia, States of"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Moldova,of"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Monaco"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Mongolia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Montserrat"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Morocco"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Mozambique"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Myanmar"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Namibia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Nauru"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Nepal"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Netherlands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "New Caledonia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "New Zealand"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Nicaragua"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Niger"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Nigeria"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Niue"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Norfolk Island"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Norway"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Oman"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Pakistan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Palau"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Panama"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Papua New Guinea"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Paraguay"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Peru"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Philippines"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Pitcairn"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Poland"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Portugal"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Puerto Rico"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Qatar"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Reunion"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Romania"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Russian Federation"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Rwanda"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Saint LUCIA"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Samoa"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "San Marino"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Saudi Arabia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Senegal"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Seychelles"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Sierra Leone"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Singapore"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Slovakia (Slovak Republic)"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Slovenia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Solomon Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Somalia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "South Africa"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Spain"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Sri Lanka"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "St. Helena"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "St. Pierre and Miquelon"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Sudan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Suriname"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Svalbard and Jan Mayen Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Swaziland"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Sweden"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Switzerland"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Taiwan,of China"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Tajikistan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Tanzania,public of"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Thailand"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Togo"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Tokelau"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Tonga"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Tunisia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Turkey"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Turkmenistan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Tuvalu"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Uganda"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Ukraine"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "United Arab Emirates"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "United Kingdom"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "United States"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Uruguay"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Uzbekistan"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Vanuatu"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Venezuela"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Viet Nam"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Virgin Islands (British)"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Virgin Islands (U.S.)"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Wallis and Futuna Islands"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Western Sahara"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Yemen"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Yugoslavia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Zambia"
+msgstr ""
+
+#: Config/bootstrap.php:153
+msgid "Zimbabwe"
+msgstr ""
+
+#: Console/Templates/Cakestrap/views/form.ctp:73
+#: View/Contents/admin_edit.ctp:23;74
 #: View/Sections/admin_edit.ctp:24;48
 #: View/Users/admin_edit.ctp:20;29
 msgid "Save"
 msgstr ""
 
-#: Console/Templates/Cakestrap/views/form.ctp:86
-#: View/Contents/admin_add.ctp:62
-#: View/Sections/admin_add.ctp:39
+#: Console/Templates/Cakestrap/views/form.ctp:73
+#: View/Contents/admin_add.ctp:59
+#: View/Sections/admin_add.ctp:27
 #: View/Users/admin_add.ctp:15
 msgid "Add"
 msgstr ""
 
-#: Console/Templates/Cakestrap/views/form.ctp:86
-#: View/Contents/admin_edit.ctp:14
+#: Console/Templates/Cakestrap/views/form.ctp:73
+#: View/Contents/admin_edit.ctp:15
 #: View/Contents/admin_view.ctp:16
 #: View/Sections/admin_edit.ctp:18
-#: View/Sections/admin_index.ctp:60
-#: View/Sections/admin_view.ctp:16;182;229
+#: View/Sections/admin_index.ctp:62
+#: View/Sections/admin_view.ctp:16;189;236
 #: View/Users/admin_edit.ctp:14
 #: View/Users/admin_index.ctp:29
 #: View/Users/admin_view.ctp:14
 msgid "Delete"
 msgstr ""
 
-#: Controller/ContentsController.php:75;117;158
+#: Controller/ContentsController.php:73;110;145
 msgid "Invalid content"
 msgstr ""
 
-#: Controller/ContentsController.php:90;121
+#: Controller/ContentsController.php:88;114
 msgid "The content has been saved"
 msgstr ""
 
-#: Controller/ContentsController.php:93;132
+#: Controller/ContentsController.php:91;125
 msgid "The content could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/ContentsController.php:162
+#: Controller/ContentsController.php:149
 msgid "Content deleted"
 msgstr ""
 
-#: Controller/ContentsController.php:164
+#: Controller/ContentsController.php:151
 msgid "Content was not deleted"
 msgstr ""
 
-#: Controller/SectionsController.php:21;67;105;138
+#: Controller/SectionsController.php:21;67;106;139
 msgid "Invalid section"
 msgstr ""
 
-#: Controller/SectionsController.php:83;110
+#: Controller/SectionsController.php:84;111
 msgid "The section has been saved"
 msgstr ""
 
-#: Controller/SectionsController.php:86;113
+#: Controller/SectionsController.php:87;114
 msgid "The section could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/SectionsController.php:133
+#: Controller/SectionsController.php:134
 msgid "You cannot delete this section"
 msgstr ""
 
-#: Controller/SectionsController.php:142
+#: Controller/SectionsController.php:143
 msgid "Section deleted"
 msgstr ""
 
-#: Controller/SectionsController.php:145
+#: Controller/SectionsController.php:146
 msgid "Section was not deleted"
 msgstr ""
 
-#: Controller/UsersController.php:21
+#: Controller/UsersController.php:20
 msgid "Invalid username or password, try again"
 msgstr ""
 
-#: Controller/UsersController.php:49;81;115
+#: Controller/UsersController.php:48;80;114
 msgid "Invalid user"
 msgstr ""
 
-#: Controller/UsersController.php:64;89
+#: Controller/UsersController.php:63;88
 msgid "The user has been saved"
 msgstr ""
 
-#: Controller/UsersController.php:67;92
+#: Controller/UsersController.php:66;91
 msgid "The user could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:119
+#: Controller/UsersController.php:118
 msgid "User deleted"
 msgstr ""
 
-#: Controller/UsersController.php:122
+#: Controller/UsersController.php:121
 msgid "User was not deleted"
 msgstr ""
 
-#: Plugin/AjaxMultiUpload/Controller/UploadsController.php:57
-msgid "File parameter is missing"
-msgstr ""
-
-#: Plugin/AjaxMultiUpload/Controller/UploadsController.php:63
-msgid "File deleted!"
-msgstr ""
-
-#: Plugin/AjaxMultiUpload/Controller/UploadsController.php:65
-msgid "Unable to delete File"
-msgstr ""
-
-#: Plugin/AjaxMultiUpload/Controller/UploadsController.php:68
-msgid "File does not exist!"
-msgstr ""
-
-#: Plugin/AjaxMultiUpload/View/Helper/UploadHelper.php:23
-msgid "Files"
-msgstr ""
-
 #: View/translation.ctp:6
-#: View/Contents/admin_view.ctp:53
-#: View/Sections/admin_index.ctp:41;42
-#: View/Sections/admin_view.ctp:32;39;176;221
+#: View/Contents/admin_view.ctp:39
+#: View/Sections/admin_index.ctp:42;43
+#: View/Sections/admin_view.ctp:32;39;183;228
 msgid "Byesno"
 msgstr ""
 
@@ -163,17 +1108,93 @@ msgstr ""
 msgid "fra"
 msgstr ""
 
+#: View/translation.ctp:15
+msgid "January"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "February"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "March"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "April"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "May"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "June"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "July"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "August"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "September"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "October"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "November"
+msgstr ""
+
+#: View/translation.ctp:15
+msgid "December"
+msgstr ""
+
+#: View/translation.ctp:17
+msgid "Monday"
+msgstr ""
+
+#: View/translation.ctp:17
+msgid "Tuesday"
+msgstr ""
+
+#: View/translation.ctp:17
+msgid "Wednesday"
+msgstr ""
+
+#: View/translation.ctp:17
+msgid "Thursday"
+msgstr ""
+
+#: View/translation.ctp:17
+msgid "Friday"
+msgstr ""
+
+#: View/translation.ctp:17
+msgid "Saturday"
+msgstr ""
+
+#: View/translation.ctp:17
+msgid "Sunday"
+msgstr ""
+
 #: View/Contents/admin_add.ctp:10
 msgid "Add Content to %s %s"
 msgstr ""
 
-#: View/Contents/admin_add.ctp:51;59
-#: View/Contents/admin_edit.ctp:65
+#: View/Contents/admin_add.ctp:49;56
+#: View/Contents/admin_edit.ctp:64
 msgid "Select Photos"
 msgstr ""
 
-#: View/Contents/admin_add.ctp:54
-#: View/Contents/admin_edit.ctp:68
+#: View/Contents/admin_add.ctp:51
+#: View/Contents/admin_edit.ctp:66
 msgid "Paste your video embed code in Media"
 msgstr ""
 
@@ -182,18 +1203,13 @@ msgid "Edit Content of %s %s"
 msgstr ""
 
 #: View/Contents/admin_edit.ctp:13
-#: View/Sections/admin_edit.ctp:16
-#: View/Sections/admin_index.ctp:57
-#: View/Sections/admin_view.ctp:180;227
-#: View/Users/admin_edit.ctp:13
-#: View/Users/admin_index.ctp:27
-msgid "View"
+msgid "Back"
 msgstr ""
 
-#: View/Contents/admin_edit.ctp:14
+#: View/Contents/admin_edit.ctp:15
 #: View/Contents/admin_view.ctp:16
 #: View/Sections/admin_edit.ctp:18
-#: View/Sections/admin_index.ctp:60
+#: View/Sections/admin_index.ctp:62
 #: View/Sections/admin_view.ctp:16
 #: View/Users/admin_edit.ctp:14
 #: View/Users/admin_index.ctp:29
@@ -206,15 +1222,15 @@ msgid "Content"
 msgstr ""
 
 #: View/Contents/admin_view.ctp:15
-#: View/Sections/admin_index.ctp:58
-#: View/Sections/admin_view.ctp:14;181;228
+#: View/Sections/admin_index.ctp:60
+#: View/Sections/admin_view.ctp:14;188;235
 #: View/Users/admin_index.ctp:28
 #: View/Users/admin_view.ctp:13
 msgid "Edit"
 msgstr ""
 
 #: View/Contents/admin_view.ctp:23
-#: View/Sections/admin_view.ctp:23;164;207
+#: View/Sections/admin_view.ctp:23;171;214
 #: View/Users/admin_view.ctp:21
 msgid "Id"
 msgstr ""
@@ -225,79 +1241,70 @@ msgid "Section"
 msgstr ""
 
 #: View/Contents/admin_view.ctp:37
-msgid "Laureate"
-msgstr ""
-
-#: View/Contents/admin_view.ctp:44
-msgid "Jury"
-msgstr ""
-
-#: View/Contents/admin_view.ctp:51
-#: View/Sections/admin_view.ctp:30;165;208
+#: View/Sections/admin_view.ctp:30;172;215
 msgid "Active"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:58
-#: View/Sections/admin_view.ctp:58;166;209
+#: View/Contents/admin_view.ctp:44
+#: View/Sections/admin_view.ctp:65;173;216
 msgid "Title Eng"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:65
-#: View/Sections/admin_view.ctp:65;167;210
+#: View/Contents/admin_view.ctp:51
+#: View/Sections/admin_view.ctp:72;174;217
 msgid "Title Fra"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:72
-#: View/Sections/admin_view.ctp:100
+#: View/Contents/admin_view.ctp:58
+#: View/Sections/admin_view.ctp:107
 msgid "Body Eng"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:79
-#: View/Sections/admin_view.ctp:107
+#: View/Contents/admin_view.ctp:65
+#: View/Sections/admin_view.ctp:114
 msgid "Body Fra"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:86
+#: View/Contents/admin_view.ctp:72
 msgid "Media"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:93
+#: View/Contents/admin_view.ctp:79
 msgid "Caption Eng"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:100
+#: View/Contents/admin_view.ctp:86
 msgid "Caption Fra"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:107
-#: View/Sections/admin_view.ctp:122;212
+#: View/Contents/admin_view.ctp:93
+#: View/Sections/admin_view.ctp:129;219
 msgid "Order"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:114
-#: View/Sections/admin_view.ctp:129
+#: View/Contents/admin_view.ctp:100
+#: View/Sections/admin_view.ctp:136
 #: View/Users/admin_view.ctp:49
 msgid "Created"
 msgstr ""
 
-#: View/Contents/admin_view.ctp:121
-#: View/Sections/admin_view.ctp:136
+#: View/Contents/admin_view.ctp:107
+#: View/Sections/admin_view.ctp:143
 #: View/Users/admin_view.ctp:56
 msgid "Modified"
 msgstr ""
 
-#: View/Contents/search.ctp:6
+#: View/Contents/search.ctp:5
 #: View/Elements/header.ctp:16
-#: View/Helper/CakestrapHelper.php:46
+#: View/Helper/CakestrapHelper.php:66
 msgid "Search"
 msgstr ""
 
-#: View/Contents/search.ctp:7
+#: View/Contents/search.ctp:6
 msgid "%s results"
 msgstr ""
 
 #: View/Elements/contents.ctp:32
-#: View/Elements/load_more.ctp:22
 msgid "load more"
 msgstr ""
 
@@ -311,8 +1318,8 @@ msgstr ""
 msgid "newsletter"
 msgstr ""
 
-#: View/Elements/load_more.ctp:23
-msgid "no more"
+#: View/Elements/load_more.ctp:4
+msgid "Load more"
 msgstr ""
 
 #: View/Elements/newsletter_form.ctp:4
@@ -337,19 +1344,11 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: View/Layouts/admin.ctp:26
-msgid "Admin"
-msgstr ""
-
-#: View/Sections/admin_add.ctp:9
-msgid "List Sections"
-msgstr ""
-
-#: View/Sections/admin_add.ctp:22
+#: View/Sections/admin_add.ctp:10
 msgid "Add Section"
 msgstr ""
 
-#: View/Sections/admin_add.ctp:36
+#: View/Sections/admin_add.ctp:24
 #: View/Sections/admin_edit.ctp:44
 msgid "Click here to choose an image"
 msgstr ""
@@ -358,19 +1357,26 @@ msgstr ""
 msgid "Edit Section"
 msgstr ""
 
+#: View/Sections/admin_edit.ctp:16
+#: View/Sections/admin_view.ctp:187;234
+#: View/Users/admin_edit.ctp:13
+#: View/Users/admin_index.ctp:27
+msgid "View"
+msgstr ""
+
 #: View/Sections/admin_index.ctp:19
-#: View/Sections/admin_view.ctp:155
+#: View/Sections/admin_view.ctp:162
 msgid "New Section"
 msgstr ""
 
-#: View/Sections/admin_index.ctp:34
-#: View/Sections/admin_view.ctp:168;213
+#: View/Sections/admin_index.ctp:35
+#: View/Sections/admin_view.ctp:175;220
 #: View/Users/admin_index.ctp:18
 msgid "Actions"
 msgstr ""
 
-#: View/Sections/admin_index.ctp:69
-#: View/Sections/admin_view.ctp:236
+#: View/Sections/admin_index.ctp:71
+#: View/Sections/admin_view.ctp:243
 msgid "Move line to reorder"
 msgstr ""
 
@@ -383,46 +1389,50 @@ msgid "Parent Section"
 msgstr ""
 
 #: View/Sections/admin_view.ctp:51
-msgid "Slug"
+msgid "Slug Eng"
 msgstr ""
 
-#: View/Sections/admin_view.ctp:72
-msgid "Menu Title Eng"
+#: View/Sections/admin_view.ctp:58
+msgid "Slug Fra"
 msgstr ""
 
 #: View/Sections/admin_view.ctp:79
-msgid "Menu Title Fra"
+msgid "Menu Title Eng"
 msgstr ""
 
 #: View/Sections/admin_view.ctp:86
-msgid "Subtitle Eng"
+msgid "Menu Title Fra"
 msgstr ""
 
 #: View/Sections/admin_view.ctp:93
+msgid "Subtitle Eng"
+msgstr ""
+
+#: View/Sections/admin_view.ctp:100
 msgid "Subtitle Fra"
 msgstr ""
 
-#: View/Sections/admin_view.ctp:114
+#: View/Sections/admin_view.ctp:121
 msgid "Image Header"
 msgstr ""
 
-#: View/Sections/admin_view.ctp:151
+#: View/Sections/admin_view.ctp:158
 msgid "Child Sections"
 msgstr ""
 
-#: View/Sections/admin_view.ctp:182;229
+#: View/Sections/admin_view.ctp:189;236
 msgid "Are you sure you want to delete %s?"
 msgstr ""
 
-#: View/Sections/admin_view.ctp:194
+#: View/Sections/admin_view.ctp:201
 msgid "Contents"
 msgstr ""
 
-#: View/Sections/admin_view.ctp:198
+#: View/Sections/admin_view.ctp:205
 msgid "New Content"
 msgstr ""
 
-#: View/Sections/admin_view.ctp:211
+#: View/Sections/admin_view.ctp:218
 msgid "Type"
 msgstr ""
 
@@ -480,229 +1490,15 @@ msgstr ""
 msgid "email"
 msgstr ""
 
+#: Model/User.php:validation for field email
+msgid "Another account exist with this email"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "Minimum 6 characters long"
+msgstr ""
+
 #: Model/User.php:validation for field password_confirm
 msgid "Password do not correspond."
-msgstr ""
-
-#: View/Errors/error400.ctp:22
-#: View/Errors/error500.ctp:22
-msgid "Error"
-msgstr ""
-
-#: View/Errors/error400.ctp:24
-msgid "The requested address %s was not found on this server."
-msgstr ""
-
-#: View/Errors/error500.ctp:23
-msgid "An Internal Error Has Occurred."
-msgstr ""
-
-#: View/Layouts/error.ctp:20
-#: View/Themed/Cakestrap/Layouts/_default.ctp:19
-msgid "CakePHP: the rapid development php framework"
-msgstr ""
-
-#: View/Pages/home.ctp:25
-msgid "Release Notes for CakePHP %s."
-msgstr ""
-
-#: View/Pages/home.ctp:27
-msgid "Read the changelog"
-msgstr ""
-
-#: View/Pages/home.ctp:35
-msgid "URL rewriting is not properly configured on your server."
-msgstr ""
-
-#: View/Pages/home.ctp:43
-msgid "Your version of PHP is 5.2.8 or higher."
-msgstr ""
-
-#: View/Pages/home.ctp:47
-msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
-msgstr ""
-
-#: View/Pages/home.ctp:56
-msgid "Your tmp directory is writable."
-msgstr ""
-
-#: View/Pages/home.ctp:60
-msgid "Your tmp directory is NOT writable."
-msgstr ""
-
-#: View/Pages/home.ctp:70
-msgid "The %s is being used for core caching. To change the config edit APP/Config/core.php "
-msgstr ""
-
-#: View/Pages/home.ctp:74
-msgid "Your cache is NOT working. Please check the settings in APP/Config/core.php"
-msgstr ""
-
-#: View/Pages/home.ctp:84
-msgid "Your database configuration file is present."
-msgstr ""
-
-#: View/Pages/home.ctp:89
-msgid "Your database configuration file is NOT present."
-msgstr ""
-
-#: View/Pages/home.ctp:91
-msgid "Rename APP/Config/database.php.default to APP/Config/database.php"
-msgstr ""
-
-#: View/Pages/home.ctp:116
-msgid "Cake is able to connect to the database."
-msgstr ""
-
-#: View/Pages/home.ctp:120
-msgid "Cake is NOT able to connect to the database."
-msgstr ""
-
-#: View/Pages/home.ctp:132
-msgid "PCRE has not been compiled with Unicode support."
-msgstr ""
-
-#: View/Pages/home.ctp:134
-msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
-msgstr ""
-
-#: View/Pages/home.ctp:143
-msgid "DebugKit plugin is present"
-msgstr ""
-
-#: View/Pages/home.ctp:147
-msgid "DebugKit is not installed. It will help you inspect and debug different aspects of your application."
-msgstr ""
-
-#: View/Pages/home.ctp:149
-msgid "You can install it from %s"
-msgstr ""
-
-#: View/Pages/home.ctp:155
-msgid "Editing this Page"
-msgstr ""
-
-#: View/Pages/home.ctp:158
-msgid "To change the content of this page, edit: APP/View/Pages/home.ctp.<br />\nTo change its layout, edit: APP/View/Layouts/default.ctp.<br />\nYou can also add some CSS styles for your pages at: APP/webroot/css."
-msgstr ""
-
-#: View/Pages/home.ctp:164
-msgid "Getting Started"
-msgstr ""
-
-#: View/Pages/home.ctp:168
-msgid "New"
-msgstr ""
-
-#: View/Pages/home.ctp:168
-msgid "CakePHP 2.0 Docs"
-msgstr ""
-
-#: View/Pages/home.ctp:177
-msgid "The 15 min Blog Tutorial"
-msgstr ""
-
-#: View/Pages/home.ctp:184
-msgid "Official Plugins"
-msgstr ""
-
-#: View/Pages/home.ctp:189
-msgid "provides a debugging toolbar and enhanced debugging tools for CakePHP applications."
-msgstr ""
-
-#: View/Pages/home.ctp:193
-msgid "contains various localized validation classes and translations for specific countries"
-msgstr ""
-
-#: View/Pages/home.ctp:198
-msgid "More about Cake"
-msgstr ""
-
-#: View/Pages/home.ctp:200
-msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
-msgstr ""
-
-#: View/Pages/home.ctp:203
-msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
-msgstr ""
-
-#: View/Pages/home.ctp:207
-msgid "Cake Software Foundation"
-msgstr ""
-
-#: View/Pages/home.ctp:208
-msgid "Promoting development related to CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:209
-msgid "CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:210
-msgid "The Rapid Development Framework"
-msgstr ""
-
-#: View/Pages/home.ctp:211
-msgid "CakePHP Documentation"
-msgstr ""
-
-#: View/Pages/home.ctp:212
-msgid "Your Rapid Development Cookbook"
-msgstr ""
-
-#: View/Pages/home.ctp:213
-msgid "CakePHP API"
-msgstr ""
-
-#: View/Pages/home.ctp:214
-msgid "Quick Reference"
-msgstr ""
-
-#: View/Pages/home.ctp:215
-msgid "The Bakery"
-msgstr ""
-
-#: View/Pages/home.ctp:216
-msgid "Everything CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:217
-msgid "CakePHP plugins repo"
-msgstr ""
-
-#: View/Pages/home.ctp:218
-msgid "A comprehensive list of all CakePHP plugins created by the community"
-msgstr ""
-
-#: View/Pages/home.ctp:219
-msgid "CakePHP Google Group"
-msgstr ""
-
-#: View/Pages/home.ctp:220
-msgid "Community mailing list"
-msgstr ""
-
-#: View/Pages/home.ctp:222
-msgid "Live chat about CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:223
-msgid "CakePHP Code"
-msgstr ""
-
-#: View/Pages/home.ctp:224
-msgid "For the Development of CakePHP Git repository, Downloads"
-msgstr ""
-
-#: View/Pages/home.ctp:225
-msgid "CakePHP Lighthouse"
-msgstr ""
-
-#: View/Pages/home.ctp:226
-msgid "CakePHP Tickets, Wiki pages, Roadmap"
-msgstr ""
-
-#: webroot/test.php:95
-msgid "Debug setting does not allow access to this url."
 msgstr ""
 
