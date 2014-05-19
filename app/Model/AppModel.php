@@ -43,12 +43,21 @@ class AppModel extends Model {
      */
     public function saveSlug($data,  $field = null) {
         $languages = Configure::read('Config.languages');
+        $pattern = '/[^_]*$/';
         foreach ($languages as $language => $n) {
             $slug = $this->stringToSlug($data[$this->alias][$field.'_'.$language]);
             $this->recursive = -1;
-            while ($this->find('count', array('conditions' => array('slug_'.$language => $slug, 'id !=' => $data[$this->alias]['id']))) > 0)
-                $slug = substr($slug, 0, -1);
-            $return = $this->saveField('slug_'.$language, $slug);
+            while ($this->find('count', array('conditions' => array('slug_'.$language => $slug, 'id !=' => $data[$this->alias]['id']))) > 0) {
+                // get last word and check if is a number
+                preg_match($pattern, $slug, $results);
+                if (is_numeric($results[0])) {
+                    $results[0]++;
+                    $slug = preg_replace($pattern, '', $slug);
+                    $slug .= $results[0];
+                }else
+                    $slug .= '_1';
+            }
+            $return = $this->savefield('slug_'.$language, $slug);
         }
         return $return;
     }
