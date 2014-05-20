@@ -5,7 +5,7 @@
 
 		<div class="sections form">
 		
-			<?php echo $this->Form->create('Section', array('class' => 'form')); ?>
+			<?php echo $this->Form->create('Section'); ?>
 				<fieldset>
 					<h2><?php echo __('Add Section'); ?></h2>
 					<?php echo $this->Form->input('Section.active'); ?>

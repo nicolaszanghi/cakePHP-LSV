@@ -19,7 +19,7 @@
 
 		<div class="contents form">
 		
-            <?php echo $this->Form->create('Content', array('url' => array($this->Form->value('Content.id'), $redirect_controller, $redirect_id, $redirect_name), 'class' => 'form')); ?>
+            <?php echo $this->Form->create('Content', array('url' => array($this->Form->value('Content.id'), $redirect_controller, $redirect_id, $redirect_name))); ?>
                 <?php echo $this->Form->submit(__('Save'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>
 				<fieldset>
 					<?php echo $this->Form->input('Content.id'); ?>

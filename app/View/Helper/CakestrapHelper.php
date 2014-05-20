@@ -162,6 +162,15 @@ class CakestrapHelper extends FormHelper {
         return $errors === null ? false : $errors;
     }
 
+    public function create($model = null, $options = array()) {
+
+        if (empty($options['class']))
+            $options['class'] = 'form';
+
+        return parent::create($model, $options);
+
+    }
+
 
     public function submit($caption = null, $options = array()) {
 
