@@ -167,13 +167,9 @@ class CakestrapHelper extends FormHelper {
 
         if (empty($options['class']))
             $options['class'] = 'btn btn-success';
-        else
-            $options['class'] .= ' btn btn-success';
 
         if (empty($options['div']['class']))
             $options['div']['class'] = 'form-group';
-        else
-            $options['div']['class'] .= ' form-group';
 
         return parent::submit($caption, $options);
 
