@@ -24,7 +24,7 @@
                     <div class="kcfinder-image-header" onclick="openKCFinder(this, 'SectionImageHeader')"><div><?php echo __('Click here to choose an image').' 2200x257px'; ?></div></div>
 
 				</fieldset>
-				<?php echo $this->Form->submit(__('Add'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>
+				<?php echo $this->Form->submit(__('Add')); ?>
 			<?php echo $this->Form->end(); ?>
 			
 		</div>

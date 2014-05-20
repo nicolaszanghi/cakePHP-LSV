@@ -56,7 +56,7 @@
                     <?php echo $this->Html->link('<i class="fa fa-upload"></i> '.__('Select Photos'), array(), array('id' => 'photosBodyFra', 'class' => 'btn btn-success display_none', 'escape' => false));
                                $this->Js->get('#photosBodyFra')->event('click', 'openKCFinderMultipleFiles("#ContentBodyFra");'); ?>
 				</fieldset>
-				<?php echo $this->Form->submit(__('Add'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>
+				<?php echo $this->Form->submit(__('Add')); ?>
 			<?php echo $this->Form->end(); ?>
 			
 		</div>

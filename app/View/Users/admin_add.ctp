@@ -12,7 +12,7 @@
                 <?php echo $this->Form->input('User.password'); ?>
                 <?php echo $this->Form->input('User.password_confirm', array('type' => 'password')); ?>
             </fieldset>
-            <?php echo $this->Form->submit(__('Add'), array('class' => 'btn btn-success', 'div' => array('class' => 'form-group'))); ?>
+            <?php echo $this->Form->submit(__('Add')); ?>
             <?php echo $this->Form->end(); ?>
 
         </div>
