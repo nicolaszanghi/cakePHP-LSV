@@ -1,7 +1,11 @@
 
 <div id="load-more">
-    <?php if (!empty($this->params->slug)) $this->Paginator->options['url'] = $this->params->slug;?>
-    <?php echo $this->Paginator->next(__('Load more'), null, null, array('class' => 'disabled')); ?>
+    <?php
+    if (!empty($this->params->slug)) $this->Paginator->options['url']['slug'] = $this->params->slug;
+    if (!empty($this->params->query))
+        foreach ($this->params->query as $k => $v)
+            $this->Paginator->options['url'][$k] = $v;
+    echo $this->Paginator->next(__('Load more'), null, null, array('class' => 'disabled')); ?>
 </div>
 
 
@@ -16,6 +20,9 @@
             msgText: '',
         },
         debug: true
+    }, function() {
+        $('#content').trigger('infinitescroll_content_loaded');
+        $(window).trigger('scroll');
     });
     $('#load-more').hide();
 "); ?>
