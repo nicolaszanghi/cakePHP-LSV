@@ -26,6 +26,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<?php echo $cakeDescription ?>:
 			<?php echo $title_for_layout; ?>
 		</title>
+		<meta name="author" content="La Souris Verte - www.lasourisverte.ch">
 		<?php
 			echo $this->Html->meta('icon');
 			
