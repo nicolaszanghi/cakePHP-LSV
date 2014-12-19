@@ -3088,3 +3088,13 @@ Stack Trace:
 #3 /Users/nicolaszanghi/Sites/githubcontribution/cakephp-lsv/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest), Object(CakeResponse))
 #4 /Users/nicolaszanghi/Sites/githubcontribution/cakephp-lsv/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-06-16 17:44:43 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/app/Controller/SectionsController.php, line 19]
+2014-06-16 17:44:43 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /gitHubContribution/cakePHP-LSV/
+Stack Trace:
+#0 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/nicolasz...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/nicolasz...', 19, Array)
+#2 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/nicolasz...', 19, Array)
+#3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
