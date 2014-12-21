@@ -19,38 +19,24 @@
 
 <div id="page-container" class="row">
 
-	<div id="sidebar" class="col-lg-3">
-		
-		<div class="actions">
-			
-			<ul class="nav nav-list bs-docs-sidenav">
-<?php
-					echo "\t\t\t\t<li><?php echo \$this->Html->link(__('Edit " . $singularHumanName ."'), array('action' => 'edit', \${$singularVar}['{$modelClass}']['{$primaryKey}']), array('class' => '')); ?> </li>\n";
-					echo "\t\t\t\t<li><?php echo \$this->Form->postLink(__('Delete " . $singularHumanName . "'), array('action' => 'delete', \${$singularVar}['{$modelClass}']['{$primaryKey}']), array('class' => ''), __('Are you sure you want to delete # %s?', \${$singularVar}['{$modelClass}']['{$primaryKey}'])); ?> </li>\n";
-					echo "\t\t\t\t<li><?php echo \$this->Html->link(__('List " . $pluralHumanName . "'), array('action' => 'index'), array('class' => '')); ?> </li>\n";
-					echo "\t\t\t\t<li><?php echo \$this->Html->link(__('New " . $singularHumanName . "'), array('action' => 'add'), array('class' => '')); ?> </li>\n";
-
-					$done = array();
-					foreach ($associations as $type => $data) {
-						foreach ($data as $alias => $details) {
-							if ($details['controller'] != $this->name && !in_array($details['controller'], $done)) {
-								echo "\t\t\t\t<li><?php echo \$this->Html->link(__('List " . Inflector::humanize($details['controller']) . "'), array('controller' => '{$details['controller']}', 'action' => 'index'), array('class' => '')); ?> </li>\n";
-								echo "\t\t\t\t<li><?php echo \$this->Html->link(__('New " .  Inflector::humanize(Inflector::underscore($alias)) . "'), array('controller' => '{$details['controller']}', 'action' => 'add'), array('class' => '')); ?> </li>\n";
-								$done[] = $details['controller'];
-							}
-						}
-					}
-?>          </ul><!-- .nav nav-list bs-docs-sidenav -->
-			
-		</div><!-- .actions -->
-		
-	</div><!-- #sidebar .col-lg-3 -->
-	
-	<div id="page-content" class="col-lg-9">
+	<div id="page-content" class="col-lg-12">
 		
 		<div class="<?php echo $pluralVar; ?> view">
 
-			<h2><?php echo "<?php  echo __('{$singularHumanName}'); ?>"; ?></h2>
+			<div class="row">
+				<div class="col-lg-9">
+					<h2><?php echo "<?php  echo __('{$singularHumanName}'); ?>"; ?></h2>
+				</div>
+				<div class="col-lg-3">
+					<div class="actions pull-right">
+						<?php
+                            echo "\t\t\t\t\t\t\t<?php echo \$this->Html->link('<i class=\"fa fa-pencil\"></i> '.__('Edit " . $singularHumanName ."'), array('action' => 'edit', \${$singularVar}['{$modelClass}']['{$primaryKey}']), array('class' => 'btn btn-sm btn-warning', 'escape' => false)); ?>\n";
+                            echo "\t\t\t\t\t\t\t<?php echo \$this->Form->postLink('<i class=\"fa fa-times\"></i> '.__('Delete " . $singularHumanName . "'), array('action' => 'delete', \${$singularVar}['{$modelClass}']['{$primaryKey}']), array('class' => 'btn btn-sm btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', \${$singularVar}['{$modelClass}']['{$primaryKey}'])); ?>\n";
+						?>
+					</div>
+				</div>
+			</div>
+
 
 			<table class="table table-striped table-bordered">
 <?php
@@ -98,7 +84,7 @@
 						</table><!-- .table table-striped table-bordered -->
 					<?php echo "<?php endif; ?>\n"; ?>
                             <div class="actions">
-                                <?php echo "<li><?php echo \$this->Html->link(__('<i class=\"icon-pencil icon-white\"></i> Edit " . Inflector::humanize(Inflector::underscore($alias)) . "'), array('controller' => '{$details['controller']}', 'action' => 'edit', \${$singularVar}['{$alias}']['{$details['primaryKey']}']), array('class' => 'btn btn-primary btn-warning', 'escape' => false)); ?>\n"; ?>
+                                <?php echo "<li><?php echo \$this->Html->link(__('<i class=\"icon-pencil icon-white\"></i> Edit " . Inflector::humanize(Inflector::underscore($alias)) . "'), array('controller' => '{$details['controller']}', 'action' => 'edit', \${$singularVar}['{$alias}']['{$details['primaryKey']}']), array('class' => 'btn btn-sm btn-warning', 'escape' => false)); ?>\n"; ?>
                             </div><!-- .actions -->
 				</div><!-- .related -->
 			        <?php
@@ -156,13 +142,13 @@
 				<?php echo "<?php endif; ?>\n\n"; ?>
 				
 				<div class="actions">
-					<?php echo "<?php echo \$this->Html->link('<i class=\"fa fa-plus\"></i> '.__('New " . Inflector::humanize(Inflector::underscore($alias)) . "'), array('controller' => '{$details['controller']}', 'action' => 'add'), array('class' => 'btn btn-success', 'escape' => false)); ?>\n"; ?>
+					<?php echo "<?php echo \$this->Html->link('<i class=\"fa fa-plus\"></i> '.__('New " . Inflector::humanize(Inflector::underscore($alias)) . "'), array('controller' => '{$details['controller']}', 'action' => 'add'), array('class' => 'btn btn-sm btn-success', 'escape' => false)); ?>\n"; ?>
 				</div><!-- .actions -->
 				
 			</div><!-- .related -->
 
 		<?php endforeach; ?>
 	
-	</div><!-- #page-content .col-lg-9 -->
+	</div><!-- #page-content .col-lg-12 -->
 
 </div><!-- #page-container .row-fluid -->

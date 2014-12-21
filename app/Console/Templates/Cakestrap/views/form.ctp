@@ -30,8 +30,8 @@
                 <div class="col-lg-3" p>
                     <div class="actions pull-right">
                         <?php if (strpos($action, 'add') === false):
-                            echo "<?php echo \$this->Html->link('<i class=\"fa fa-info\"> </i>'.__('View'), array('action' => 'view', \$this->Form->value('{$modelClass}.{$primaryKey}')), array('class' => 'btn btn-info', 'escape' => false)); ?>\n";
-                            echo "\t\t\t\t\t\t<?php echo \$this->Form->postLink('<i class=\"fa fa-times\"> </i>'.__('Delete'), array('action' => 'delete', \$this->Form->value('{$modelClass}.{$primaryKey}')), array('class' => 'btn btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', \$this->Form->value('{$modelClass}.{$primaryKey}'))); ?>\n";
+                            echo "<?php echo \$this->Html->link('<i class=\"fa fa-info\"></i> '.__('View'), array('action' => 'view', \$this->Form->value('{$modelClass}.{$primaryKey}')), array('class' => 'btn btn-sm btn-info', 'escape' => false)); ?>\n";
+                            echo "\t\t\t\t\t\t<?php echo \$this->Form->postLink('<i class=\"fa fa-times\"></i> '.__('Delete'), array('action' => 'delete', \$this->Form->value('{$modelClass}.{$primaryKey}')), array('class' => 'btn btn-sm btn-danger', 'escape' => false), __('Are you sure you want to delete # %s?', \$this->Form->value('{$modelClass}.{$primaryKey}'))); ?>\n";
                         endif;?>
                     </div>
                     <!-- .actions -->
