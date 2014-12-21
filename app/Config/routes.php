@@ -48,7 +48,7 @@ Router::connect('/admin/:controller/:action/*',
 Router::connect(
     '/:controller/:slug/*',
     array('action' => 'view'),
-    array('slug' => '[a-zA-Z0-9_-]+')
+    array('slug' => '(?!view|index)([a-zA-Z0-9_-]+)')
 );
 
 
