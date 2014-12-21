@@ -100,16 +100,14 @@ echo $this->Html->docType('html5');
 
 	<body>
 
-		<div id="main-container">
+		<div id="main-container" class="container">
 
             <?php echo $this->element('header'); ?>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <?php echo $this->Session->flash('auth'); ?>
-                        <?php echo $this->Session->flash(); ?>
-                    </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <?php echo $this->Session->flash('auth'); ?>
+                    <?php echo $this->Session->flash(); ?>
                 </div>
             </div>
 
@@ -119,7 +117,7 @@ echo $this->Html->docType('html5');
 
 
         <?php if (Configure::read('debug') > 0): ?>
-            <div class="container sql_dump">
+            <div class="sql_dump">
                 <div class="well">
                     <small>
                         <?php echo $this->element('sql_dump'); ?>

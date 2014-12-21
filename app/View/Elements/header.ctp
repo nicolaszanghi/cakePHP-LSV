@@ -1,5 +1,5 @@
-<header id="top-menu" class="container">
-    <div class="row pull-right">
+<header>
+    <div id="top-menu" class="row pull-right">
         <ul>
             <li id="social-link">
                 <?php echo $this->Html->image('twitter.png', array('url' => 'https://twitter.com/my_page')); ?>
@@ -33,9 +33,7 @@
             </li>
         </ul>
     </div>
-</header>
-<header id="header-menu" class="container">
-    <div class="row">
+    <div id="header-menu" class="row">
         <?php if (!empty($menu_sections)): ?>
             <div class="col-lg-offset-2">
                 <ul>
@@ -56,4 +54,3 @@
         <?php endif; ?>
     </div>
 </header>
-
