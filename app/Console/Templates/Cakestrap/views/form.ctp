@@ -41,11 +41,11 @@
 
             <?php echo "<?php echo \$this->Form->create('{$modelClass}'); ?>\n"; ?>
             <fieldset>
-                <?php foreach ($fields as $field) {
+<?php foreach ($fields as $field) {
                     if (strpos($action, 'add') !== false && $field == $primaryKey) {
                         continue;
                     } elseif (!in_array($field, array('created', 'modified', 'updated'))) {
-                        echo "\t\t\t\t\t<?php echo \$this->Form->input('{$modelClass}.{$field}'); ?>\n";
+                        echo "\t\t\t\t<?php echo \$this->Form->input('{$modelClass}.{$field}'); ?>\n";
                         /*
                              echo "<div class=\"control-group\">\n";
                              echo "\t<?php echo \$this->Form->label('{$field}', '{$field}', array('class' => 'control-label'));?>\n";
