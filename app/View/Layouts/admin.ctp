@@ -38,7 +38,7 @@ echo $this->Html->docType('html5');
         array('inline' => false));
 
         // @todo minify
-        $this->Html->css(array('core',
+        $this->Html->css(array(
             'bootstrap-datetimepicker.min',
             'admin'),
         null,
@@ -58,9 +58,9 @@ echo $this->Html->docType('html5');
 
       //@todo minify
   		$this->Html->script(array(
-          'libs/bootstrap.min',
-          'libs/bootstrap-datetimepicker.min',
-          'libs/bootstrap-datetimepicker.fr.js',
+          'bootstrap.min',
+          'bootstrap-datetimepicker.min',
+          'bootstrap-datetimepicker.fr',
           'ckeditor/ckeditor',
           'ckeditor/adapters/jquery',
           'ckeditor_init',
