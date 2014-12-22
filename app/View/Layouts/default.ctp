@@ -48,6 +48,7 @@ echo $this->Html->docType('html5');
           $this->Html->css(array(
               'bootstrap.min',
               'jquery.fancybox',
+              'jquery.maximage',
               'jquery.datepick/smoothness.datepick',
               'jplayer/midnight.black/jplayer.midnight.black',
               'styles'
@@ -77,9 +78,12 @@ echo $this->Html->docType('html5');
               //'jquery.history',
               'jquery.infinitescroll',
               'analytics',
-              'carousel',
-              'fancybox/jquery.fancybox.js',
-              'fancybox/helpers/jquery.fancybox-media.js',
+              //'carousel',
+              'jquery.cycle.all',
+              'jquery.easing.1.3',
+              'jquery.maximage',
+              'fancybox/jquery.fancybox',
+              'fancybox/helpers/jquery.fancybox-media',
               //'jplayer/jquery.jplayer.min.js',
               'jquery.datepick/jquery.datepick',
               'jquery.datepick/jquery.datepick-fr-CH',
