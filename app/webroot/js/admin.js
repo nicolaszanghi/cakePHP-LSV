@@ -6,7 +6,7 @@
         l.href = href;
         return l;
     };
-    var path = getLocation(site_url);
+    var path = getLocation(window.site_url);
 
     /**
      * open KCFinder

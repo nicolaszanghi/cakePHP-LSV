@@ -9,7 +9,7 @@ $( document ).ready( function() {
     var controller = document.URL.split('/');
     CKEDITOR.config.bodyClass = 'cke_'+controller[4];
 
-    CKEDITOR.config.contentsCss = site_url+'/css/ckeditor.css';
+    CKEDITOR.config.contentsCss = window.site_url+'/css/ckeditor.css';
 
     CKEDITOR.config.removePlugins = 'forms';
 

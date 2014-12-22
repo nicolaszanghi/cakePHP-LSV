@@ -58,7 +58,6 @@ echo $this->Html->docType('html5');
 
       //@todo minify
   		$this->Html->script(array(
-          'init',
           'libs/bootstrap.min',
           'libs/bootstrap-datetimepicker.min',
           'libs/bootstrap-datetimepicker.fr.js',
@@ -118,7 +117,7 @@ echo $this->Html->docType('html5');
 
         <?php
             echo $this->fetch('firstScripts');
-            echo $this->Js->buffer('window.language = "'.Configure::read('Config.language').'";');
+            echo $this->Js->buffer('window.language = "'.Configure::read('Config.language').'"; window.site_url = "'.SITE_URL.'";');
             echo $this->fetch('script');
             echo $this->Js->writeBuffer();
         ?>
