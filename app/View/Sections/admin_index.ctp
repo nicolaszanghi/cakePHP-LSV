@@ -45,7 +45,7 @@
                             <?php
                             if (!empty($section['ParentSection']['id'])) {
                                 $menu_title_parent = t($section['ParentSection'], 'menu_title');
-                                $title_parent = (empty($menu_title_parent)) ? t($section['Section'], 'title') : $menu_title_parent;
+                                $title_parent = (empty($menu_title_parent)) ? t($section['ParentSection'], 'title') : $menu_title_parent;
                                 echo $this->Html->link($title_parent, array('controller' => 'sections', 'action' => 'view', $section['ParentSection']['id']));
                             }
                             ?>
