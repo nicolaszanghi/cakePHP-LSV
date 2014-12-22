@@ -116,8 +116,8 @@ echo $this->Html->docType('html5');
         <?php endif; ?>
 
         <?php
+            echo $this->Html->scriptBlock('window.language = "'.Configure::read('Config.language').'"; window.site_url = "'.SITE_URL.'";');
             echo $this->fetch('firstScripts');
-            echo $this->Js->buffer('window.language = "'.Configure::read('Config.language').'"; window.site_url = "'.SITE_URL.'";');
             echo $this->fetch('script');
             echo $this->Js->writeBuffer();
         ?>
