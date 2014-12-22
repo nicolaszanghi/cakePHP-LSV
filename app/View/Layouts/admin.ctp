@@ -61,6 +61,7 @@ echo $this->Html->docType('html5');
           'bootstrap.min',
           'bootstrap-datetimepicker.min',
           'bootstrap-datetimepicker.fr',
+          'elements/datetimepicker',
           'ckeditor/ckeditor',
           'ckeditor/adapters/jquery',
           'ckeditor_init',
