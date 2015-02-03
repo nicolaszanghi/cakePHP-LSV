@@ -5,8 +5,9 @@ if (!isset($modules)) {
 	$modulus = 11;
 }
 if (!isset($model)) {
-	$models = ClassRegistry::keys();
-	$model = Inflector::camelize(current($models));
+    //$models = ClassRegistry::keys();
+    //$model = Inflector::camelize(end($models));
+    $model = Inflector::classify( $this->params['controller']);
 }
 ?>
 <ul class="pagination">
