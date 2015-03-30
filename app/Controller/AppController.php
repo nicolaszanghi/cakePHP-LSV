@@ -67,7 +67,7 @@ class AppController extends Controller {
 
         $this->_setLanguage();
 
-        if (isset($this->params['prefix']) && $this->params['prefix'] == 'admin') {
+        if (isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'admin') {
             $this->layout = 'admin';
         } else {
             //get menu for front office
@@ -85,9 +85,9 @@ class AppController extends Controller {
         if (isset($user['role']) && $user['role'] === 'admin') {
             return true;
         } elseif (isset($user['role']) && $user['role'] === 'author') {
-            if ($this->params['controller'] == 'users' && $this->params['action'] == 'admin_edit' && $this->params['pass'][0] != $user['id'])
+            if ($this->request->params['controller'] == 'users' && $this->request->params['action'] == 'admin_edit' && $this->request->params['pass'][0] != $user['id'])
                 return false;
-            elseif ($this->params['controller'] == 'users' && $this->params['action'] == 'admin_delete')
+            elseif ($this->request->params['controller'] == 'users' && $this->request->params['action'] == 'admin_delete')
                 return false;
             else
                 return true;
@@ -104,12 +104,12 @@ class AppController extends Controller {
             $this->Session->write('Config.language', $this->Cookie->read('lang'));
         }
         //if the user clicked the language URL
-        else if (isset($this->params['language'])) { // && ($this->params['language'] !=  $this->Session->read('Config.language'))) {
+        else if (isset($this->request->params['language'])) { // && ($this->request->params['language'] !=  $this->Session->read('Config.language'))) {
             //then update the value in Session and the one in Cookie
-            $this->Session->write('Config.language', $this->params['language']);
-            $this->Cookie->write('lang', $this->params['language'], false, '20 days');
+            $this->Session->write('Config.language', $this->request->params['language']);
+            $this->Cookie->write('lang', $this->request->params['language'], false, '20 days');
 
-            $url = implode('/', $this->params['pass']);
+            $url = implode('/', $this->request->params['pass']);
             $this->redirect(SITE_URL.'/'.$url);
         }
         if (!in_array($this->Session->read('Config.language'), array_keys(Configure::read('Config.languages'))))

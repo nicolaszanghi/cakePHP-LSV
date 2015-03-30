@@ -10,6 +10,7 @@ Language :  eng, fra
 #Includes
 * Bootstrap3 http://getbootstrap.com/
 * CakeStrap (modified for bootstrap3) https://github.com/Rhym/cakeStrap
+*
 * Ckeditor http://ckeditor.com/
 * KCfinder http://kcfinder.sunhater.com/
 * Minify https://github.com/maurymmarques/minify-cakephp

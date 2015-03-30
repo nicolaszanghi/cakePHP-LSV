@@ -15,8 +15,8 @@ class SectionsController extends AppController {
      * @return void
      */
     public function view($id = null) {
-        if (!empty($this->params->slug))
-            $id = $this->getIdFromSlug('Section',n $this->params->slug);
+        if (!empty($this->request->params->slug))
+            $id = $this->getIdFromSlug('Section', $this->request->params->slug);
         if (!$this->Section->exists($id)) {
             throw new NotFoundException(__('Invalid section'));
         }
@@ -138,7 +138,7 @@ class SectionsController extends AppController {
         if (!$this->Section->exists()) {
             throw new NotFoundException(__('Invalid section'));
         }
-        $this->request->onlyAllow('post', 'delete');
+        $this->request->allowMethod('post', 'delete');
         if ($this->Section->delete()) {
             $this->Session->setFlash(__('Section deleted'), 'flash/success');
             $this->redirect(array('action' => 'index'));

@@ -130,7 +130,7 @@ Configure::write('App.encoding', 'utf-8');
  * constants
  */
 define('SITE_TITLE', "Site Title");
-define('SITE_URL', "http://localhost:8888/gitHubContribution/cakePHP-LSV"); // @todo change
+define('SITE_URL', "http://cakephp-lsv.dev"); // @todo change
 
 define('ROLES', serialize(array('admin' => __('Admin'), 'author' => __('Author'))));
 

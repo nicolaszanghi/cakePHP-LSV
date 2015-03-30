@@ -1,9 +1,9 @@
 
 <div id="load-more">
     <?php
-    if (!empty($this->params->slug)) $this->Paginator->options['url']['slug'] = $this->params->slug;
-    if (!empty($this->params->query))
-        foreach ($this->params->query as $k => $v)
+    if (!empty($this->request->params->slug)) $this->Paginator->options['url']['slug'] = $this->request->params->slug;
+    if (!empty($this->request->params->query))
+        foreach ($this->request->params->query as $k => $v)
             $this->Paginator->options['url'][$k] = $v;
     echo $this->Paginator->next(__('Load more'), null, null, array('class' => 'disabled')); ?>
 </div>

@@ -7,7 +7,7 @@ if (!isset($modules)) {
 if (!isset($model)) {
     //$models = ClassRegistry::keys();
     //$model = Inflector::camelize(end($models));
-    $model = Inflector::classify( $this->params['controller']);
+    $model = Inflector::classify( $this->request->params['controller']);
 }
 ?>
 <ul class="pagination">
@@ -21,8 +21,8 @@ if (!isset($model)) {
         'class' => 'prev disabled',
     )); ?>
     <?php
-    $page = $this->params['paging'][$model]['page'];
-    $pageCount = $this->params['paging'][$model]['pageCount'];
+    $page = $this->request->params['paging'][$model]['page'];
+    $pageCount = $this->request->params['paging'][$model]['pageCount'];
     if ($modulus > $pageCount) {
         $modulus = $pageCount;
     }

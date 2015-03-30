@@ -86,7 +86,7 @@ class ContentsController extends AppController {
 			$this->Content->create();
 			if ($this->Content->save($this->request->data)) {
 				$this->Session->setFlash(__('The content has been saved'), 'flash/success');
-				$this->redirect(array('controller' => $redirect_controller, 'action' => 'view', $redirect_id));
+				return $this->redirect(array('controller' => $redirect_controller, 'action' => 'view', $redirect_id));
 			} else {
 				$this->Session->setFlash(__('The content could not be saved. Please, try again.'), 'flash/error');
 			}
@@ -144,7 +144,7 @@ class ContentsController extends AppController {
 		if (!$this->Content->exists()) {
 			throw new NotFoundException(__('Invalid content'));
 		}
-		$this->request->onlyAllow('post', 'delete');
+		$this->request->allowMethod('post', 'delete');
 		if ($this->Content->delete()) {
 			$this->Session->setFlash(__('Content deleted'), 'flash/success');
 		} else {

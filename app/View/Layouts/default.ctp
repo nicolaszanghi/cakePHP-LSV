@@ -51,7 +51,8 @@ echo $this->Html->docType('html5');
               'jquery.maximage',
               'jquery.datepick/smoothness.datepick',
               'jplayer/midnight.black/jplayer.midnight.black',
-              'styles'
+              'styles',
+              'main'
             ),
             null,
             array('inline' => false)

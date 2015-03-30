@@ -3098,3 +3098,1306 @@ Stack Trace:
 #3 /Users/nicolaszanghi/Sites/gitHubContribution/cakePHP-LSV/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-03-24 09:59:44 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/Controller/SectionsController.php, line 19]
+2015-03-24 09:59:44 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/davydav/...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/davydav/...', 19, Array)
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/davydav/...', 19, Array)
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-24 10:14:06 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(SectionsController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:14:30 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(SectionsController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:14:49 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: /contents
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(ContentsController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:14:58 Error: [MissingActionException] Action ContentsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContentsController',
+  'action' => 'view',
+)
+Request URL: /contents/admin
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-24 10:15:13 Error: [MissingActionException] Action ContentsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContentsController',
+  'action' => 'view',
+)
+Request URL: /contents/admin/add
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-24 10:15:23 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/admin/add
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 10:29:11 Error: [MissingActionException] Action ContentsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContentsController',
+  'action' => 'view',
+)
+Request URL: /contents/add
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-24 10:29:20 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: /contents/index
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(ContentsController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:29:27 Error: [MissingActionException] Action ContentsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContentsController',
+  'action' => 'view',
+)
+Request URL: /contents/admin
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-24 10:29:52 Error: [MissingActionException] Action SectionsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectionsController',
+  'action' => 'index',
+)
+Request URL: /sections
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest))
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-24 10:30:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Section.slug_fr-fr' in 'where clause'
+Request URL: /sections/admin
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Section...', Array)
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Section...', Array, Array)
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Section...', false)
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Model/Model.php(2951): DboSource->read(Object(Section), Array)
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Model/Model.php(2923): Model->_readDataSource('first', Array)
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/Controller/AppController.php(184): Model->find('first', Array)
+#7 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/Controller/SectionsController.php(19): AppController->getIdFromSlug('Section', 'admin')
+#8 [internal function]: SectionsController->view()
+#9 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectionsController), Array)
+#10 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest))
+#12 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-24 10:32:31 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(SectionsController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:35:38 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(SectionsController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectionsController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:36:13 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: //admin/users/add
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(UsersController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:36:16 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: /admin/users/add
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(UsersController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:40:57 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: /admin/users/add
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(UsersController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:41:21 Error: [MissingHelperException] Helper class MinifyHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MinifyHelper',
+  'plugin' => 'Minify',
+)
+Request URL: /admin/users/add
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(890): HelperCollection->load('Minify.Minify', Array)
+#1 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(1246): View->__construct(Object(UsersController))
+#3 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Controller/Controller.php(945): Controller->_getViewObject()
+#4 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-24 10:43:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 10:43:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 10:43:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/main.css
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 10:44:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 10:44:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/main.css
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 10:44:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 11:38:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 11:38:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 11:42:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 11:42:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 11:50:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 11:50:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 11:50:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 13:55:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:04:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:04:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:04:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:04:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:04:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:14:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:14:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:14:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:33:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:33:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:33:59 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:35:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:35:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:35:41 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:35:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:35:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:35:43 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:40:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:40:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:40:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:40:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:40:15 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:41:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:41:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:41:32 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:41:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:41:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:41:34 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:41:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:41:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:41:54 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:42:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:42:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:42:47 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:42:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:42:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:42:47 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:43:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:43:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:43:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:43:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:43:18 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:45:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:45:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:45:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:46:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:46:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:46:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:46:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:49:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:49:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:49:57 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:54:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:54:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:54:39 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:54:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:54:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:54:42 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:54:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:54:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 14:54:49 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/Cakestrap/css/bootstrap.css.map
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 16:36:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-24 16:36:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-27 12:34:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-27 12:34:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-27 12:34:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-27 12:34:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 16:42:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 16:42:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 16:44:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 16:44:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 16:50:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 16:50:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 16:59:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 16:59:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 17:22:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 17:22:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 17:59:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 17:59:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 18:37:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 18:37:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 18:37:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 18:37:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 18:37:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 18:37:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 18:39:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/jquery-1.10.2.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 18:39:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/libs/bootstrap.min.js
+Stack Trace:
+#0 /Users/davydav/Sites/cakePhp-lsv/cakePHP-LSV/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

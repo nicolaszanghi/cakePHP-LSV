@@ -33,8 +33,9 @@ App::uses('Helper', 'View');
 class AppHelper extends Helper {
 
     public function url($url = null, $full = false) {
-        if($this->params['language'] == DEFAULT_LANGUAGE) {
-            unset($this->params['language']);
+
+        if(@$this->request->params['language'] == DEFAULT_LANGUAGE) {
+            unset($this->request->params['language']);
         }
 
         return parent::url($url, $full);
